@@ -22,11 +22,20 @@ Monorepo for Hyper-YOLO adversarial patch attacks, DISPATCH defense experiments,
 
 ## What is in git vs ignored
 
-**Tracked:** code, configs, notebooks, attack/results artifacts (summaries, CSV/JSON, visualizations), DISPATCH reports (including `DISPATCH-Defense/results/summary.md`).
+**Tracked:** code, configs, notebooks, attack/results artifacts (summaries, CSV/JSON, visualizations), DISPATCH reports (including `DISPATCH-Defense/results/summary.md`), and research **model weights via Git LFS** (`Hyper-YOLO/weights/`, transfer `*/weights/`, `Adversarial-Patch-Experiment/mitigation_models/`).
 
-**Ignored:** `.venv`, COCO datasets (`val2017` etc.), model weights (`.pt`/`.pth`/`.ckpt`/`.safetensors`), `third_party` clones, duplicate `source_data` image copies, Stable Diffusion model dumps.
+**Ignored:** `.venv`, COCO datasets (`val2017` / `Hyper-YOLO/coco` / annotations), `third_party` clones, duplicate transfer `source_data` images, and the large local dump `Stable-Diffusion-Patch/model/` (~34 GB; re-download from Hugging Face if needed).
 
-Re-download detector/LDM checkpoints from the URLs documented in each project README.
+### Clone with weights
+
+```powershell
+git clone https://github.com/SASagorAhmed/adversarial-patch.git
+cd adversarial-patch
+git lfs install
+git lfs pull
+```
+
+COCO images are not in the repo; place them under the paths documented in each project README.
 
 ## Note on Hyper-YOLO
 
