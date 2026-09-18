@@ -18,7 +18,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 EXPERIMENT = Path(__file__).resolve().parents[1]
-ATTACK_02 = EXPERIMENT / "attacks" / "attack_02"
+ATTACK_02 = EXPERIMENT.parent / "Hyper-YOLO" / "attacks" / "attack_02"
 MODEL = EXPERIMENT / "mitigation_models" / "stable-diffusion-2-inpainting"
 PILOT_ROOT = EXPERIMENT / "mitigation_debug" / "sd2_inpainting_pilot_100"
 PER_IMAGE = PILOT_ROOT / "per_image"

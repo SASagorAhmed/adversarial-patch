@@ -7,7 +7,7 @@ import shutil
 import sys
 from pathlib import Path
 
-ATTACKS_DIR = Path(__file__).resolve().parents[1] / "attacks"
+ATTACKS_DIR = Path(__file__).resolve().parents[1].parent / "Hyper-YOLO" / "attacks"
 
 
 def main() -> None:

@@ -9,7 +9,8 @@ import shutil
 from pathlib import Path
 
 EXPERIMENT_ROOT = Path(__file__).resolve().parents[1]
-ATTACKS_DIR = EXPERIMENT_ROOT / "attacks"
+HYPER_YOLO = EXPERIMENT_ROOT.parent / "Hyper-YOLO"
+ATTACKS_DIR = HYPER_YOLO / "attacks"
 DIFFUSION_PATCHES_DIR = EXPERIMENT_ROOT / "diffusion_patches"
 RESULTS_DIR = EXPERIMENT_ROOT / "results"
 COMPARISON_CSV = RESULTS_DIR / "all_attacks_comparison.csv"

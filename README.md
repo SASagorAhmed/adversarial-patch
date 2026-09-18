@@ -8,7 +8,7 @@ Monorepo for Hyper-YOLO adversarial patch attacks, DISPATCH defense experiments,
 
 | Folder | Role |
 | --- | --- |
-| `Adversarial-Patch-Experiment/` | Hyper-YOLO-N patch attacks (attack_01–05) |
+| `Adversarial-Patch-Experiment/` | Attack/mitigation pipelines + mitigation results (scripts point at Hyper-YOLO attacks) |
 | `DISPATCH-Defense/` | DISPATCH mitigation + Automatic vs Known-Location diagnostics |
 | `DISPATCH-Teacher-Notebook/` | Teacher demonstration notebooks |
 | `DISPATCH-Paper-Faithful/` | Paper-faithful DISPATCH notes/code |
@@ -17,7 +17,7 @@ Monorepo for Hyper-YOLO adversarial patch attacks, DISPATCH defense experiments,
 | `D-FINE-S-COCO-Attack/` | Transfer eval: D-FINE-S |
 | `YOLOv12-S-COCO-Attack/` | Transfer eval: YOLOv12-S |
 | `Deformable-DETR-R50-COCO-Attack/` | Transfer eval: Deformable DETR R50 |
-| `Hyper-YOLO/` | Victim detector codebase (weights/COCO/annotations not in git) |
+| `Hyper-YOLO/` | Victim detector + Hyper-YOLO-N attack artifacts (`attacks/attack_01`–`05`) |
 | `Stable-Diffusion-Patch/` | SD-related utilities (large models not in git) |
 
 ## What is in git vs ignored
@@ -30,7 +30,7 @@ Re-download detector/LDM checkpoints from the URLs documented in each project RE
 
 ## Note on Hyper-YOLO
 
-`Hyper-YOLO/` is tracked in this monorepo (nested `.git` detached). Local COCO/annotations/weights/venvs stay ignored.
+`Hyper-YOLO/` is tracked in this monorepo (nested `.git` detached). Attack folders live at `Hyper-YOLO/attacks/`. Local COCO/annotations/weights/venvs stay ignored.
 
 ## Git hooks
 

@@ -9,7 +9,7 @@ from pathlib import Path
 EXPERIMENT_ROOT = Path(__file__).resolve().parents[1]
 HYPER_YOLO = EXPERIMENT_ROOT.parent / "Hyper-YOLO"
 STABLE_DIFFUSION = EXPERIMENT_ROOT.parent / "Stable-Diffusion-Patch"
-ATTACKS_DIR = EXPERIMENT_ROOT / "attacks"
+ATTACKS_DIR = HYPER_YOLO / "attacks"
 MITIGATIONS_DIR = EXPERIMENT_ROOT / "mitigations"
 RESULTS_DIR = EXPERIMENT_ROOT / "results"
 

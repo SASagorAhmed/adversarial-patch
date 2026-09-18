@@ -19,7 +19,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 EXPERIMENT = Path(__file__).resolve().parents[1]
-ATTACK_02 = EXPERIMENT / "attacks" / "attack_02"
+ATTACK_02 = EXPERIMENT.parent / "Hyper-YOLO" / "attacks" / "attack_02"
 MODEL = EXPERIMENT / "mitigation_models" / "stable-diffusion-2-inpainting"
 PREV_B = (
     EXPERIMENT

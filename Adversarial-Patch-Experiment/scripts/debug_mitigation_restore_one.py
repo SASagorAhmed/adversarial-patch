@@ -21,7 +21,7 @@ from PIL import Image, ImageDraw, ImageFilter
 EXPERIMENT_ROOT = Path(__file__).resolve().parents[1]
 DEBUG_ROOT = EXPERIMENT_ROOT / "mitigation_debug" / "one_image_restore"
 MITIGATION_01 = EXPERIMENT_ROOT / "mitigations" / "mitigation_01"
-ATTACK_02 = EXPERIMENT_ROOT / "attacks" / "attack_02"
+ATTACK_02 = EXPERIMENT_ROOT.parent / "Hyper-YOLO" / "attacks" / "attack_02"
 SD_MODEL_PATH = EXPERIMENT_ROOT.parent / "Stable-Diffusion-Patch" / "model"
 
 PREFERRED_FILENAME = "000000407083.jpg"
