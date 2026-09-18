@@ -39,7 +39,7 @@ COCO images are not in the repo; place them under the paths documented in each p
 
 ## Note on Hyper-YOLO
 
-`Hyper-YOLO/` is tracked in this monorepo (nested `.git` detached). Attack folders live at `Hyper-YOLO/attacks/`. Local COCO/annotations/weights/venvs stay ignored.
+`Hyper-YOLO/` is tracked in this monorepo (nested `.git` detached). Attack folders live at `Hyper-YOLO/attacks/`. Detector weights are under `Hyper-YOLO/weights/` (Git LFS). Local COCO/annotations/venvs stay ignored.
 
 ## Git hooks
 
