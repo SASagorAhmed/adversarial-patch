@@ -1,0 +1,82 @@
+{
+  "repo_id": "sd2-community/stable-diffusion-2-inpainting",
+  "resolved_revision_sha": "5f74973cbb64c8568780732c17f43eb269d63a0d",
+  "download_date_utc": "2026-07-27T16:58:27.990095+00:00",
+  "local_path": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_models\\stable-diffusion-2-inpainting",
+  "pipeline_class": "StableDiffusionInpaintPipeline",
+  "dtype": "float16",
+  "variant": "fp16",
+  "use_safetensors": true,
+  "downloaded_files": [
+    {
+      "path": "feature_extractor/preprocessor_config.json",
+      "bytes": 342
+    },
+    {
+      "path": "model_index.json",
+      "bytes": 544
+    },
+    {
+      "path": "scheduler/scheduler_config.json",
+      "bytes": 308
+    },
+    {
+      "path": "text_encoder/config.json",
+      "bytes": 638
+    },
+    {
+      "path": "text_encoder/model.fp16.safetensors",
+      "bytes": 680821096
+    },
+    {
+      "path": "tokenizer/merges.txt",
+      "bytes": 524619
+    },
+    {
+      "path": "tokenizer/special_tokens_map.json",
+      "bytes": 460
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "bytes": 829
+    },
+    {
+      "path": "tokenizer/vocab.json",
+      "bytes": 1059962
+    },
+    {
+      "path": "unet/config.json",
+      "bytes": 914
+    },
+    {
+      "path": "unet/diffusion_pytorch_model.fp16.safetensors",
+      "bytes": 1731933536
+    },
+    {
+      "path": "vae/config.json",
+      "bytes": 616
+    },
+    {
+      "path": "vae/diffusion_pytorch_model.fp16.safetensors",
+      "bytes": 167335342
+    }
+  ],
+  "total_downloaded_bytes": 2581679206,
+  "total_downloaded_gb": 2.4044,
+  "required_files_present": true,
+  "forbidden_files_present": [],
+  "unet_in_channels": 9,
+  "torch_version": "2.6.0+cu124",
+  "diffusers_version": "0.39.0",
+  "transformers_version": "5.14.1",
+  "accelerate_version": "1.14.0",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 2050",
+  "vram": {
+    "free_bytes": 3459986228,
+    "total_bytes": 4294443008
+  },
+  "attention_slicing_available": true,
+  "model_cpu_offload_available": true,
+  "image_inference_run": false
+}
