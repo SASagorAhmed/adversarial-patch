@@ -1,0 +1,170 @@
+{
+  "experiment": {
+    "dataset": "COCO 2017 Validation (first 500 images)",
+    "model": "Hyper-YOLO-N (pretrained, weights/hyper-yolon.pt)",
+    "labels_dir": "D:\\project CS\\Hyper-YOLO\\runs\\val_500\\labels",
+    "output_dir": "D:\\project CS\\Hyper-YOLO\\runs\\analysis_500"
+  },
+  "general": {
+    "processed_images": 500,
+    "images_with_detections": 495,
+    "images_without_detections": 5,
+    "total_detected_objects": 2891,
+    "average_detections_per_image": 5.782,
+    "unique_detected_classes": 78
+  },
+  "confidence": {
+    "count": 2891,
+    "mean": 0.5989889311656866,
+    "median": 0.595052,
+    "std": 0.22572238122002422,
+    "min": 0.250012,
+    "max": 0.993519,
+    "p25": 0.379338,
+    "p75": 0.818323
+  },
+  "top10_classes": [
+    {
+      "rank": 1,
+      "class_id": 0,
+      "class_name": "person",
+      "detections": 950,
+      "percentage": 32.86060186786579,
+      "avg_confidence": 0.63301718
+    },
+    {
+      "rank": 2,
+      "class_id": 56,
+      "class_name": "chair",
+      "detections": 162,
+      "percentage": 5.60359737115185,
+      "avg_confidence": 0.5270683086419753
+    },
+    {
+      "rank": 3,
+      "class_id": 2,
+      "class_name": "car",
+      "detections": 158,
+      "percentage": 5.465236942234521,
+      "avg_confidence": 0.5730002088607594
+    },
+    {
+      "rank": 4,
+      "class_id": 41,
+      "class_name": "cup",
+      "detections": 86,
+      "percentage": 2.9747492217225875,
+      "avg_confidence": 0.569855465116279
+    },
+    {
+      "rank": 5,
+      "class_id": 39,
+      "class_name": "bottle",
+      "detections": 80,
+      "percentage": 2.767208578346593,
+      "avg_confidence": 0.49953440000000005
+    },
+    {
+      "rank": 6,
+      "class_id": 60,
+      "class_name": "dining table",
+      "detections": 62,
+      "percentage": 2.1445866482186093,
+      "avg_confidence": 0.5074989193548387
+    },
+    {
+      "rank": 7,
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "detections": 56,
+      "percentage": 1.937046004842615,
+      "avg_confidence": 0.5580183928571428
+    },
+    {
+      "rank": 8,
+      "class_id": 45,
+      "class_name": "bowl",
+      "detections": 49,
+      "percentage": 1.694915254237288,
+      "avg_confidence": 0.5944793673469387
+    },
+    {
+      "rank": 9,
+      "class_id": 63,
+      "class_name": "laptop",
+      "detections": 40,
+      "percentage": 1.3836042891732965,
+      "avg_confidence": 0.6950038000000001
+    },
+    {
+      "rank": 10,
+      "class_id": 73,
+      "class_name": "book",
+      "detections": 40,
+      "percentage": 1.3836042891732965,
+      "avg_confidence": 0.3688019
+    }
+  ],
+  "zero_detection_classes": [
+    {
+      "class_id": 76,
+      "class_name": "scissors"
+    },
+    {
+      "class_id": 78,
+      "class_name": "hair drier"
+    }
+  ],
+  "least_detected_classes": [
+    {
+      "class_id": 79,
+      "class_name": "toothbrush",
+      "detections": 1
+    },
+    {
+      "class_id": 70,
+      "class_name": "toaster",
+      "detections": 1
+    },
+    {
+      "class_id": 68,
+      "class_name": "microwave",
+      "detections": 3
+    },
+    {
+      "class_id": 31,
+      "class_name": "snowboard",
+      "detections": 4
+    },
+    {
+      "class_id": 11,
+      "class_name": "stop sign",
+      "detections": 4
+    },
+    {
+      "class_id": 21,
+      "class_name": "bear",
+      "detections": 5
+    },
+    {
+      "class_id": 48,
+      "class_name": "sandwich",
+      "detections": 7
+    },
+    {
+      "class_id": 69,
+      "class_name": "oven",
+      "detections": 9
+    },
+    {
+      "class_id": 35,
+      "class_name": "baseball glove",
+      "detections": 9
+    },
+    {
+      "class_id": 23,
+      "class_name": "giraffe",
+      "detections": 9
+    }
+  ]
+}

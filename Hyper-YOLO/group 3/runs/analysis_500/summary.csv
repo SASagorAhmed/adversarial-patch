@@ -1,0 +1,16 @@
+metric,value
+dataset,COCO 2017 Validation (first 500 images)
+model,"Hyper-YOLO-N (pretrained, weights/hyper-yolon.pt)"
+processed_images,500
+images_with_detections,495
+images_without_detections,5
+total_detected_objects,2891
+average_detections_per_image,5.782
+unique_detected_classes,78
+mean_confidence,0.5989889311656866
+median_confidence,0.595052
+std_confidence,0.22572238122002422
+min_confidence,0.250012
+max_confidence,0.993519
+p25_confidence,0.379338
+p75_confidence,0.818323

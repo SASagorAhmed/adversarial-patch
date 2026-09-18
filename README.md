@@ -17,7 +17,7 @@ Monorepo for Hyper-YOLO adversarial patch attacks, DISPATCH defense experiments,
 | `D-FINE-S-COCO-Attack/` | Transfer eval: D-FINE-S |
 | `YOLOv12-S-COCO-Attack/` | Transfer eval: YOLOv12-S |
 | `Deformable-DETR-R50-COCO-Attack/` | Transfer eval: Deformable DETR R50 |
-| `Hyper-YOLO/` | Separate repo (ignored here; see note below) |
+| `Hyper-YOLO/` | Victim detector codebase (weights/COCO/annotations not in git) |
 | `Stable-Diffusion-Patch/` | SD-related utilities (large models not in git) |
 
 ## What is in git vs ignored
@@ -30,11 +30,11 @@ Re-download detector/LDM checkpoints from the URLs documented in each project RE
 
 ## Note on Hyper-YOLO
 
-`Hyper-YOLO/` is **not** included in this monorepo (it keeps its own nested `.git` and separate GitHub repo: `SASagorAhmed/Hyper-YOLO`). Clone that repo separately if you need the detector source.
+`Hyper-YOLO/` is tracked in this monorepo (nested `.git` detached). Local COCO/annotations/weights/venvs stay ignored.
 
 ## Git hooks
 
-Versioned hooks live in `.githooks/` (same `commit-msg` stripper as `Hyper-YOLO/.githooks`). After clone, copy into the local repo hooks dir:
+Versioned hooks live in `.githooks/`. After clone, copy into the local repo hooks dir:
 
 ```powershell
 Copy-Item .githooks\commit-msg .git\hooks\commit-msg -Force

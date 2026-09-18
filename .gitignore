@@ -25,8 +25,12 @@ Desktop.ini
 *.swp
 *~
 
-# --- Nested Hyper-YOLO repo stays separate (has its own .git / GitHub) ---
-Hyper-YOLO/
+# --- Hyper-YOLO local git backups + heavy local datasets ---
+Hyper-YOLO/.git.bak*/
+Hyper-YOLO/.git.bak_local/
+Hyper-YOLO/.git.bak_nested/
+Hyper-YOLO/annotations/
+Hyper-YOLO/coco/
 
 # --- Other nested clones (keep local; do not publish as gitlinks) ---
 DISPATCH-Paper-Faithful/reference_source/DisPatch/
@@ -54,7 +58,6 @@ Stable-Diffusion-Patch/model/
 **/test2017/
 **/datasets/
 **/coco/images/
-Hyper-YOLO/coco/
 **/annotations/instances_*.json
 
 # --- Duplicate transfer copies of attack images (originals live under Adversarial-Patch-Experiment/attacks/) ---

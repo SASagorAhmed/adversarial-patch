@@ -1,0 +1,75 @@
+Hyper-YOLO Detection Analysis Report
+========================================================================
+
+1. Dataset Information
+------------------------------------------------------------------------
+Dataset: COCO 2017 Validation (first 500 images)
+Split: COCO val2017 subset (sorted filenames, first 500 images)
+Task: Object detection
+Annotation format analyzed: YOLO prediction labels with confidence
+
+2. Model Information
+------------------------------------------------------------------------
+Model: Hyper-YOLO-N (pretrained, weights/hyper-yolon.pt)
+Architecture: Hyper-YOLO-N (hypergraph-enhanced YOLO detector)
+Training status: Pretrained weights only; no fine-tuning in this experiment
+
+3. Image-Level Results
+------------------------------------------------------------------------
+Processed images: 500
+Images with detections: 495
+Images without detections: 5
+Total detected objects: 2891
+Average detections per image: 5.7820
+Unique detected classes: 78 / 80
+
+4. Confidence Statistics
+------------------------------------------------------------------------
+Mean confidence: 0.598989
+Median confidence: 0.595052
+Standard deviation: 0.225722
+Minimum confidence: 0.250012
+Maximum confidence: 0.993519
+25th percentile: 0.379338
+75th percentile: 0.818323
+
+5. Top 10 Detected Classes
+------------------------------------------------------------------------
+ 1. person (id=0): 950 detections (32.86%), avg conf=0.6330
+ 2. chair (id=56): 162 detections (5.60%), avg conf=0.5271
+ 3. car (id=2): 158 detections (5.47%), avg conf=0.5730
+ 4. cup (id=41): 86 detections (2.97%), avg conf=0.5699
+ 5. bottle (id=39): 80 detections (2.77%), avg conf=0.4995
+ 6. dining table (id=60): 62 detections (2.14%), avg conf=0.5075
+ 7. motorcycle (id=3): 56 detections (1.94%), avg conf=0.5580
+ 8. bowl (id=45): 49 detections (1.69%), avg conf=0.5945
+ 9. laptop (id=63): 40 detections (1.38%), avg conf=0.6950
+10. book (id=73): 40 detections (1.38%), avg conf=0.3688
+
+6. Important Observations
+------------------------------------------------------------------------
+- The model produced detections on 495/500 images.
+- Across all predictions, mean confidence was 0.5990 (median 0.5951).
+- The most frequent class was person (950 detections).
+- 2 COCO classes had zero detections in this subset.
+- No malformed prediction lines were encountered.
+
+7. Limitations of the Experiment
+------------------------------------------------------------------------
+- Evaluation uses a 500-image subset of COCO val2017, not the full 5,000-image set.
+- Statistics are computed from prediction label files and do not replace COCO mAP evaluation.
+- Confidence thresholds used during prediction affect detection counts and averages.
+- Class imbalance in the subset may bias top-class rankings relative to the full validation set.
+- This report summarizes detection statistics only; Precision/Recall/mAP should be taken from the official validator when available.
+
+8. Output Files
+------------------------------------------------------------------------
+Directory: D:\project CS\Hyper-YOLO\runs\analysis_500
+- summary.csv
+- class_statistics.csv
+- confidence_statistics.csv
+- baseline_metrics.json
+- summary_report.txt
+- detections_by_class.png
+- confidence_histogram.png
+- top10_classes_pie.png
