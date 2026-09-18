@@ -1,0 +1,32 @@
+PHASE B INTERPRETATION (diagnostic subset only — not paper mAP, not DISPATCH DRR)
+
+A. Did fixing paper/source mismatches improve automatic localization?
+Slightly on several images (smaller predicted area, slightly higher precision/IoU). Not a qualitative change: masks remain far oversized (often 10x–200x true patch). Mean mask IoU 0.086 current vs 0.093 reference.
+
+B. Did predicted masks become tighter and more precise?
+Mildly: e.g. 542776 precision 0.58 -> 0.71; 181499 area 21354 -> 13709. Still not tight squares.
+
+C. Did Hyper-YOLO recovery improve?
+Same count 1/8, different image:
+- Current recovered 127263 (car); reference did not.
+- Reference recovered 181499 (person); current did not.
+No net recovery gain.
+
+D. Was there actually an implementation bug?
+No CRITICAL reversed-mask / BGR-L2 / compose bug. Official batched sampling ran (sample_mode=official_batch_size_2). Remaining gaps are MINOR (blur kernel, KMeans seed) plus official MORPH_OPEN which does not shrink huge blobs.
+
+E. Remaining failures mainly LDM / experimental setup?
+Yes, more plausible: k=2 on dense difference over-segments; Known Location exact 3/8 and +4px 6/8 still beat both Automatic variants. 347370 fails all branches.
+
+F. Can current experiment reproduce paper 89.3% mAP@0.5?
+No. Different dataset, detectors, attack, patch geometry, and metric. See audit/paper_reproduction_plan.md (not executed).
+
+G. Remaining setup differences vs paper:
+INRIA-Person / APRICOT vs COCO attack_02; YOLOv3/FRCNN/DETR vs Hyper-YOLO-N; AdvPatch 0.2-diagonal vs 30% shorter GT side; mAP@0.5 vs per-image class+IoU>=0.50; 3-run mean vs 1 seeded run.
+
+SAFETY
+DISPATCH-Defense modified: NO
+Existing mitigation/testing results modified: NO
+Hyper-YOLO / attack / SD-Patch modified: NO
+mitigations/mitigation_02 exists: NO
+All new files under D:\project CS\DISPATCH-Paper-Faithful\

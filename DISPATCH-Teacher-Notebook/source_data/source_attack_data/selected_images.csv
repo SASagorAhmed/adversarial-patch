@@ -1,0 +1,6 @@
+image_id,filename,target_class,case_type,image_width,image_height,gt_x,gt_y,gt_width,gt_height,patch_x1,patch_y1,patch_x2,patch_y2,patch_size,clean_detected,clean_confidence,clean_iou,attacked_detected,attacked_confidence,attacked_iou,attack_success,source_attack_id
+000000127263,000000127263.jpg,car,attack_success,640,427,501.43,106.88,138.57,67.52,561,131,581,151,20,True,0.27451,0.9329578275272816,False,0.0,0.0,True,attack_02
+000000393093,000000393093.jpg,car,attack_success,640,424,282.56,355.03,75.76,46.45,313,371,327,385,14,True,0.751928,0.9418535031675658,False,0.0,0.0,True,attack_02
+000000026926,000000026926.jpg,car,attack_success,423,640,134.13,159.86,74.46,85.28,160,192,182,214,22,True,0.252646,0.7606389546161549,False,0.0,0.0,True,attack_02
+000000407083,000000407083.jpg,car,attack_success,480,640,0.0,1.66,480.0,623.38,168,241,312,385,144,True,0.353103,0.8382559394009172,False,0.0,0.0,True,attack_02
+000000331604,000000331604.jpg,person,control,640,427,295.96,149.79,69.38,141.59,320,210,341,231,21,True,0.80719,0.8405528181518672,True,0.818968,0.8550350899598812,False,attack_02

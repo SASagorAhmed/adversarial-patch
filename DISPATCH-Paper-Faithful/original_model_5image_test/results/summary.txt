@@ -1,0 +1,32 @@
+OFFICIAL / PAPER-FAITHFUL DISPATCH
+5-IMAGE VISUAL RESTORATION TEST
+
+Number of attacked images:
+5
+
+True patch location supplied to Automatic:
+NO
+
+Clean pixels used for restoration:
+NO
+
+Input:
+Adversarial-patched images
+
+Automatic localization:
+YES
+
+Final output folder:
+D:\project CS\DISPATCH-Paper-Faithful\original_model_5image_test\restored_images
+
+Regenerated images:
+INTERMEDIATE ONLY  (5 files)
+
+Restored images:
+FINAL OUTPUT  (5 files)
+
+Predicted masks: 5
+Verification montages: 5
+Official commit: 80c59b9b4a6c4060107a8b4485d3885128c2ae81
+Gaussian kernel=15 sigma=1.0 MORPH_OPEN=3
+sample_mode=['official_batch_size_2']

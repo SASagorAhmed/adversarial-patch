@@ -1,0 +1,199 @@
+TESTING MITIGATION 01
+AUTOMATIC DISPATCH VS KNOWN-LOCATION LDM RESTORATION
+=====================================================
+
+Purpose:
+Determine whether weak DISPATCH performance is mainly caused by
+automatic adversarial-patch localization or by LDM restoration itself.
+
+Images:
+5
+
+Attack-success diagnostic cases:
+4
+
+Controls:
+1
+
+Victim detector:
+Hyper-YOLO-N
+
+Target rule:
+Same class + IoU >= 0.50
+
+Diffusion model:
+CompVis LDM Inpainting
+
+Sampler:
+DDIM
+
+Steps:
+5
+
+Resolution:
+512 x 512
+
+Clean pixels used for restoration:
+NO
+
+Selected:
+  000000127263.jpg  car  attack_success  patch=20  xyxy=(561,131,581,151)
+  000000393093.jpg  car  attack_success  patch=14  xyxy=(313,371,327,385)
+  000000026926.jpg  car  attack_success  patch=22  xyxy=(160,192,182,214)
+  000000407083.jpg  car  attack_success  patch=144  xyxy=(168,241,312,385)
+  000000331604.jpg  person  control  patch=21  xyxy=(320,210,341,231)
+
+
+=====================================================
+AUTOMATIC DISPATCH
+=====================================================
+
+True patch coordinates supplied during localization:
+NO
+
+Localization:
+Checkerboard regeneration
+L2 difference
+Smoothing
+KMeans k=2
+
+Mean predicted-mask IoU:
+0.049885
+
+Median predicted-mask IoU:
+0.025100
+
+Min / max mask IoU:
+0.003859 / 0.131317
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset recovery count — NOT final DISPATCH DRR)
+
+Control preserved:
+YES
+
+
+=====================================================
+KNOWN LOCATION — EXACT MASK
+=====================================================
+
+True saved patch coordinates supplied:
+YES
+
+Automatic localization bypassed:
+YES
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset — NOT DISPATCH DRR)
+
+Control preserved:
+YES
+
+Outside-mask integrity:
+PASS
+  000000127263.jpg mae=0.000000
+  000000393093.jpg mae=0.000000
+  000000026926.jpg mae=0.000000
+  000000407083.jpg mae=0.000000
+  000000331604.jpg mae=0.000000
+
+
+=====================================================
+KNOWN LOCATION — EXPANDED 4PX
+=====================================================
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset — NOT DISPATCH DRR)
+
+Control preserved:
+YES
+
+Outside-mask integrity:
+PASS
+  000000127263.jpg mae=0.000000
+  000000393093.jpg mae=0.000000
+  000000026926.jpg mae=0.000000
+  000000407083.jpg mae=0.000000
+  000000331604.jpg mae=0.000000
+
+
+=====================================================
+MAIN COMPARISON
+=====================================================
+
+Automatic recovery:
+2 / 4
+
+Known Exact recovery:
+2 / 4
+
+Known +4px recovery:
+2 / 4
+
+Known location improved over Automatic:
+MIXED
+
+Evidence-supported primary bottleneck:
+MIXED
+
+Reason:
+Branches differ case-by-case; localization and LDM capability both matter.
+
+manual_visual_review_required = true
+
+
+=====================================================
+IMAGE FOLDER GUIDE
+=====================================================
+
+automatic/source_attacked_images
+= attacked inputs used by Automatic DISPATCH
+
+automatic/regenerated_images
+= whole regenerated intermediate images
+= NOT final
+
+automatic/predicted_masks
+= automatically localized suspicious regions
+
+automatic/restored_images
+= FINAL Automatic DISPATCH restored images
+
+known_location/source_attacked_images
+= same attacked inputs used by Known Location
+
+known_location/masks/exact_mask
+= true saved patch masks
+
+known_location/ldm_outputs
+= raw LDM outputs
+= NOT final
+
+known_location/restored_images/exact_mask
+= FINAL known-location exact-mask images
+
+known_location/restored_images/expanded_4px
+= FINAL known-location expanded-mask images
+
+comparison/verification
+= complete side-by-side image comparison
+
+
+=====================================================
+SAFETY
+=====================================================
+
+Real mitigation_01 modified:
+NO
+
+Real mitigation_02 created:
+NO
+
+Attack project modified:
+NO
+
+Hyper-YOLO dependency modified:
+NO
+
+LDM dependency modified:
+NO

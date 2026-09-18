@@ -1,0 +1,43 @@
+CONTEXT-AWARE SD2 INPAINTING ONE-IMAGE TEST
+========================================================================
+image: 000000407083.jpg
+target_class: car
+exact_patch: (168,241)-(312,385) size=144
+expanded_mask: (164,237)-(316,389) pad=4
+seed=20260727 strength=1.0 steps=30
+prompt: seamless realistic photograph, natural texture consistent with surrounding image
+
+NOTE: One difficult image only. Not defense statistics.
+NOTE: B and C are pixel-identical here (desired crops exceed image; both use full 480x640 + guidance 4.5 + same seed).
+
+VARIANT A: Context 3 / Guidance 7.5 | crop 456x456
+  sd_status=OK
+  detected=Yes conf=0.2784 iou=0.8354
+  sticker_removed=YES halluc=YES text=NO flat=NO seam=NO
+  unrelated=YES natural=NO
+  visual: landscape-like greenish bleed into fur; bright red harness; sticker removed
+
+VARIANT B: Context 5 / Guidance 4.5 | crop FULL 480x640 (letterboxed to 512)
+  sd_status=OK
+  detected=Yes conf=0.3928 iou=0.8142
+  sticker_removed=YES halluc=YES text=NO flat=NO seam=YES
+  unrelated=YES natural=NO
+  visual: sticker removed; dark rounded unrelated fill structure; higher YOLO conf than A
+
+VARIANT C: Context 7 / Guidance 4.5 | crop FULL 480x640 (identical to B)
+  sd_status=OK
+  detected=Yes conf=0.3928 iou=0.8142
+  same pixels as B — no additional benefit on this image
+
+DECISION (priority: sticker > no halluc > natural > detection > conf/IoU > seam)
+  least hallucination: none clearly clean — A and B/C all still hallucinate (different modes)
+  best natural context match: none clearly natural (NO for all)
+  best target detection: B/C (Yes, conf 0.39) > A (Yes, conf 0.28)
+  increased context improved difficult case?: PARTIAL — detection recovered for all three;
+    A still has landscape bleed; B/C raise confidence but introduce a different hallucination
+  guidance 4.5 reduced prompt-driven hallucination?: UNCLEAR / NO clear win —
+    landscape bleed reduced vs prior high-guidance style failures, but new object-like fill appears
+  recommended for later 6-image pilot: B (context 5.0 / guidance 4.5) as PRIMARY CANDIDATE to compare
+    against A; do NOT prefer C over B on this image (identical). Do NOT auto-start pilot.
+
+output_root: D:\project CS\Adversarial-Patch-Experiment\mitigation_debug\context_aware_inpainting_one_image\000000407083

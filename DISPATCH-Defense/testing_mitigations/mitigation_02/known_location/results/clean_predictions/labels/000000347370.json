@@ -1,0 +1,27 @@
+{
+  "filename": "000000347370.jpg",
+  "predictions": [
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.61181640625,
+      "box_xyxy": [
+        67.1875,
+        0.0,
+        411.71875,
+        371.09375
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.416259765625,
+      "box_xyxy": [
+        0.0,
+        60.64453125,
+        102.9296875,
+        374.609375
+      ]
+    }
+  ]
+}

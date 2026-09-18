@@ -1,0 +1,62 @@
+[
+  {
+    "image_id": "000000127263",
+    "filename": "000000127263.jpg",
+    "stored_primary_xyxy": [
+      561,
+      131,
+      581,
+      151
+    ],
+    "patch_size": 20,
+    "verified_against_official_reconstruction": true
+  },
+  {
+    "image_id": "000000393093",
+    "filename": "000000393093.jpg",
+    "stored_primary_xyxy": [
+      313,
+      371,
+      327,
+      385
+    ],
+    "patch_size": 14,
+    "verified_against_official_reconstruction": true
+  },
+  {
+    "image_id": "000000026926",
+    "filename": "000000026926.jpg",
+    "stored_primary_xyxy": [
+      160,
+      192,
+      182,
+      214
+    ],
+    "patch_size": 22,
+    "verified_against_official_reconstruction": true
+  },
+  {
+    "image_id": "000000407083",
+    "filename": "000000407083.jpg",
+    "stored_primary_xyxy": [
+      168,
+      241,
+      312,
+      385
+    ],
+    "patch_size": 144,
+    "verified_against_official_reconstruction": true
+  },
+  {
+    "image_id": "000000331604",
+    "filename": "000000331604.jpg",
+    "stored_primary_xyxy": [
+      320,
+      210,
+      341,
+      231
+    ],
+    "patch_size": 21,
+    "verified_against_official_reconstruction": true
+  }
+]

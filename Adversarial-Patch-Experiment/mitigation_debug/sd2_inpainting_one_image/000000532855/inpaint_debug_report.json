@@ -1,0 +1,79 @@
+{
+  "filename": "000000532855.jpg",
+  "target_class": "person",
+  "patch": {
+    "x1": 172,
+    "y1": 80,
+    "x2": 239,
+    "y2": 147,
+    "patch_size_pixels": 67
+  },
+  "crop": {
+    "left": 105,
+    "top": 13,
+    "right": 306,
+    "bottom": 214
+  },
+  "device": "cuda",
+  "seed": 20260727,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "clean_pixels_used": false,
+  "neutralization_used": false,
+  "strengths": {
+    "075": {
+      "strength": 0.75,
+      "status": "OK",
+      "raw_inpaint_512": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_075\\raw_inpaint_512.png",
+      "restored_full": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_075\\restored_full.jpg",
+      "mae_attacked_vs_restored_patch": 51.79750442504883,
+      "sticker_pattern_remain": "NO",
+      "flat_gray_restoration": "NO",
+      "obvious_hallucination": "YES",
+      "boundary_seam_visible": "YES",
+      "restored_patch_std": 63.78131866455078,
+      "edge_magnitude": 26.619470596313477,
+      "yolo": {
+        "target_detected": "Yes",
+        "confidence": 0.676583,
+        "iou": 0.8120096318884031
+      }
+    },
+    "090": {
+      "strength": 0.9,
+      "status": "OK",
+      "raw_inpaint_512": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_090\\raw_inpaint_512.png",
+      "restored_full": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_090\\restored_full.jpg",
+      "mae_attacked_vs_restored_patch": 59.68627166748047,
+      "sticker_pattern_remain": "NO",
+      "flat_gray_restoration": "NO",
+      "obvious_hallucination": "YES",
+      "boundary_seam_visible": "YES",
+      "restored_patch_std": 61.21664810180664,
+      "edge_magnitude": 19.54778289794922,
+      "yolo": {
+        "target_detected": "Yes",
+        "confidence": 0.444158,
+        "iou": 0.826291156036757
+      }
+    },
+    "100": {
+      "strength": 1.0,
+      "status": "OK",
+      "raw_inpaint_512": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_100\\raw_inpaint_512.png",
+      "restored_full": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\sd2_inpainting_one_image\\000000532855\\strength_100\\restored_full.jpg",
+      "mae_attacked_vs_restored_patch": 59.50968933105469,
+      "sticker_pattern_remain": "NO",
+      "flat_gray_restoration": "NO",
+      "obvious_hallucination": "YES",
+      "boundary_seam_visible": "YES",
+      "restored_patch_std": 48.267547607421875,
+      "edge_magnitude": 15.183154106140137,
+      "yolo": {
+        "target_detected": "Yes",
+        "confidence": 0.723982,
+        "iou": 0.8194992401401509
+      }
+    }
+  }
+}

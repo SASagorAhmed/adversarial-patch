@@ -1,0 +1,15 @@
+{
+  "shape": [
+    512,
+    512
+  ],
+  "m0_mean": 0.5,
+  "m1_mean": 0.5,
+  "sum_min": 1.0,
+  "sum_max": 1.0,
+  "sum_allclose_1": true,
+  "overlap_both_one_pixels": 0,
+  "hole_both_zero_pixels": 0,
+  "binary_m0": true,
+  "binary_m1": true
+}

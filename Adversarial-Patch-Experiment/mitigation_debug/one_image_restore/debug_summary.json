@@ -1,0 +1,26 @@
+{
+  "device": "cuda",
+  "filename": "000000407083.jpg",
+  "variants": {
+    "A_055": {
+      "strength": 0.55,
+      "raw_img2img": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\04_raw_img2img_A_055.png",
+      "final_composite": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\06_final_composite_A_055.jpg"
+    },
+    "B_070": {
+      "strength": 0.7,
+      "raw_img2img": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\04_raw_img2img_B_070.png",
+      "final_composite": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\06_final_composite_B_070.jpg"
+    },
+    "C_080": {
+      "strength": 0.8,
+      "raw_img2img": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\04_raw_img2img_C_080.png",
+      "final_composite": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\06_final_composite_C_080.jpg"
+    }
+  },
+  "mapping_matches": true,
+  "master_comparison": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\00_master_comparison.jpg",
+  "zoom_comparison": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\00_zoom_strength_comparison.jpg",
+  "coordinate_mapping": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigation_debug\\one_image_restore\\coordinate_mapping.json",
+  "clean_pixels_used_for_restoration": false
+}

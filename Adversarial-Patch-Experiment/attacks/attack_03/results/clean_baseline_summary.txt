@@ -1,0 +1,15 @@
+Clean Hyper-YOLO Baseline Summary (attack-local)
+========================================================================
+Target match IoU threshold: 0.50
+total images: 300
+person images: 150
+car images: 150
+valid clean target detections: 240
+clean target misses: 60
+mean target confidence: 0.7604
+mean IoU: 0.8973
+model path: D:\project CS\Hyper-YOLO\weights\hyper-yolon.pt
+confidence threshold: 0.25
+IoU threshold: 0.7
+image size: 640
+device: cpu

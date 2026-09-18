@@ -1,0 +1,81 @@
+{
+  "predictions": [
+    {
+      "class_id": 17,
+      "class_name": "horse",
+      "confidence": 0.90966796875,
+      "box_xyxy": [
+        151.75,
+        218.75,
+        265.5,
+        488.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.83154296875,
+      "box_xyxy": [
+        268.0,
+        195.0,
+        411.0,
+        476.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.73681640625,
+      "box_xyxy": [
+        0.0,
+        96.875,
+        113.0,
+        513.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.591796875,
+      "box_xyxy": [
+        250.875,
+        247.5,
+        304.0,
+        295.0
+      ]
+    },
+    {
+      "class_id": 17,
+      "class_name": "horse",
+      "confidence": 0.483642578125,
+      "box_xyxy": [
+        0.0,
+        257.5,
+        58.0,
+        379.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.460205078125,
+      "box_xyxy": [
+        64.5,
+        189.75,
+        158.0,
+        325.75
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.382568359375,
+      "box_xyxy": [
+        0.0,
+        97.625,
+        114.25,
+        521.5
+      ]
+    }
+  ]
+}

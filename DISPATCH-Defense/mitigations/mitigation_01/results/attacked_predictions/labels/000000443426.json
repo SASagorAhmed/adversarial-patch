@@ -1,0 +1,26 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9228515625,
+      "box_xyxy": [
+        30.5,
+        204.625,
+        445.25,
+        639.5
+      ]
+    },
+    {
+      "class_id": 27,
+      "class_name": "tie",
+      "confidence": 0.3046875,
+      "box_xyxy": [
+        186.5,
+        353.5,
+        317.0,
+        480.5
+      ]
+    }
+  ]
+}

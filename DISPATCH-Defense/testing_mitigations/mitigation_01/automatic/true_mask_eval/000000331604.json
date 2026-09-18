@@ -1,0 +1,15 @@
+{
+  "image_id": "000000331604",
+  "filename": "000000331604.jpg",
+  "note": "True patch used AFTER automatic predicted mask was frozen. Evaluation only.",
+  "true_patch_area": 441,
+  "predicted_mask_area": 6132,
+  "mask_intersection": 441,
+  "mask_union": 6132,
+  "mask_iou": 0.07191780821917808,
+  "mask_precision": 0.07191780821917808,
+  "mask_recall": 1.0,
+  "false_positive_pixels": 5691,
+  "false_negative_pixels": 0,
+  "false_positive_benign_ratio": 0.020858454986273957
+}

@@ -1,0 +1,7 @@
+image_id,filename,role,target_class,patch_size_pixels,clean_detected,attacked_detected,inpainted_detected,inpainted_confidence,inpainted_iou,sticker_removed,hallucination,flat_gray,visible_seam,natural_restoration,recovered,control_preserved,control_regressed
+000000413689,000000413689.jpg,success,car,7,Yes,No,No,0.0,0.0,YES,NO,NO,UNKNOWN,YES,No,No,No
+000000135410,000000135410.jpg,success,car,28,Yes,No,Yes,0.265195,0.763329522940413,YES,YES,NO,NO,NO,Yes,No,No
+000000407083,000000407083.jpg,success,car,144,Yes,No,No,0.0,0.0,YES,YES,NO,YES,NO,No,No,No
+000000102411,000000102411.jpg,control,car,11,Yes,Yes,Yes,0.630661,0.8853683870285349,YES,YES,NO,YES,NO,No,Yes,No
+000000436617,000000436617.jpg,control,person,59,Yes,Yes,Yes,0.887446,0.9549042096759914,YES,YES,NO,YES,NO,No,Yes,No
+000000271997,000000271997.jpg,control,person,145,Yes,Yes,Yes,0.879924,0.973034764451439,YES,NO,NO,YES,YES,No,Yes,No

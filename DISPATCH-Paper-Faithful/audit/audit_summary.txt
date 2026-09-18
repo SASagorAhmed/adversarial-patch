@@ -1,0 +1,40 @@
+DISPATCH paper-faithful audit summary
+Paper: arXiv:2509.04597v2
+Official source: YES  commit 80c59b9b4a6c4060107a8b4485d3885128c2ae81
+Current project: DISPATCH-Defense READ-ONLY
+
+1. Checkerboard generation paper-faithful? YES at N=32 / 512 (complementary, 1=inpaint). Tile indexing differs only if size%N != 0.
+2. Mask semantics correct? YES. CompVis and current: 1=inpaint/regenerate, 0=preserve. Not reversed. Not a CRITICAL_BUG.
+3. Regenerated-image composition correct? YES (Eq. 2 equivalent). Sampling procedure differs (see 12).
+4. Normalization correct? YES both [0,1] before L2. No CRITICAL uint8/float mismatch.
+5. RGB/BGR correct? YES L2 on RGB. OpenCV used only for Gaussian/morph/YOLO viz, not for L2 inputs.
+6. Gaussian smoothing source-faithful? NO (kernel 5 vs official 15); sigma 1.0 MATCH. Paper unspecified kernel. Severity MINOR given sigma=1.
+7. KMeans source-faithful? MOSTLY (k=2, scalar D, higher centroid). n_init/seed differ MINOR.
+8. High-centroid cluster selected correctly? YES.
+9. Final rectification correct? YES Eq. 5. No clean-image substitution.
+10. Resizing/source-resolution mapping? Stretch to 512 both; LANCZOS vs BICUBIC MINOR. Localization at 512 MATCH.
+11. LDM checkpoint/config the same? SAME MODEL TYPE (CompVis inpainting_big). Byte-level identity UNKNOWN.
+12. What could explain oversized masks?
+    - MAJOR implementation: sequential same-seed two-pass vs official batched independent noise.
+    - Official MORPH_OPEN will not fix huge blobs.
+    - Model limitation: LDM changes many benign pixels so k=2 high cluster is large (paper still reports this method works on INRIA/YOLOv3).
+    - Experiment mismatch: different attack/detector/patch scale.
+13. What could explain low mask precision? Same as 12: high-difference cluster covers object/texture not just patch.
+14. Implementation bugs? No CRITICAL reversed-mask / wrong-compose / BGR-L2 / [0,255] L2 bug found. Remaining gaps are fidelity differences (batch sampling, blur kernel, morph, resample) plus setup mismatch.
+15. Model limitations? Yes plausible: 5-step inpaint + k=2 on dense difference naturally over-segments; Known Location still outperforms Automatic.
+16. Experimental-setup differences? YES: Hyper-YOLO vs MMDetection YOLOv3/FRCNN/DETR; COCO person/car diffusion patch vs INRIA AdvPatch 0.2-diagonal; recovery@0.5 vs mAP@0.5; 1 seeded run vs 3-run mean.
+
+Counts (parameter_comparison.csv):
+MATCH: 16
+MINOR_DIFFERENCE: 6
+MAJOR_DIFFERENCE: 2 (batched sampling; official MORPH_OPEN vs current none)
+CRITICAL_BUG: 0
+EXPERIMENT_MISMATCH: 5
+UNKNOWN: 1 (ckpt bytes)
+
+Most important mismatch: two-pass DDIM sampling (same seed sequential vs official batch_size=2).
+Is current already paper-faithful? Equations YES. Official source sampling/morph/blur kernel NO.
+Oversized masks caused by a proven critical bug? NO evidence of reversed mask. Fidelity gap may contribute; setup/model also plausible.
+
+Reference implementation built only in DISPATCH-Paper-Faithful/implementation following official d3_inference.py.
+Do not treat diagnostic recovery as paper mAP.

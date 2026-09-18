@@ -1,0 +1,2 @@
+image_name,attack_id,target_class,gt_x1,gt_y1,gt_x2,gt_y2,clean_detected,clean_class,clean_confidence,clean_iou,patched_detected,patched_class,patched_confidence,patched_iou,eligible,attack_success,confidence_drop,iou_drop,both_valid
+000000000785.jpg,attack_01,person,280.79,44.73,499.49,391.41,True,person,0.9538273215293884,0.9741051481388101,True,person,0.949943482875824,0.9756991460475769,True,False,0.003883838653564453,-0.0015939979087667977,True

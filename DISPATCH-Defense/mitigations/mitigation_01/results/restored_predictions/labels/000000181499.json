@@ -1,0 +1,15 @@
+{
+  "predictions": [
+    {
+      "class_id": 63,
+      "class_name": "laptop",
+      "confidence": 0.8759765625,
+      "box_xyxy": [
+        196.5,
+        5.875,
+        639.5,
+        493.0
+      ]
+    }
+  ]
+}

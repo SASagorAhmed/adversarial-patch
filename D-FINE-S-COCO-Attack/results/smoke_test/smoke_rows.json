@@ -1,0 +1,26 @@
+[
+  {
+    "image_name": "000000000785.jpg",
+    "attack_id": "attack_01",
+    "target_class": "person",
+    "gt_x1": 280.79,
+    "gt_y1": 44.73,
+    "gt_x2": 499.49,
+    "gt_y2": 391.41,
+    "clean_detected": true,
+    "clean_class": "person",
+    "clean_confidence": 0.9538273215293884,
+    "clean_iou": 0.9741051481388101,
+    "patched_detected": true,
+    "patched_class": "person",
+    "patched_confidence": 0.949943482875824,
+    "patched_iou": 0.9756991460475769,
+    "eligible": true,
+    "attack_success": false,
+    "confidence_drop": 0.003883838653564453,
+    "iou_drop": -0.0015939979087667977,
+    "both_valid": true,
+    "_clean_ms": 447.9012000010698,
+    "_patch_ms": 36.95069999957923
+  }
+]

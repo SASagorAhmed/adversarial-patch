@@ -1,0 +1,7 @@
+attack_id,total_images,eligible_targets,successful_attacks,ASR_percent,person_eligible,person_successful,person_ASR_percent,car_eligible,car_successful,car_ASR_percent,mean_confidence_drop,median_confidence_drop,mean_IoU_drop,both_valid_n
+attack_01,200,187,2,1.07,92,1,1.09,95,1,1.05,0.006666,0.000119,0.003081,185
+attack_02,250,225,2,0.89,113,1,0.88,112,1,0.89,0.009843,0.000140,0.001531,223
+attack_03,300,277,1,0.36,134,0,0.00,143,1,0.70,0.007127,0.000130,-0.001163,276
+attack_04,350,314,4,1.27,151,1,0.66,163,3,1.84,0.020942,0.000204,0.001895,310
+attack_05,400,362,7,1.93,178,0,0.00,184,7,3.80,0.013950,0.000221,0.001469,355
+COMBINED,1500,1365,16,1.1721611721611722,668,3,0.4491017964071856,697,13,1.8651362984218078,0.012483,0.000140,0.001260,1349

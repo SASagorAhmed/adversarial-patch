@@ -1,0 +1,17 @@
+{
+  "image_name": "000000309173.jpg",
+  "inference_time_ms": 702.1296000020811,
+  "detections": [
+    {
+      "image_name": "000000309173.jpg",
+      "class_id": 13,
+      "class_name": "stop sign",
+      "confidence": 0.9007468819618225,
+      "x1": 62.812068939208984,
+      "y1": 40.3691520690918,
+      "x2": 316.677001953125,
+      "y2": 348.5875244140625,
+      "coco_category_id": 13
+    }
+  ]
+}

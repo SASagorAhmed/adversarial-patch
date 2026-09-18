@@ -1,0 +1,75 @@
+Mitigation Summary
+========================================================================
+Method: Simplified known-location diffusion-based restoration baseline
+Mitigation ID: mitigation_01
+Source attack: attack_02
+Target match IoU threshold: 0.5
+
+Subset total: 30
+source_attack_success_count: 15
+recovered_target_count: 4
+detection_recovery_rate: 26.67%
+remaining_failed_targets: 11
+
+control_count: 15
+control_preserved_count: 13
+control_preservation_rate: 86.67%
+control_regression_count: 2
+control_regression_rate: 13.33%
+
+person_recovered_count: 0 / 4
+person_recovery_rate: 0.00%
+car_recovered_count: 4 / 11
+car_recovery_rate: 36.36%
+
+mean_clean_confidence (success): 0.4142
+mean_attacked_confidence (success): 0.0000
+mean_mitigated_confidence (success): 0.0969
+mean_confidence_recovery (success): 0.0969
+mean_clean_iou (success): 0.8784
+mean_attacked_iou (success): 0.0000
+mean_mitigated_iou (success): 0.2067
+mean_iou_recovery (success): 0.2067
+mean_clean_to_mitigated_confidence_gap (success): 0.3173
+mean_clean_to_mitigated_iou_gap (success): 0.6716
+
+Note: detection_recovery_rate is a subset metric, not full-dataset ASR after defense.
+
+Restoration config:
+{
+  "method_name": "Simplified known-location diffusion-based restoration baseline",
+  "mitigation_id": "mitigation_01",
+  "source_attack_id": "attack_02",
+  "control_count": 15,
+  "control_selection_seed": 22021501,
+  "restoration_seed": 20260727,
+  "diffusion_resolution": 512,
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "strength": 0.55,
+  "patch_neutralization": true,
+  "context_crop_factor": 3.0,
+  "minimum_context_side": 128,
+  "feather_pixels": 4,
+  "positive_prompt": "realistic natural photograph, restore the original object surface, natural texture, consistent lighting, no sticker or artificial patch",
+  "negative_prompt": "sticker, adversarial patch, logo, text, watermark, abstract pattern, cartoon, distortion",
+  "patch_scale": 0.3,
+  "target_match_iou_threshold": 0.5,
+  "yolo_conf": 0.25,
+  "yolo_iou": 0.7,
+  "yolo_imgsz": 640,
+  "yolo_device": "cpu",
+  "sd_model_path": "D:\\project CS\\Stable-Diffusion-Patch\\model",
+  "local_files_only": true,
+  "clean_pixels_used_for_restoration": false,
+  "spec": {
+    "mitigation_id": "mitigation_01",
+    "source_attack_id": "attack_02",
+    "control_count": 15,
+    "control_selection_seed": 22021501,
+    "restoration_seed": 20260727
+  },
+  "pilot_excluded_from_final_metrics": true,
+  "archived_outputs_reused": false,
+  "actual_sd_device": "cuda"
+}

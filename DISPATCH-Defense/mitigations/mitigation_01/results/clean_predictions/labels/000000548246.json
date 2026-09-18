@@ -1,0 +1,81 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.93994140625,
+      "box_xyxy": [
+        0.0,
+        119.0,
+        158.5,
+        425.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.90234375,
+      "box_xyxy": [
+        215.375,
+        99.5,
+        420.5,
+        424.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.884765625,
+      "box_xyxy": [
+        403.0,
+        153.125,
+        507.0,
+        424.0
+      ]
+    },
+    {
+      "class_id": 38,
+      "class_name": "tennis racket",
+      "confidence": 0.64453125,
+      "box_xyxy": [
+        17.625,
+        333.0,
+        193.875,
+        363.0
+      ]
+    },
+    {
+      "class_id": 38,
+      "class_name": "tennis racket",
+      "confidence": 0.37841796875,
+      "box_xyxy": [
+        93.625,
+        335.25,
+        193.625,
+        361.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.305908203125,
+      "box_xyxy": [
+        287.5,
+        149.5,
+        345.0,
+        227.5
+      ]
+    },
+    {
+      "class_id": 32,
+      "class_name": "sports ball",
+      "confidence": 0.29736328125,
+      "box_xyxy": [
+        533.0,
+        381.5,
+        549.0,
+        397.5
+      ]
+    }
+  ]
+}

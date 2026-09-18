@@ -1,0 +1,213 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.7666015625,
+      "box_xyxy": [
+        301.0,
+        227.25,
+        327.0,
+        312.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.73828125,
+      "box_xyxy": [
+        241.5,
+        211.5,
+        266.0,
+        288.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.72265625,
+      "box_xyxy": [
+        515.0,
+        224.5,
+        540.0,
+        309.0
+      ]
+    },
+    {
+      "class_id": 24,
+      "class_name": "backpack",
+      "confidence": 0.70556640625,
+      "box_xyxy": [
+        475.5,
+        244.75,
+        496.5,
+        275.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.65478515625,
+      "box_xyxy": [
+        454.5,
+        226.625,
+        480.5,
+        308.5
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat",
+      "confidence": 0.65087890625,
+      "box_xyxy": [
+        40.875,
+        209.25,
+        218.875,
+        265.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.6455078125,
+      "box_xyxy": [
+        419.5,
+        220.25,
+        445.5,
+        264.75
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat",
+      "confidence": 0.61083984375,
+      "box_xyxy": [
+        326.0,
+        114.75,
+        459.0,
+        132.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.57421875,
+      "box_xyxy": [
+        180.375,
+        223.5,
+        197.125,
+        281.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.4970703125,
+      "box_xyxy": [
+        418.5,
+        219.5,
+        446.0,
+        316.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.382080078125,
+      "box_xyxy": [
+        388.5,
+        216.25,
+        415.5,
+        265.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.366455078125,
+      "box_xyxy": [
+        524.0,
+        223.75,
+        546.0,
+        308.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.358642578125,
+      "box_xyxy": [
+        412.0,
+        257.25,
+        444.0,
+        322.25
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat",
+      "confidence": 0.354736328125,
+      "box_xyxy": [
+        0.125,
+        116.0,
+        47.1875,
+        134.5
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat",
+      "confidence": 0.338623046875,
+      "box_xyxy": [
+        499.5,
+        97.875,
+        544.5,
+        117.25
+      ]
+    },
+    {
+      "class_id": 28,
+      "class_name": "suitcase",
+      "confidence": 0.336181640625,
+      "box_xyxy": [
+        380.5,
+        296.5,
+        395.5,
+        322.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.3359375,
+      "box_xyxy": [
+        334.0,
+        227.25,
+        359.0,
+        256.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.329833984375,
+      "box_xyxy": [
+        550.0,
+        100.75,
+        557.0,
+        116.625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.293701171875,
+      "box_xyxy": [
+        389.5,
+        258.0,
+        413.5,
+        300.0
+      ]
+    }
+  ]
+}

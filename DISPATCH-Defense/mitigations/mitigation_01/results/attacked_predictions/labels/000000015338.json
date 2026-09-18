@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.82666015625,
+      "box_xyxy": [
+        441.5,
+        168.75,
+        527.5,
+        278.75
+      ]
+    },
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.68017578125,
+      "box_xyxy": [
+        265.0,
+        200.25,
+        347.0,
+        249.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.47412109375,
+      "box_xyxy": [
+        138.75,
+        209.125,
+        191.25,
+        222.875
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.423095703125,
+      "box_xyxy": [
+        67.0,
+        186.25,
+        141.25,
+        219.75
+      ]
+    }
+  ]
+}

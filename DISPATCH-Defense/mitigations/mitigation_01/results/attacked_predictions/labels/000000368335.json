@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "class_id": 17,
+      "class_name": "horse",
+      "confidence": 0.91064453125,
+      "box_xyxy": [
+        151.5,
+        219.0,
+        265.25,
+        488.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.8583984375,
+      "box_xyxy": [
+        268.0,
+        194.5,
+        411.0,
+        476.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.73583984375,
+      "box_xyxy": [
+        0.0,
+        97.0,
+        112.875,
+        519.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6171875,
+      "box_xyxy": [
+        250.625,
+        247.75,
+        303.5,
+        294.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.5146484375,
+      "box_xyxy": [
+        65.25,
+        189.25,
+        158.375,
+        325.75
+      ]
+    }
+  ]
+}

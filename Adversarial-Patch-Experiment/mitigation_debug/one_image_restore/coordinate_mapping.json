@@ -1,0 +1,54 @@
+{
+  "filename": "000000407083.jpg",
+  "subset_role": "success",
+  "target_class": "car",
+  "image_size": {
+    "width": 480,
+    "height": 640
+  },
+  "patch": {
+    "x1": 168,
+    "y1": 241,
+    "x2": 312,
+    "y2": 385,
+    "patch_size_pixels": 144
+  },
+  "context_crop": {
+    "left": 24,
+    "top": 97,
+    "right": 456,
+    "bottom": 529,
+    "width": 432,
+    "height": 432
+  },
+  "patch_in_crop": {
+    "rel_x1": 144,
+    "rel_y1": 144,
+    "rel_x2": 288,
+    "rel_y2": 288
+  },
+  "patch_in_512": {
+    "rel_x1_512": 170.66666666666666,
+    "rel_y1_512": 170.66666666666666,
+    "rel_x2_512": 341.3333333333333,
+    "rel_y2_512": 341.3333333333333
+  },
+  "back_projection_check": {
+    "x1_from_crop": 168,
+    "y1_from_crop": 241,
+    "x2_from_crop": 312,
+    "y2_from_crop": 385,
+    "matches_original_patch": true
+  },
+  "composite_region": "exact patch square (x1,y1)-(x2,y2) with feather",
+  "neutralization": "gaussian_blur_plus_local_ring_mean_from_attacked_crop_only",
+  "clean_pixels_used_for_restoration": false,
+  "seed": 20260727,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "strengths": {
+    "A_055": 0.55,
+    "B_070": 0.7,
+    "C_080": 0.8
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "predictions": [
+    {
+      "class_id": 37,
+      "class_name": "surfboard",
+      "confidence": 0.91845703125,
+      "box_xyxy": [
+        263.0,
+        176.5,
+        376.0,
+        309.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.80810546875,
+      "box_xyxy": [
+        290.0,
+        150.75,
+        367.0,
+        282.5
+      ]
+    },
+    {
+      "class_id": 33,
+      "class_name": "kite",
+      "confidence": 0.73974609375,
+      "box_xyxy": [
+        615.0,
+        263.5,
+        629.0,
+        278.5
+      ]
+    }
+  ]
+}

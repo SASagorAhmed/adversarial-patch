@@ -1,0 +1,352 @@
+TESTING MITIGATION 01 PREFLIGHT
+==================================================
+Experiment:
+Automatic DISPATCH vs Known-Location LDM
+
+Output:
+D:\project CS\DISPATCH-Defense\testing_mitigations\mitigation_01
+
+Images selected:
+5
+
+Same images in both branches:
+YES
+
+Original filenames preserved:
+YES
+
+Saved patch coordinates found:
+YES
+
+Saved coordinates verified:
+YES
+
+Automatic receives true location before localization:
+NO
+
+Automatic uses true location for evaluation only:
+YES
+
+Known Location receives saved true coordinates:
+YES
+
+CompVis LDM repository found:
+YES
+
+LDM checkpoint found:
+YES
+
+LDM mask semantics verified:
+YES
+
+Hyper-YOLO weights found:
+YES
+
+Clean pixels excluded from restoration:
+YES
+
+Real mitigation_01 protected:
+YES
+
+Real mitigation_02 created:
+NO
+
+Attack project protected:
+YES
+
+Hyper-YOLO project protected:
+YES
+
+LDM dependency protected:
+YES
+
+Output root safe:
+YES
+
+LDM commit: a506df5756472e2ebaf9078affdde2c4f1502cd4
+checkerboard_N=32 steps=5 seed=20260817
+D:\project CS\DISPATCH-Defense\.venv_dispatch\lib\site-packages\pytorch_lightning\utilities\distributed.py:258: LightningDeprecationWarning: `pytorch_lightning.utilities.distributed.rank_zero_only` has been deprecated in v1.8.1 and will be removed in v2.0.0. You can import it from `pytorch_lightning.utilities` instead.
+  rank_zero_deprecation(
+LatentDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 387.25 M params.
+Keeping EMAs of 418.
+making attention of type 'none' with 512 in_channels
+Working with z of shape (1, 3, 64, 64) = 12288 dimensions.
+making attention of type 'none' with 512 in_channels
+Using first stage also as cond stage.
+D:\project CS\DISPATCH-Defense\scripts\ldm_inpaint_adapter.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(str(self.ckpt_path), map_location="cpu")
+D:\project CS\Hyper-YOLO\ultralytics\nn\tasks.py:567: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(file, map_location='cpu'), file  # load
+
+=== 000000127263.jpg (attack_success car) ===
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:08<00:33,  8.42s/it]DDIM Sampler:  40%|####      | 2/5 [00:15<00:22,  7.58s/it]DDIM Sampler:  60%|######    | 3/5 [00:22<00:14,  7.32s/it]DDIM Sampler:  80%|########  | 4/5 [00:29<00:07,  7.22s/it]DDIM Sampler: 100%|##########| 5/5 [00:36<00:00,  7.12s/it]DDIM Sampler: 100%|##########| 5/5 [00:36<00:00,  7.29s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:24,  6.09s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:18,  6.12s/it]DDIM Sampler:  60%|######    | 3/5 [00:18<00:12,  6.12s/it]DDIM Sampler:  80%|########  | 4/5 [00:24<00:06,  6.12s/it]DDIM Sampler: 100%|##########| 5/5 [00:30<00:00,  6.12s/it]DDIM Sampler: 100%|##########| 5/5 [00:30<00:00,  6.12s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.89s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.86s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.86s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.86s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.88s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.87s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.37s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.36s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.34s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.32s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.31s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.32s/it]
+
+=== 000000393093.jpg (attack_success car) ===
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.83s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.82s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.85s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.84s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.83s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.83s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:26,  6.61s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:19,  6.60s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:13,  6.59s/it]DDIM Sampler:  80%|########  | 4/5 [00:26<00:06,  6.60s/it]DDIM Sampler: 100%|##########| 5/5 [00:32<00:00,  6.60s/it]DDIM Sampler: 100%|##########| 5/5 [00:32<00:00,  6.60s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.87s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.84s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.81s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.81s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.81s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.35s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.40s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.39s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.38s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.38s/it]
+
+=== 000000026926.jpg (attack_success car) ===
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.80s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.84s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.82s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.82s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.37s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.35s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.36s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.37s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.36s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.84s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.83s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.84s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.84s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.84s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.84s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.33s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.34s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.34s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.35s/it]
+
+=== 000000407083.jpg (attack_success car) ===
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.82s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.80s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.81s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.80s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.80s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.80s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.38s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.36s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.35s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.35s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.94s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.88s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.85s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.84s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.83s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.84s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.35s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.36s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.38s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.39s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]
+
+=== 000000331604.jpg (control person) ===
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.84s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.84s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.82s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.82s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.35s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.36s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.36s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.38s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:27,  6.82s/it]DDIM Sampler:  40%|####      | 2/5 [00:13<00:20,  6.83s/it]DDIM Sampler:  60%|######    | 3/5 [00:20<00:13,  6.83s/it]DDIM Sampler:  80%|########  | 4/5 [00:27<00:06,  6.83s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.82s/it]DDIM Sampler: 100%|##########| 5/5 [00:34<00:00,  6.83s/it]
+Data shape for DDIM sampling is (1, 3, 128, 128), eta 0.0
+Running DDIM Sampling with 5 timesteps
+DDIM Sampler:   0%|          | 0/5 [00:00<?, ?it/s]DDIM Sampler:  20%|##        | 1/5 [00:06<00:25,  6.38s/it]DDIM Sampler:  40%|####      | 2/5 [00:12<00:19,  6.37s/it]DDIM Sampler:  60%|######    | 3/5 [00:19<00:12,  6.36s/it]DDIM Sampler:  80%|########  | 4/5 [00:25<00:06,  6.35s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]DDIM Sampler: 100%|##########| 5/5 [00:31<00:00,  6.37s/it]
+TESTING MITIGATION 01
+AUTOMATIC DISPATCH VS KNOWN-LOCATION LDM RESTORATION
+=====================================================
+
+Purpose:
+Determine whether weak DISPATCH performance is mainly caused by
+automatic adversarial-patch localization or by LDM restoration itself.
+
+Images:
+5
+
+Attack-success diagnostic cases:
+4
+
+Controls:
+1
+
+Victim detector:
+Hyper-YOLO-N
+
+Target rule:
+Same class + IoU >= 0.50
+
+Diffusion model:
+CompVis LDM Inpainting
+
+Sampler:
+DDIM
+
+Steps:
+5
+
+Resolution:
+512 x 512
+
+Clean pixels used for restoration:
+NO
+
+Selected:
+  000000127263.jpg  car  attack_success  patch=20  xyxy=(561,131,581,151)
+  000000393093.jpg  car  attack_success  patch=14  xyxy=(313,371,327,385)
+  000000026926.jpg  car  attack_success  patch=22  xyxy=(160,192,182,214)
+  000000407083.jpg  car  attack_success  patch=144  xyxy=(168,241,312,385)
+  000000331604.jpg  person  control  patch=21  xyxy=(320,210,341,231)
+
+
+=====================================================
+AUTOMATIC DISPATCH
+=====================================================
+
+True patch coordinates supplied during localization:
+NO
+
+Localization:
+Checkerboard regeneration
+L2 difference
+Smoothing
+KMeans k=2
+
+Mean predicted-mask IoU:
+0.049885
+
+Median predicted-mask IoU:
+0.025100
+
+Min / max mask IoU:
+0.003859 / 0.131317
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset recovery count — NOT final DISPATCH DRR)
+
+Control preserved:
+YES
+
+
+=====================================================
+KNOWN LOCATION — EXACT MASK
+=====================================================
+
+True saved patch coordinates supplied:
+YES
+
+Automatic localization bypassed:
+YES
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset — NOT DISPATCH DRR)
+
+Control preserved:
+YES
+
+Outside-mask integrity:
+PASS
+  000000127263.jpg mae=0.000000
+  000000393093.jpg mae=0.000000
+  000000026926.jpg mae=0.000000
+  000000407083.jpg mae=0.000000
+  000000331604.jpg mae=0.000000
+
+
+=====================================================
+KNOWN LOCATION — EXPANDED 4PX
+=====================================================
+
+Attack-success cases recovered:
+2 / 4   (diagnostic subset — NOT DISPATCH DRR)
+
+Control preserved:
+YES
+
+Outside-mask integrity:
+PASS
+  000000127263.jpg mae=0.000000
+  000000393093.jpg mae=0.000000
+  000000026926.jpg mae=0.000000
+  000000407083.jpg mae=0.000000
+  000000331604.jpg mae=0.000000
+
+
+=====================================================
+MAIN COMPARISON
+=====================================================
+
+Automatic recovery:
+2 / 4
+
+Known Exact recovery:
+2 / 4
+
+Known +4px recovery:
+2 / 4
+
+Known location improved over Automatic:
+MIXED
+
+Evidence-supported primary bottleneck:
+MIXED
+
+Reason:
+Branches differ case-by-case; localization and LDM capability both matter.
+
+manual_visual_review_required = true
+
+
+=====================================================
+IMAGE FOLDER GUIDE
+=====================================================
+
+automatic/source_attacked_images
+= attacked inputs used by Automatic DISPATCH
+
+automatic/regenerated_images
+= whole regenerated intermediate images
+= NOT final
+
+automatic/predicted_masks
+= automatically localized suspicious regions
+
+automatic/restored_images
+= FINAL Automatic DISPATCH restored images
+
+known_location/source_attacked_images
+= same attacked inputs used by Known Location
+
+known_location/masks/exact_mask
+= true saved patch masks
+
+known_location/ldm_outputs
+= raw LDM outputs
+= NOT final
+
+known_location/restored_images/exact_mask
+= FINAL known-location exact-mask images
+
+known_location/restored_images/expanded_4px
+= FINAL known-location expanded-mask images
+
+comparison/verification
+= complete side-by-side image comparison
+
+
+=====================================================
+SAFETY
+=====================================================
+
+Real mitigation_01 modified:
+NO
+
+Real mitigation_02 created:
+NO
+
+Attack project modified:
+NO
+
+Hyper-YOLO dependency modified:
+NO
+
+LDM dependency modified:
+NO
+
+HASHES UNCHANGED: True
+mitigation_02 exists: False

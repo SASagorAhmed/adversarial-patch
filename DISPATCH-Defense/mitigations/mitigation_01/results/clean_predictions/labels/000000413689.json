@@ -1,0 +1,180 @@
+{
+  "predictions": [
+    {
+      "class_id": 25,
+      "class_name": "umbrella",
+      "confidence": 0.88427734375,
+      "box_xyxy": [
+        436.0,
+        139.5,
+        522.0,
+        189.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.86865234375,
+      "box_xyxy": [
+        443.0,
+        165.625,
+        496.0,
+        346.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.859375,
+      "box_xyxy": [
+        361.75,
+        187.0,
+        425.25,
+        358.0
+      ]
+    },
+    {
+      "class_id": 25,
+      "class_name": "umbrella",
+      "confidence": 0.75732421875,
+      "box_xyxy": [
+        328.25,
+        158.75,
+        424.75,
+        203.75
+      ]
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "confidence": 0.69091796875,
+      "box_xyxy": [
+        353.5,
+        207.0,
+        375.5,
+        260.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.5322265625,
+      "box_xyxy": [
+        5.375,
+        148.125,
+        54.0,
+        167.625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.5185546875,
+      "box_xyxy": [
+        131.375,
+        145.125,
+        144.375,
+        172.875
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.463134765625,
+      "box_xyxy": [
+        310.0,
+        156.625,
+        332.0,
+        175.125
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.439453125,
+      "box_xyxy": [
+        272.5,
+        158.0,
+        284.5,
+        185.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.403076171875,
+      "box_xyxy": [
+        289.5,
+        157.375,
+        307.5,
+        186.375
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.396728515625,
+      "box_xyxy": [
+        128.5,
+        146.75,
+        137.25,
+        172.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.360107421875,
+      "box_xyxy": [
+        16.71875,
+        151.0,
+        54.09375,
+        167.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.283203125,
+      "box_xyxy": [
+        403.0,
+        114.25,
+        411.5,
+        129.25
+      ]
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "confidence": 0.2783203125,
+      "box_xyxy": [
+        440.5,
+        190.0,
+        489.5,
+        290.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.267333984375,
+      "box_xyxy": [
+        286.0,
+        158.0,
+        303.0,
+        186.5
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle",
+      "confidence": 0.251220703125,
+      "box_xyxy": [
+        128.5,
+        145.5,
+        145.5,
+        174.0
+      ]
+    }
+  ]
+}

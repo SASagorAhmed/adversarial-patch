@@ -1,0 +1,81 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.85400390625,
+      "box_xyxy": [
+        363.5,
+        185.5,
+        426.5,
+        358.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8486328125,
+      "box_xyxy": [
+        441.5,
+        166.5,
+        495.5,
+        348.0
+      ]
+    },
+    {
+      "class_id": 25,
+      "class_name": "umbrella",
+      "confidence": 0.783203125,
+      "box_xyxy": [
+        330.5,
+        158.5,
+        433.0,
+        201.5
+      ]
+    },
+    {
+      "class_id": 25,
+      "class_name": "umbrella",
+      "confidence": 0.74560546875,
+      "box_xyxy": [
+        438.5,
+        139.75,
+        521.5,
+        189.25
+      ]
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "confidence": 0.5009765625,
+      "box_xyxy": [
+        353.0,
+        207.0,
+        374.0,
+        260.5
+      ]
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "confidence": 0.3505859375,
+      "box_xyxy": [
+        353.5,
+        223.5,
+        373.5,
+        260.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.346435546875,
+      "box_xyxy": [
+        303.0,
+        157.25,
+        338.0,
+        177.0
+      ]
+    }
+  ]
+}

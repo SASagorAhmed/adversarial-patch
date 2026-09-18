@@ -1,0 +1,110 @@
+DISPATCH DEFENSE SETUP REPORT
+
+Project root:
+D:\project CS\DISPATCH-Defense
+
+Paper:
+DISPATCH: Disarming Adversarial Patches in Object Detection with Diffusion Models
+arXiv: https://arxiv.org/abs/2509.04597
+HTML: https://arxiv.org/html/2509.04597
+
+Paper source-code URL (not depended upon):
+https://github.com/MaJinWakeUp/D3
+Implementation basis: paper + official CompVis Latent Diffusion
+
+CompVis repository:
+https://github.com/CompVis/latent-diffusion.git
+Local path: D:\project CS\DISPATCH-Defense\third_party\latent-diffusion
+Branch: main
+Git commit: a506df5756472e2ebaf9078affdde2c4f1502cd4
+Clone date/time: 2026-08-17 01:17:54 +06:00
+
+Official checkpoint URL:
+https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1
+
+Checkpoint local path:
+D:\project CS\DISPATCH-Defense\third_party\latent-diffusion\models\ldm\inpainting_big\last.ckpt
+
+Checkpoint size:
+3311259854 bytes (3.084 GiB)
+
+Checkpoint SHA256:
+6ec79e83b90594096f0bff19efb21e1da5ff62ffbd0291a6b3057fce3213ba3a
+
+Checkpoint validation:
+PASS
+
+Official inpaint entry:
+scripts/inpaint.py
+config: models/ldm/inpainting_big/config.yaml
+checkpoint lookup: models/ldm/inpainting_big/last.ckpt
+sampler: DDIMSampler
+text prompt: NONE (concat masked-image conditioning only)
+input naming: example.png + example_mask.png
+
+Environment:
+isolated .venv_dispatch (Python 3.10.11)
+path: D:\project CS\DISPATCH-Defense\.venv_dispatch\
+
+Python:
+3.10.11
+
+PyTorch:
+2.5.1+cu121
+
+torchvision:
+0.20.1+cu121
+
+CUDA:
+built 12.1 ; torch.cuda.is_available() = True
+
+GPU:
+NVIDIA GeForce RTX 2050 (4.0 GiB VRAM)
+
+LDM import:
+PASS
+
+Official inpainting smoke test:
+PASS (device=cuda, steps=5, finite output)
+
+DISPATCH one-image smoke test:
+PASS
+
+Checkerboard generation:
+PASS
+
+Two-pass regeneration:
+PASS
+
+L2 map:
+PASS
+
+KMeans:
+PASS
+
+Rectification:
+PASS
+
+True patch coordinates supplied to defense:
+NO
+
+Previous mitigation results reused:
+NO
+
+Full experiment started:
+NO
+
+Compatibility changes (documented; third-party SOURCE not edited):
+1. Did NOT install historical environment.yaml (python 3.8 / torch 1.7 / cudatoolkit 11.0).
+   Used modern torch 2.5.1+cu121 in isolated venv for RTX 2050 compatibility.
+2. setuptools pinned to 70.3.0 because setuptools 84 removed pkg_resources required by CompVis stack.
+3. sys.path / PYTHONPATH prepends LDM_ROOT and taming-transformers (project path contains a space; editable installs alone were unreliable).
+4. Cloned CompVis taming-transformers and openai CLIP under third_party for editable installs (required by LDM).
+5. Paper/DISPATCH uses DDIM steps=5 via adapter; official inpaint.py default remains 50 (unchanged).
+6. No text prompts invented; CompVis inpainting_big uses no semantic text conditioning.
+
+Third-party latent-diffusion source modifications:
+NONE (only untracked runtime artifacts: __pycache__, egg-info, downloaded last.ckpt)
+
+Disk note at setup end:
+D: free space ~68.9 GB after checkpoint+venv+smoke artifacts

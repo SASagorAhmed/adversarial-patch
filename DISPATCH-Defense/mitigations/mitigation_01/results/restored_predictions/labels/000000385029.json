@@ -1,0 +1,103 @@
+{
+  "predictions": [
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.92041015625,
+      "box_xyxy": [
+        246.75,
+        0.125,
+        302.75,
+        162.25
+      ]
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.90380859375,
+      "box_xyxy": [
+        379.0,
+        0.0,
+        445.0,
+        179.5
+      ]
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife",
+      "confidence": 0.8583984375,
+      "box_xyxy": [
+        228.75,
+        261.5,
+        361.25,
+        354.5
+      ]
+    },
+    {
+      "class_id": 45,
+      "class_name": "bowl",
+      "confidence": 0.8466796875,
+      "box_xyxy": [
+        79.6875,
+        125.5,
+        275.75,
+        290.75
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.611328125,
+      "box_xyxy": [
+        1.0,
+        1.25,
+        632.0,
+        474.75
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.52099609375,
+      "box_xyxy": [
+        326.5,
+        105.125,
+        393.5,
+        231.375
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.471435546875,
+      "box_xyxy": [
+        441.0,
+        0.0,
+        522.0,
+        202.0
+      ]
+    },
+    {
+      "class_id": 44,
+      "class_name": "spoon",
+      "confidence": 0.40869140625,
+      "box_xyxy": [
+        180.0,
+        163.25,
+        215.5,
+        294.5
+      ]
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife",
+      "confidence": 0.334716796875,
+      "box_xyxy": [
+        65.5625,
+        301.0,
+        257.5,
+        335.0
+      ]
+    }
+  ]
+}

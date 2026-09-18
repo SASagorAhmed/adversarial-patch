@@ -1,0 +1,6 @@
+﻿filename: last.ckpt
+path: D:\project CS\DISPATCH-Defense\third_party\latent-diffusion\models\ldm\inpainting_big\last.ckpt
+size_bytes: 3311259854
+sha256: 6EC79E83B90594096F0BFF19EFB21E1DA5FF62FFBD0291A6B3057FCE3213BA3A
+source_url: https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1
+downloaded_at: 2026-08-17 01:25:04 +06:00

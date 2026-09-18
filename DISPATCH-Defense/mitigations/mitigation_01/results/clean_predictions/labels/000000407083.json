@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 16,
+      "class_name": "dog",
+      "confidence": 0.82080078125,
+      "box_xyxy": [
+        7.25,
+        212.125,
+        399.0,
+        635.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.60400390625,
+      "box_xyxy": [
+        196.75,
+        83.0,
+        478.75,
+        638.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.36669921875,
+      "box_xyxy": [
+        31.5,
+        47.5,
+        478.5,
+        638.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.3525390625,
+      "box_xyxy": [
+        0.0,
+        84.5,
+        475.5,
+        640.0
+      ]
+    }
+  ]
+}

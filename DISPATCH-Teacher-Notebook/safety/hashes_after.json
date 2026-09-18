@@ -1,0 +1,22 @@
+{
+  "D:\\project CS\\DISPATCH-Defense\\config\\dispatch_config.py": {
+    "sha256": "f821dd3ec85022f9d374966d22d2d29829bdfbf3b1fb7ec52716b1c37d8459c7",
+    "size_bytes": 2797
+  },
+  "D:\\project CS\\DISPATCH-Paper-Faithful\\implementation\\ldm_adapter.py": {
+    "sha256": "0a9773988c8028edfe7392a590ba4a331473882437698c8004afe42c7c33b29f",
+    "size_bytes": 6741
+  },
+  "D:\\project CS\\DISPATCH-Paper-Faithful\\implementation\\localization.py": {
+    "sha256": "19ea89deecb189d176ee9b7a5e8e6934daf854cabd870272668af67e530d9d5a",
+    "size_bytes": 2877
+  },
+  "D:\\project CS\\Hyper-YOLO\\weights\\hyper-yolon.pt": {
+    "sha256": "c51808f9b019c136ecd47ab50e59ac3e93ccf41de2f54e11b70542a217bc8932",
+    "size_bytes": 8567703
+  },
+  "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_02\\automatic\\source_attack_data\\selected_images.csv": {
+    "sha256": "aba2eaa9807252851b65b79fcb887eb346563c3b734cfda5e45f54d1fb52a7c4",
+    "size_bytes": 3112
+  }
+}

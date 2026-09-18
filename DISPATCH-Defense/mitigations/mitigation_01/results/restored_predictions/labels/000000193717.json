@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "class_id": 10,
+      "class_name": "fire hydrant",
+      "confidence": 0.9365234375,
+      "box_xyxy": [
+        37.0,
+        71.0,
+        400.5,
+        621.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.91650390625,
+      "box_xyxy": [
+        395.5,
+        117.4375,
+        497.5,
+        304.0
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.59423828125,
+      "box_xyxy": [
+        313.75,
+        27.234375,
+        331.25,
+        66.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.36669921875,
+      "box_xyxy": [
+        321.5,
+        198.125,
+        333.5,
+        226.125
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.3154296875,
+      "box_xyxy": [
+        399.0,
+        194.625,
+        424.0,
+        229.125
+      ]
+    }
+  ]
+}

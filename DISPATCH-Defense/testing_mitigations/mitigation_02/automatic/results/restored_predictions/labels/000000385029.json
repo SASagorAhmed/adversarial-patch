@@ -1,0 +1,126 @@
+{
+  "filename": "000000385029.jpg",
+  "predictions": [
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.91943359375,
+      "box_xyxy": [
+        246.875,
+        0.0,
+        302.0,
+        162.25
+      ]
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.88916015625,
+      "box_xyxy": [
+        380.0,
+        0.0,
+        447.0,
+        179.5
+      ]
+    },
+    {
+      "class_id": 45,
+      "class_name": "bowl",
+      "confidence": 0.85791015625,
+      "box_xyxy": [
+        80.8125,
+        125.0625,
+        274.75,
+        293.0
+      ]
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife",
+      "confidence": 0.80810546875,
+      "box_xyxy": [
+        229.375,
+        258.0,
+        361.5,
+        354.0
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.73486328125,
+      "box_xyxy": [
+        326.5,
+        104.5,
+        393.0,
+        231.0
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.61669921875,
+      "box_xyxy": [
+        1.0,
+        1.75,
+        634.0,
+        472.25
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.53173828125,
+      "box_xyxy": [
+        429.5,
+        34.5625,
+        518.5,
+        264.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.3701171875,
+      "box_xyxy": [
+        107.5,
+        305.5,
+        273.5,
+        418.5
+      ]
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife",
+      "confidence": 0.302490234375,
+      "box_xyxy": [
+        65.25,
+        300.0,
+        263.25,
+        336.0
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.26513671875,
+      "box_xyxy": [
+        439.5,
+        0.0,
+        526.5,
+        212.0
+      ]
+    },
+    {
+      "class_id": 44,
+      "class_name": "spoon",
+      "confidence": 0.2509765625,
+      "box_xyxy": [
+        112.4375,
+        192.5,
+        167.0,
+        268.0
+      ]
+    }
+  ]
+}

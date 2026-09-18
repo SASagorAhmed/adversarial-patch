@@ -1,0 +1,97 @@
+{
+  "filename": "000000407083.jpg",
+  "target_class": "car",
+  "role": "success",
+  "gt_bbox_xywh": {
+    "x": 0.0,
+    "y": 1.66,
+    "w": 480.0,
+    "h": 623.38
+  },
+  "image_size": {
+    "width": 480,
+    "height": 640
+  },
+  "exact_patch_coordinates": {
+    "x1": 168,
+    "y1": 241,
+    "x2": 312,
+    "y2": 385
+  },
+  "expanded_mask_coordinates": {
+    "x1": 164,
+    "y1": 237,
+    "x2": 316,
+    "y2": 389
+  },
+  "mask_padding_pixels": 4,
+  "patch_size_pixels": 144,
+  "clean_detected": "Yes",
+  "attacked_detected": "No",
+  "seed": 20260727,
+  "strength": 1.0,
+  "steps": 30,
+  "prompt": "seamless realistic photograph, natural texture consistent with surrounding image",
+  "negative_prompt": "text, letters, logo, watermark, sticker, artificial pattern, unrelated object, geometric shape, scene change",
+  "clean_pixels_used": false,
+  "neutralization_used": false,
+  "variants": {
+    "A": {
+      "context_factor": 3.0,
+      "guidance_scale": 7.5,
+      "crop": {
+        "left": 12,
+        "top": 85,
+        "right": 468,
+        "bottom": 541,
+        "width": 456,
+        "height": 456
+      },
+      "expanded_region_in_crop": {
+        "rx1": 152,
+        "ry1": 152,
+        "rx2": 304,
+        "ry2": 304
+      },
+      "letterbox_note": "crop letterboxed to 512 without stretch; inverse maps only content region"
+    },
+    "B": {
+      "context_factor": 5.0,
+      "guidance_scale": 4.5,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "right": 480,
+        "bottom": 640,
+        "width": 480,
+        "height": 640
+      },
+      "expanded_region_in_crop": {
+        "rx1": 164,
+        "ry1": 237,
+        "rx2": 316,
+        "ry2": 389
+      },
+      "letterbox_note": "crop letterboxed to 512 without stretch; inverse maps only content region"
+    },
+    "C": {
+      "context_factor": 7.0,
+      "guidance_scale": 4.5,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "right": 480,
+        "bottom": 640,
+        "width": 480,
+        "height": 640
+      },
+      "expanded_region_in_crop": {
+        "rx1": 164,
+        "ry1": 237,
+        "rx2": 316,
+        "ry2": 389
+      },
+      "letterbox_note": "crop letterboxed to 512 without stretch; inverse maps only content region"
+    }
+  }
+}

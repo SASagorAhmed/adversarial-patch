@@ -1,0 +1,70 @@
+TESTING MITIGATION 02 — AUTOMATIC DISPATCH
+===========================================
+
+This branch is fully self-contained.
+True patch coordinates were NOT supplied during localization.
+LDM input = ATTACKED / PATCHED image only (clean is evaluation-only).
+Target matching uses each image's own target_class (not hardcoded car/person).
+
+Images: 10
+Attack-success diagnostic cases: 8
+Controls: 2
+
+Victim: Hyper-YOLO-N  conf=0.25 iou=0.70 imgsz=640 device=cpu
+Diffusion: CompVis LDM inpainting  DDIM steps=5  seed=20260817
+Checkerboard N=32  KMeans k=2
+Clean pixels used for restoration: NO
+
+Mean predicted-mask IoU: 0.085892
+Median predicted-mask IoU: 0.040831
+Min / max mask IoU: 0.003886 / 0.409134
+
+Attack-success cases recovered: 1 / 8
+  person: 0 / 4
+  car: 1 / 4
+  (diagnostic subset recovery count — NOT final DISPATCH DRR)
+Control preserved: 2 / 2
+
+Per image:
+  000000127263.jpg  car  attack_success  patch=20  mask_iou=0.0177  P=0.0177  R=0.9425  restored=True  conf=0.3056640625  iou=0.7511778760725841  recovered=True
+  000000393093.jpg  car  attack_success  patch=14  mask_iou=0.0039  P=0.0039  R=0.9898  restored=False  conf=None  iou=None  recovered=False
+  000000026926.jpg  car  attack_success  patch=22  mask_iou=0.0236  P=0.0237  R=0.9070  restored=False  conf=None  iou=None  recovered=False
+  000000407083.jpg  car  attack_success  patch=144  mask_iou=0.1516  P=0.2337  R=0.3014  restored=False  conf=None  iou=None  recovered=False
+  000000181499.jpg  person  attack_success  patch=36  mask_iou=0.0569  P=0.0571  R=0.9414  restored=False  conf=None  iou=None  recovered=False
+  000000347370.jpg  person  attack_success  patch=28  mask_iou=0.0247  P=0.0247  R=1.0000  restored=False  conf=None  iou=None  recovered=False
+  000000385029.jpg  person  attack_success  patch=51  mask_iou=0.0796  P=0.0804  R=0.8977  restored=False  conf=None  iou=None  recovered=False
+  000000542776.jpg  person  attack_success  patch=67  mask_iou=0.4091  P=0.5847  R=0.5767  restored=False  conf=None  iou=None  recovered=False
+  000000331604.jpg  person  control  patch=21  mask_iou=0.0702  P=0.0702  R=1.0000  restored=True  conf=0.296142578125  iou=0.8191206772773337  recovered=False
+  000000357737.jpg  car  control  patch=43  mask_iou=0.0215  P=0.0216  R=0.7994  restored=True  conf=0.876953125  iou=0.8827550266210988  recovered=False
+
+=====================================================
+AUTOMATIC FOLDER GUIDE
+=====================================================
+
+source_clean_images
+= clean evaluation references
+
+source_attacked_images
+= actual Automatic adversarial inputs
+
+source_attack_data
+= source attack metadata for these ten cases
+
+masks/predicted_masks
+= automatically localized suspicious masks
+
+masks/true_patch_masks_evaluation_only
+= true patch used ONLY for evaluation
+
+results/regenerated_images
+= intermediate whole regenerated images
+= NOT final
+
+restored_images
+= FINAL AUTOMATIC RESTORED IMAGES
+
+results/restored_predictions
+= Hyper-YOLO predictions from FINAL restored images
+
+neutralized_inputs
+= empty compatibility folder (no SD2.1 neutralization)

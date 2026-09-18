@@ -1,0 +1,42 @@
+{
+  "attack_01": {
+    "selected_rows": 200,
+    "copied_pairs": 200,
+    "clean_images_on_disk": 200,
+    "patched_images_on_disk": 200,
+    "expected": 200,
+    "unresolved": 0
+  },
+  "attack_02": {
+    "selected_rows": 250,
+    "copied_pairs": 250,
+    "clean_images_on_disk": 250,
+    "patched_images_on_disk": 250,
+    "expected": 250,
+    "unresolved": 0
+  },
+  "attack_03": {
+    "selected_rows": 300,
+    "copied_pairs": 300,
+    "clean_images_on_disk": 300,
+    "patched_images_on_disk": 300,
+    "expected": 300,
+    "unresolved": 0
+  },
+  "attack_04": {
+    "selected_rows": 350,
+    "copied_pairs": 350,
+    "clean_images_on_disk": 350,
+    "patched_images_on_disk": 350,
+    "expected": 350,
+    "unresolved": 0
+  },
+  "attack_05": {
+    "selected_rows": 400,
+    "copied_pairs": 400,
+    "clean_images_on_disk": 400,
+    "patched_images_on_disk": 400,
+    "expected": 400,
+    "unresolved": 0
+  }
+}

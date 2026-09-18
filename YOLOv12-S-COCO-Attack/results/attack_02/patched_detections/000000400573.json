@@ -1,0 +1,16 @@
+{
+  "image_name": "000000400573.jpg",
+  "inference_time_ms": 37.70950000034645,
+  "detections": [
+    {
+      "image_name": "000000400573.jpg",
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9572727680206299,
+      "x1": 0.449920654296875,
+      "y1": 0.0,
+      "x2": 480.0,
+      "y2": 639.0167846679688
+    }
+  ]
+}

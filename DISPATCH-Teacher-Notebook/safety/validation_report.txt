@@ -1,0 +1,14 @@
+VALIDATION REPORT
+========================================
+notebook_exists: YES
+five_clean: YES
+five_attacked: YES
+automatic_restored: YES
+known_exact: YES
+known_plus4: YES
+comparison_images: YES
+readme: YES
+open_bat: YES
+run_bat: YES
+external_hashes_unchanged: YES
+changed_external_files: NONE

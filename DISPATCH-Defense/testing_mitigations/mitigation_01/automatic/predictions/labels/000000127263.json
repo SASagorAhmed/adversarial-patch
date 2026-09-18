@@ -1,0 +1,49 @@
+{
+  "filename": "000000127263.jpg",
+  "predictions": [
+    {
+      "class_id": 29,
+      "class_name": "frisbee",
+      "confidence": 0.873046875,
+      "box_xyxy": [
+        439.0,
+        37.875,
+        483.0,
+        62.625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.869140625,
+      "box_xyxy": [
+        135.25,
+        24.0,
+        372.75,
+        366.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.86669921875,
+      "box_xyxy": [
+        274.5,
+        41.5,
+        460.5,
+        403.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.36962890625,
+      "box_xyxy": [
+        504.25,
+        106.6875,
+        640.0,
+        175.25
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 18,
+    "class_name": "dog",
+    "confidence": 0.9949210286140442,
+    "bbox": [
+      14.310700416564941,
+      210.8860321044922,
+      394.9149475097656,
+      635.15625
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.9914543628692627,
+    "bbox": [
+      193.2598876953125,
+      165.20407104492188,
+      476.5929870605469,
+      638.6205444335938
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.5526319146156311,
+    "bbox": [
+      413.7685241699219,
+      80.18521881103516,
+      479.7601013183594,
+      530.2147827148438
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 3,
+    "class_name": "car",
+    "confidence": 0.5405943989753723,
+    "bbox": [
+      295.38330078125,
+      189.04478454589844,
+      314.4949035644531,
+      203.4369354248047
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.531303346157074,
+    "bbox": [
+      349.42510986328125,
+      84.99767303466797,
+      480.0000305175781,
+      608.09912109375
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 18,
+    "class_name": "dog",
+    "confidence": 0.42915260791778564,
+    "bbox": [
+      137.0226287841797,
+      211.82406616210938,
+      398.9123840332031,
+      438.6001281738281
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 3,
+    "class_name": "car",
+    "confidence": 0.4093519151210785,
+    "bbox": [
+      8.46221923828125,
+      10.9137544631958,
+      477.7209167480469,
+      640.0
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 64,
+    "class_name": "potted plant",
+    "confidence": 0.36467450857162476,
+    "bbox": [
+      411.2965393066406,
+      283.4996337890625,
+      430.3238220214844,
+      322.0299987792969
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 46,
+    "class_name": "wine glass",
+    "confidence": 0.3606314957141876,
+    "bbox": [
+      190.71279907226562,
+      239.79763793945312,
+      221.7683563232422,
+      297.70025634765625
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 3,
+    "class_name": "car",
+    "confidence": 0.32457059621810913,
+    "bbox": [
+      296.07080078125,
+      187.7679443359375,
+      346.9216003417969,
+      203.0826416015625
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.2140062004327774,
+    "bbox": [
+      80.75548553466797,
+      381.23028564453125,
+      445.5583801269531,
+      637.5687255859375
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 63,
+    "class_name": "couch",
+    "confidence": 0.17924924194812775,
+    "bbox": [
+      1.211022973060608,
+      371.8590087890625,
+      443.0462646484375,
+      634.7280883789062
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 62,
+    "class_name": "chair",
+    "confidence": 0.17290452122688293,
+    "bbox": [
+      0.30499422550201416,
+      415.1587829589844,
+      65.20581817626953,
+      605.3995971679688
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.16496504843235016,
+    "bbox": [
+      24.669389724731445,
+      383.5009765625,
+      181.73313903808594,
+      625.8840942382812
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.16263625025749207,
+    "bbox": [
+      104.0462646484375,
+      269.0448913574219,
+      160.52471923828125,
+      388.12017822265625
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 18,
+    "class_name": "dog",
+    "confidence": 0.13256323337554932,
+    "bbox": [
+      302.0001220703125,
+      214.408203125,
+      404.6614074707031,
+      346.4604187011719
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.12549331784248352,
+    "bbox": [
+      427.5957336425781,
+      82.42720794677734,
+      478.4276428222656,
+      337.3498229980469
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 63,
+    "class_name": "couch",
+    "confidence": 0.12045226991176605,
+    "bbox": [
+      7.495798110961914,
+      398.1624755859375,
+      250.49282836914062,
+      633.2684326171875
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 65,
+    "class_name": "bed",
+    "confidence": 0.10511893033981323,
+    "bbox": [
+      318.9279479980469,
+      332.03802490234375,
+      435.87493896484375,
+      443.42095947265625
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 15,
+    "class_name": "bench",
+    "confidence": 0.09880272299051285,
+    "bbox": [
+      296.5259704589844,
+      196.8797607421875,
+      352.5955810546875,
+      227.92953491210938
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 18,
+    "class_name": "dog",
+    "confidence": 0.08615953475236893,
+    "bbox": [
+      8.501047134399414,
+      335.523193359375,
+      281.9644775390625,
+      631.0692749023438
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 15,
+    "class_name": "bench",
+    "confidence": 0.07190752774477005,
+    "bbox": [
+      0.0,
+      416.0362548828125,
+      65.14547729492188,
+      618.8816528320312
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 1,
+    "class_name": "person",
+    "confidence": 0.07170679420232773,
+    "bbox": [
+      7.694357395172119,
+      313.1383972167969,
+      280.9580078125,
+      633.5347290039062
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 31,
+    "class_name": "handbag",
+    "confidence": 0.06730596721172333,
+    "bbox": [
+      358.75384521484375,
+      317.0415954589844,
+      402.70281982421875,
+      350.5387268066406
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 9,
+    "class_name": "boat",
+    "confidence": 0.0661899596452713,
+    "bbox": [
+      295.5695495605469,
+      189.69151306152344,
+      315.3125305175781,
+      203.37364196777344
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 3,
+    "class_name": "car",
+    "confidence": 0.059076640754938126,
+    "bbox": [
+      2.3550844192504883,
+      380.70269775390625,
+      177.2852783203125,
+      631.5744018554688
+    ]
+  },
+  {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+    "image_id": "000000407083",
+    "class_id": 44,
+    "class_name": "bottle",
+    "confidence": 0.05606760457158089,
+    "bbox": [
+      189.2076416015625,
+      237.63514709472656,
+      227.52723693847656,
+      322.34381103515625
+    ]
+  }
+]

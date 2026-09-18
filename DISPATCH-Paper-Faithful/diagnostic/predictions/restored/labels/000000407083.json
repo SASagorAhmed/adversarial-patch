@@ -1,0 +1,27 @@
+{
+  "filename": "000000407083.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.7333984375,
+      "box_xyxy": [
+        199.0,
+        80.0,
+        479.0,
+        638.0
+      ]
+    },
+    {
+      "class_id": 16,
+      "class_name": "dog",
+      "confidence": 0.56494140625,
+      "box_xyxy": [
+        1.5,
+        348.0,
+        317.0,
+        639.5
+      ]
+    }
+  ]
+}

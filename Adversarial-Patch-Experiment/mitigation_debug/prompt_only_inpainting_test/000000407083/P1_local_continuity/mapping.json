@@ -1,0 +1,10 @@
+{
+  "crop_w": 480,
+  "crop_h": 640,
+  "scaled_w": 384,
+  "scaled_h": 512,
+  "pad_x": 64,
+  "pad_y": 0,
+  "resolution": 512,
+  "scale": 0.8
+}

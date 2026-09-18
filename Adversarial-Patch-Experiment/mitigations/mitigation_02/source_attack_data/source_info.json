@@ -1,0 +1,18 @@
+{
+  "mitigation_id": "mitigation_02",
+  "source_attack_id": "attack_05",
+  "source_attack_folder": "D:\\project CS\\Adversarial-Patch-Experiment\\attacks\\attack_05",
+  "source_patch_filename": "diffusion_patch_05.png",
+  "source_attack_random_seed": 2069153322,
+  "target_match_iou_threshold": 0.5,
+  "number_success_cases": 20,
+  "number_control_cases": 20,
+  "person_success_count": 4,
+  "car_success_count": 16,
+  "person_control_count": 10,
+  "car_control_count": 10,
+  "control_selection_seed": 22021505,
+  "restoration_seed": 20260727,
+  "source_attack_data_mode": "READ_ONLY_COPY",
+  "clean_images_usage": "evaluation_and_verification_only_not_used_for_restoration"
+}

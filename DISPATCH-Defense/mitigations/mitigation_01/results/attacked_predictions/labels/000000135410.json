@@ -1,0 +1,92 @@
+{
+  "predictions": [
+    {
+      "class_id": 12,
+      "class_name": "parking meter",
+      "confidence": 0.96826171875,
+      "box_xyxy": [
+        48.75,
+        217.5,
+        189.75,
+        541.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.8544921875,
+      "box_xyxy": [
+        0.03125,
+        220.625,
+        50.5,
+        312.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.75634765625,
+      "box_xyxy": [
+        0.3125,
+        214.75,
+        69.4375,
+        263.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.69970703125,
+      "box_xyxy": [
+        336.5,
+        245.5,
+        461.5,
+        319.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.697265625,
+      "box_xyxy": [
+        213.5,
+        200.5,
+        273.75,
+        339.0
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.58203125,
+      "box_xyxy": [
+        176.5,
+        246.5,
+        317.5,
+        358.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.3935546875,
+      "box_xyxy": [
+        328.5,
+        262.0,
+        378.0,
+        318.0
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle",
+      "confidence": 0.3193359375,
+      "box_xyxy": [
+        0.0625,
+        507.5,
+        99.3125,
+        639.5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "filename": "000000393093.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.85693359375,
+      "box_xyxy": [
+        563.5,
+        362.0,
+        619.5,
+        424.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.75048828125,
+      "box_xyxy": [
+        280.5,
+        355.5,
+        359.5,
+        401.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6474609375,
+      "box_xyxy": [
+        366.0,
+        325.25,
+        420.0,
+        354.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.57666015625,
+      "box_xyxy": [
+        438.25,
+        291.5,
+        471.75,
+        315.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.4833984375,
+      "box_xyxy": [
+        401.0,
+        303.5,
+        438.0,
+        330.5
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "trainaq",
+      "confidence": 0.47119140625,
+      "box_xyxy": [
+        2.0,
+        145.5,
+        608.0,
+        216.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.468017578125,
+      "box_xyxy": [
+        465.25,
+        306.0,
+        496.75,
+        333.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.3974609375,
+      "box_xyxy": [
+        463.5,
+        284.5,
+        486.5,
+        303.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.287109375,
+      "box_xyxy": [
+        399.5,
+        309.5,
+        432.5,
+        331.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.262939453125,
+      "box_xyxy": [
+        132.5,
+        391.0,
+        141.0,
+        415.0
+      ]
+    }
+  ]
+}

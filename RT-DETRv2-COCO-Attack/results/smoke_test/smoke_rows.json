@@ -1,0 +1,68 @@
+[
+  {
+    "attack_id": "attack_01",
+    "image_id": "785",
+    "target_class": "person",
+    "clean_image": "D:\\project CS\\RT-DETRv2-COCO-Attack\\source_data\\attack_01\\clean_images\\000000000785.jpg",
+    "patched_image": "D:\\project CS\\RT-DETRv2-COCO-Attack\\source_data\\attack_01\\patched_images\\000000000785.jpg",
+    "clean_detected": true,
+    "patched_detected": true,
+    "clean_confidence": 0.9512295722961426,
+    "patched_confidence": 0.9514302015304565,
+    "clean_bbox": [
+      280.7567138671875,
+      43.423423767089844,
+      496.8560791015625,
+      391.047607421875
+    ],
+    "patched_bbox": [
+      280.5557861328125,
+      43.37324142456055,
+      496.9017028808594,
+      391.189453125
+    ],
+    "clean_iou": 0.9831131371792614,
+    "patched_iou": 0.9826803228655004,
+    "confidence_drop": -0.00020062923431396484,
+    "iou_drop": 0.00043281431376096524,
+    "eligible": true,
+    "attack_success": false,
+    "clean_prediction_count": 300,
+    "patched_prediction_count": 300,
+    "inference_time_ms_clean": 459.62020000297343,
+    "inference_time_ms_patched": 37.21129999757977
+  },
+  {
+    "attack_id": "attack_01",
+    "image_id": "9891",
+    "target_class": "person",
+    "clean_image": "D:\\project CS\\RT-DETRv2-COCO-Attack\\source_data\\attack_01\\clean_images\\000000009891.jpg",
+    "patched_image": "D:\\project CS\\RT-DETRv2-COCO-Attack\\source_data\\attack_01\\patched_images\\000000009891.jpg",
+    "clean_detected": true,
+    "patched_detected": true,
+    "clean_confidence": 0.9507949352264404,
+    "patched_confidence": 0.9508745074272156,
+    "clean_bbox": [
+      207.215576171875,
+      95.04602813720703,
+      346.5638732910156,
+      417.7007141113281
+    ],
+    "patched_bbox": [
+      207.0838623046875,
+      94.8763427734375,
+      346.9518737792969,
+      417.42816162109375
+    ],
+    "clean_iou": 0.914624539384102,
+    "patched_iou": 0.919224123260824,
+    "confidence_drop": -7.957220077514648e-05,
+    "iou_drop": -0.004599583876721991,
+    "eligible": true,
+    "attack_success": false,
+    "clean_prediction_count": 300,
+    "patched_prediction_count": 300,
+    "inference_time_ms_clean": 37.2648000047775,
+    "inference_time_ms_patched": 38.6687999998685
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.76220703125,
+      "box_xyxy": [
+        300.5,
+        225.5,
+        327.5,
+        309.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.6328125,
+      "box_xyxy": [
+        241.0,
+        218.25,
+        263.25,
+        286.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.60546875,
+      "box_xyxy": [
+        515.0,
+        224.875,
+        536.0,
+        308.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.52734375,
+      "box_xyxy": [
+        391.25,
+        219.5,
+        418.25,
+        270.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.475830078125,
+      "box_xyxy": [
+        422.0,
+        222.5,
+        445.0,
+        259.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.464599609375,
+      "box_xyxy": [
+        324.75,
+        234.75,
+        355.75,
+        299.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.39208984375,
+      "box_xyxy": [
+        419.0,
+        221.875,
+        445.0,
+        320.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.36279296875,
+      "box_xyxy": [
+        389.5,
+        259.0,
+        429.5,
+        323.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.3271484375,
+      "box_xyxy": [
+        417.5,
+        254.25,
+        443.5,
+        315.75
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat",
+      "confidence": 0.305908203125,
+      "box_xyxy": [
+        57.0,
+        210.0,
+        322.0,
+        278.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.2802734375,
+      "box_xyxy": [
+        389.0,
+        259.0,
+        414.0,
+        322.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.276123046875,
+      "box_xyxy": [
+        179.375,
+        225.25,
+        197.125,
+        280.25
+      ]
+    }
+  ]
+}

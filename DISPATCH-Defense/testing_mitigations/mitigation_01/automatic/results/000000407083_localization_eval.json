@@ -1,0 +1,14 @@
+{
+  "note": "True patch compared AFTER predicted mask was frozen. Evaluation only.",
+  "image_id": "000000407083",
+  "true_patch_area": 20736,
+  "predicted_mask_area": 26738,
+  "mask_intersection": 6250,
+  "mask_union": 41224,
+  "mask_iou": 0.15161071220648167,
+  "mask_precision": 0.2337497195003366,
+  "mask_recall": 0.3014081790123457,
+  "false_positive_pixels": 20488,
+  "false_negative_pixels": 14486,
+  "false_positive_benign_ratio": 0.07152033065236818
+}

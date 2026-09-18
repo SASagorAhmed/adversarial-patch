@@ -1,0 +1,18 @@
+PAPER-FAITHFUL REFERENCE AUTOMATIC (isolated)
+commit=80c59b9b4a6c4060107a8b4485d3885128c2ae81
+N=32 steps=5 resolution=512
+Gaussian kernel=15 sigma=1.0 MORPH_OPEN=3x3
+Attack-success recovered: 1 / 8  (diagnostic — NOT paper metric)
+Controls preserved: 2 / 2
+Mean mask IoU: 0.09287591775849087
+
+  000000127263.jpg  car  attack_success  mask_iou=0.0195 P=0.0195 R=0.9375 area=19194/400 det=False rec=False
+  000000393093.jpg  car  attack_success  mask_iou=0.0043 P=0.0043 R=0.9745 area=44080/196 det=False rec=False
+  000000026926.jpg  car  attack_success  mask_iou=0.0270 P=0.0271 R=0.8616 area=15405/484 det=False rec=False
+  000000407083.jpg  car  attack_success  mask_iou=0.1118 P=0.2049 R=0.1975 area=19987/20736 det=False rec=False
+  000000181499.jpg  person  attack_success  mask_iou=0.0927 P=0.0929 R=0.9823 area=13709/1296 det=True rec=True
+  000000347370.jpg  person  attack_success  mask_iou=0.0262 P=0.0262 R=1.0000 area=29975/784 det=False rec=False
+  000000385029.jpg  person  attack_success  mask_iou=0.1022 P=0.1034 R=0.8954 area=22517/2601 det=False rec=False
+  000000542776.jpg  person  attack_success  mask_iou=0.4346 P=0.7079 R=0.5295 area=3358/4489 det=False rec=False
+  000000331604.jpg  person  control  mask_iou=0.0846 P=0.0846 R=1.0000 area=5213/441 det=True rec=False
+  000000357737.jpg  car  control  mask_iou=0.0259 P=0.0261 R=0.8015 area=56792/1849 det=True rec=False

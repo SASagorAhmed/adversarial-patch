@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "class_id": 73,
+      "class_name": "book",
+      "confidence": 0.8994140625,
+      "box_xyxy": [
+        45.5,
+        233.625,
+        490.0,
+        421.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.642578125,
+      "box_xyxy": [
+        241.5,
+        316.5,
+        515.0,
+        421.0
+      ]
+    },
+    {
+      "class_id": 15,
+      "class_name": "cat",
+      "confidence": 0.43603515625,
+      "box_xyxy": [
+        226.5,
+        151.0,
+        387.0,
+        260.75
+      ]
+    },
+    {
+      "class_id": 73,
+      "class_name": "book",
+      "confidence": 0.35546875,
+      "box_xyxy": [
+        470.75,
+        202.875,
+        639.0,
+        420.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.325927734375,
+      "box_xyxy": [
+        245.5,
+        200.5,
+        639.0,
+        421.0
+      ]
+    }
+  ]
+}

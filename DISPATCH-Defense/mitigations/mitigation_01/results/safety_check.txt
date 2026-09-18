@@ -1,0 +1,18 @@
+Mitigation folder:
+D:\project CS\DISPATCH-Defense\mitigations\mitigation_01
+
+source_attack_data complete = YES
+source_clean_images complete = YES
+source_attacked_images complete = YES
+masks complete = YES
+neutralized_inputs/prepared inputs complete = YES
+restored_images complete = YES
+results complete = YES
+
+All generated files inside DISPATCH-Defense = YES
+
+Adversarial-Patch-Experiment new files = 0
+Hyper-YOLO new files = 0
+Stable-Diffusion-Patch new files = 0
+
+Existing DISPATCH mitigations overwritten = NO

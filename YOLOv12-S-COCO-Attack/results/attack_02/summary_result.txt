@@ -1,0 +1,40 @@
+# YOLOv12-S TRANSFER ATTACK RESULT
+
+Attack: attack_02
+Total Images: 250
+
+Eligible: 207
+Successful Attacks: 8
+ASR: 3.86%
+
+## PERSON
+
+Eligible: 109
+Success: 4
+ASR: 3.67%
+
+## CAR
+
+Eligible: 98
+Success: 4
+ASR: 4.08%
+
+## BOTH-VALID N
+
+199
+
+## CONFIDENCE DROP
+
+Mean: 0.027582
+Median: 0.006212
+
+## IOU DROP
+
+Mean: -0.001438
+Median: -0.000343
+
+Evaluation:
+Confidence >= 0.25
+IoU >= 0.50
+
+Confidence and IoU drops are calculated only on both-valid targets.

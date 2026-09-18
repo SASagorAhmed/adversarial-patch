@@ -1,0 +1,290 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.89013671875,
+      "box_xyxy": [
+        58.25,
+        181.75,
+        252.0,
+        421.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.87451171875,
+      "box_xyxy": [
+        393.5,
+        137.25,
+        561.5,
+        364.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.869140625,
+      "box_xyxy": [
+        305.25,
+        117.625,
+        364.75,
+        186.625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8564453125,
+      "box_xyxy": [
+        187.0,
+        126.0,
+        343.5,
+        296.25
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.82958984375,
+      "box_xyxy": [
+        372.0,
+        260.0,
+        401.0,
+        322.0
+      ]
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "confidence": 0.77880859375,
+      "box_xyxy": [
+        0.03125,
+        201.125,
+        43.75,
+        319.0
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.7666015625,
+      "box_xyxy": [
+        307.75,
+        270.0,
+        338.75,
+        334.0
+      ]
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "confidence": 0.6826171875,
+      "box_xyxy": [
+        46.625,
+        187.0,
+        128.5,
+        282.5
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.6279296875,
+      "box_xyxy": [
+        202.125,
+        172.25,
+        556.0,
+        418.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.60595703125,
+      "box_xyxy": [
+        0.09375,
+        145.75,
+        38.78125,
+        189.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.60546875,
+      "box_xyxy": [
+        26.84375,
+        131.5,
+        107.875,
+        232.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.5302734375,
+      "box_xyxy": [
+        368.5,
+        153.0,
+        421.0,
+        239.0
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.51220703125,
+      "box_xyxy": [
+        337.0,
+        255.5,
+        363.0,
+        286.5
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.501953125,
+      "box_xyxy": [
+        305.5,
+        240.5,
+        331.5,
+        272.5
+      ]
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "confidence": 0.483154296875,
+      "box_xyxy": [
+        501.0,
+        173.5,
+        640.0,
+        418.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.4423828125,
+      "box_xyxy": [
+        395.25,
+        144.5,
+        454.25,
+        251.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.41357421875,
+      "box_xyxy": [
+        251.75,
+        131.0,
+        309.75,
+        232.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.406005859375,
+      "box_xyxy": [
+        99.25,
+        136.25,
+        131.75,
+        184.75
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.378662109375,
+      "box_xyxy": [
+        364.25,
+        202.5,
+        378.75,
+        235.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.29443359375,
+      "box_xyxy": [
+        130.0,
+        147.75,
+        186.75,
+        189.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.29443359375,
+      "box_xyxy": [
+        27.125,
+        131.25,
+        109.875,
+        274.5
+      ]
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "confidence": 0.28662109375,
+      "box_xyxy": [
+        399.75,
+        172.5,
+        640.0,
+        418.5
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.28515625,
+      "box_xyxy": [
+        193.5,
+        247.75,
+        555.0,
+        419.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.27490234375,
+      "box_xyxy": [
+        368.0,
+        149.0,
+        452.0,
+        248.5
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.26953125,
+      "box_xyxy": [
+        305.75,
+        240.75,
+        327.25,
+        275.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.26220703125,
+      "box_xyxy": [
+        124.875,
+        137.5,
+        150.875,
+        172.5
+      ]
+    }
+  ]
+}

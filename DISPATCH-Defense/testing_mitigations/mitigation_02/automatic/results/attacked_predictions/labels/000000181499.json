@@ -1,0 +1,27 @@
+{
+  "filename": "000000181499.jpg",
+  "predictions": [
+    {
+      "class_id": 63,
+      "class_name": "laptop",
+      "confidence": 0.82275390625,
+      "box_xyxy": [
+        214.0,
+        2.5,
+        639.5,
+        499.5
+      ]
+    },
+    {
+      "class_id": 66,
+      "class_name": "keyboard",
+      "confidence": 0.382568359375,
+      "box_xyxy": [
+        255.0,
+        265.5,
+        633.5,
+        409.5
+      ]
+    }
+  ]
+}

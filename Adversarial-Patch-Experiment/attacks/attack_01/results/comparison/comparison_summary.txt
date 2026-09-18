@@ -1,0 +1,67 @@
+Clean vs Attacked Comparison Summary
+========================================================================
+Attack ID: attack_01
+Patch filename: diffusion_patch_01.png
+Target match IoU threshold: 0.50
+Number of processed images: 200
+
+Total images: 200
+Person images: 100
+Car images: 100
+
+Valid clean target detections: 169
+Clean target misses: 31
+
+Valid attacked target detections: 163
+Attacked target misses: 37
+
+ASR eligible targets: 169
+Successful attacks: 9
+Attack Success Rate: 5.33%
+
+Person ASR: 4.49%
+Car ASR: 6.25%
+
+Mean clean confidence: 0.7724
+Mean attacked confidence: 0.7366
+Mean confidence drop: 0.0358
+Mean confidence drop percentage: 6.3548
+Median confidence drop: 0.0069
+
+Mean clean IoU: 0.8965
+Mean attacked IoU: 0.8557
+Mean IoU drop: 0.0408
+
+Average clean detections/image: 8.4600
+Average attacked detections/image: 8.3100
+Average detection-count change: -0.1500
+
+Person vs Car Analysis
+------------------------------------------------------------------------
+
+person:
+  number of images: 100
+  clean detected: 89
+  attacked detected: 86
+  attack successes: 4
+  ASR: 4.49%
+  mean clean confidence: 0.8191
+  mean attacked confidence: 0.7911
+  mean confidence drop: 0.0280
+  mean clean IoU: 0.9072
+  mean attacked IoU: 0.8710
+
+car:
+  number of images: 100
+  clean detected: 80
+  attacked detected: 77
+  attack successes: 5
+  ASR: 6.25%
+  mean clean confidence: 0.7203
+  mean attacked confidence: 0.6759
+  mean confidence drop: 0.0444
+  mean clean IoU: 0.8847
+  mean attacked IoU: 0.8386
+
+Note: Different attacks may use different random image samples.
+Use identical random_seed and num_images for direct patch-to-patch comparison.

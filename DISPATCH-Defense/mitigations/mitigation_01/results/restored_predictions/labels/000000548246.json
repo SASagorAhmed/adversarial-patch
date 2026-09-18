@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9423828125,
+      "box_xyxy": [
+        0.125,
+        119.625,
+        157.25,
+        423.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9208984375,
+      "box_xyxy": [
+        215.25,
+        99.0,
+        421.75,
+        424.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.88818359375,
+      "box_xyxy": [
+        403.0,
+        153.5,
+        506.5,
+        423.5
+      ]
+    },
+    {
+      "class_id": 38,
+      "class_name": "tennis racket",
+      "confidence": 0.36279296875,
+      "box_xyxy": [
+        15.25,
+        338.0,
+        189.5,
+        372.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "filename": "000000407083.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.58984375,
+      "box_xyxy": [
+        195.5,
+        82.0,
+        478.5,
+        638.0
+      ]
+    },
+    {
+      "class_id": 16,
+      "class_name": "dog",
+      "confidence": 0.5693359375,
+      "box_xyxy": [
+        2.25,
+        339.0,
+        325.25,
+        639.0
+      ]
+    },
+    {
+      "class_id": 15,
+      "class_name": "cat",
+      "confidence": 0.56640625,
+      "box_xyxy": [
+        310.75,
+        213.75,
+        406.75,
+        365.25
+      ]
+    },
+    {
+      "class_id": 15,
+      "class_name": "cat",
+      "confidence": 0.55859375,
+      "box_xyxy": [
+        2.75,
+        338.0,
+        324.0,
+        639.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.3505859375,
+      "box_xyxy": [
+        30.25,
+        45.5,
+        478.0,
+        638.5
+      ]
+    }
+  ]
+}

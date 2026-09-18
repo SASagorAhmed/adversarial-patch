@@ -1,0 +1,6 @@
+filename,image_id,target_class,case_type,exact_mask_outside_mae,expanded_4px_outside_mae,inference_time_sec,status
+000000127263.jpg,000000127263,car,attack_success,0.0,0.0,81.57580270001199,completed
+000000393093.jpg,000000393093,car,attack_success,0.0,0.0,80.01814929999819,completed
+000000026926.jpg,000000026926,car,attack_success,0.0,0.0,78.52127219999966,completed
+000000407083.jpg,000000407083,car,attack_success,0.0,0.0,79.36584030000085,completed
+000000331604.jpg,000000331604,person,control,0.0,0.0,85.31552910000028,completed

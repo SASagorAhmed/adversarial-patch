@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.892578125,
+      "box_xyxy": [
+        387.3046875,
+        4.4921875,
+        496.875,
+        165.4296875
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.66357421875,
+      "box_xyxy": [
+        333.984375,
+        4.98046875,
+        379.296875,
+        126.26953125
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.64306640625,
+      "box_xyxy": [
+        340.625,
+        7.421875,
+        444.53125,
+        151.953125
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.568359375,
+      "box_xyxy": [
+        4.296875,
+        3.3203125,
+        167.28515625,
+        160.83984375
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "trainaq",
+      "confidence": 0.250244140625,
+      "box_xyxy": [
+        3.3203125,
+        2.24609375,
+        361.71875,
+        165.33203125
+      ]
+    }
+  ]
+}

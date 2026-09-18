@@ -1,0 +1,24 @@
+{
+  "attacked_image": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigations\\mitigation_01\\source_attacked_images\\000000127263.jpg",
+  "output_restored": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigations\\mitigation_01\\restored_images\\000000127263.jpg",
+  "output_mask": "D:\\project CS\\Adversarial-Patch-Experiment\\mitigations\\mitigation_01\\masks\\000000127263_patch_mask.png",
+  "patch": {
+    "x1": 561,
+    "y1": 131,
+    "x2": 581,
+    "y2": 151
+  },
+  "crop_box": {
+    "left": 507,
+    "top": 77,
+    "right": 635,
+    "bottom": 205
+  },
+  "device": "cuda",
+  "seed": 20260727,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "strength": 0.55,
+  "resolution": 512,
+  "feather_pixels": 4
+}

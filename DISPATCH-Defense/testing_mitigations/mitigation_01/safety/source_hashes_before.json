@@ -1,0 +1,18 @@
+{
+  "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\results\\summary.txt": {
+    "sha256": "cee5316d3e8b2287040b8ef239e6826ac2064c54ac56471ca92979dc213dfb65",
+    "size_bytes": 1103
+  },
+  "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\results\\per_image_results.csv": {
+    "sha256": "a958dcfa470f84be7c22687ffcaecbf87bf7ae9062d2f6bba00cab5710a49cc7",
+    "size_bytes": 19728
+  },
+  "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\source_attack_data\\selected_images.csv": {
+    "sha256": "e35097d6180b2afdbb2d1f54d2c3e2a83568cfbfafb022fe3be5a1fb94a24a5b",
+    "size_bytes": 12726
+  },
+  "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\source_attack_data\\run_config.json": {
+    "sha256": "020b6df199b881f6ab53d65e77bf49fa0c8da3136dd2694b29cfe047183dd153",
+    "size_bytes": 1424
+  }
+}

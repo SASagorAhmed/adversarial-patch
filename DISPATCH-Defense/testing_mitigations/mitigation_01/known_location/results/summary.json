@@ -1,0 +1,12 @@
+{
+  "branch": "known_location",
+  "n_images": 5,
+  "known_exact_recovered": "1 / 4",
+  "known_expand4_recovered": "3 / 4",
+  "note": "This is a 5-image diagnostic subset \u2014 NOT final DISPATCH DRR.",
+  "control_exact_preserved": "YES",
+  "control_expand4_preserved": "YES",
+  "outside_mask_integrity": "PASS",
+  "manual_visual_review_required": true,
+  "timestamp": "2026-08-17T09:58:28.385003+00:00"
+}

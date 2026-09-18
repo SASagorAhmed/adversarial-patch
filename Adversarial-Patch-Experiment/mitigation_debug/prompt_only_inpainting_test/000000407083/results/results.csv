@@ -1,0 +1,4 @@
+variant,detected,confidence,iou,sticker_removed,landscape_hallucination,object_hallucination,text_artifact,strong_color_change,visible_seam,natural_context_match,new_semantic_content
+P1,Yes,0.401289,0.8283175344462023,YES,NO,YES,NO,NO,YES,NO,YES
+P2,Yes,0.410999,0.831620098821268,YES,NO,YES,NO,NO,YES,NO,YES
+P3,Yes,0.323376,0.8070264818942645,YES,NO,YES,NO,YES,YES,NO,YES

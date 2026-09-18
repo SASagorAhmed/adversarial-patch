@@ -1,0 +1,35 @@
+{
+  "experiment_name": "Hyper-YOLO-to-D-FINE-S Transfer Attack",
+  "date_time_utc": "2026-09-17T22:02:18.865991+00:00",
+  "model": "D-FINE-S",
+  "model_variant": "dfine_hgnetv2_s_coco",
+  "checkpoint": "D:\\project CS\\D-FINE-S-COCO-Attack\\weights\\dfine_s_coco.pth",
+  "checkpoint_filename": "dfine_s_coco.pth",
+  "checkpoint_sha256": "48a6c8cc43eb57186843f752e2e8461ddd3326e0d3c575e71e6e960844683e89",
+  "checkpoint_url": "https://github.com/Peterande/storage/releases/download/dfinev1.0/dfine_s_coco.pth",
+  "config": "D:\\project CS\\D-FINE-S-COCO-Attack\\third_party\\D-FINE\\configs\\dfine\\dfine_hgnetv2_s_coco.yml",
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "target_classes": [
+    "person",
+    "car"
+  ],
+  "person_contiguous_class_id": 0,
+  "car_contiguous_class_id": 2,
+  "dataset": "MS COCO 2017",
+  "input_resolution": [
+    640,
+    640
+  ],
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "pytorch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "device": "cuda",
+  "os": "Windows-10-10.0.26200-SP0",
+  "framework": "official Peterande/D-FINE",
+  "do_not_regenerate_patches": true,
+  "fine_tune": false,
+  "create_combined_analysis": false
+}

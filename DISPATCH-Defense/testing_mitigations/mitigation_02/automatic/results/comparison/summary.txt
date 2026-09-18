@@ -1,0 +1,31 @@
+TESTING MITIGATION 02 — AUTOMATIC vs KNOWN (copied into this branch)
+====================================================================
+
+This file is duplicated inside BOTH branches. There is no shared results folder.
+LDM input was the ATTACKED image in both branches.
+Target matching is per-image target_class (person and car from attack_02).
+
+Automatic recovery: 1 / 8   (diagnostic subset — NOT DISPATCH DRR)
+Known Exact recovery: 3 / 8
+Known +4px recovery: 6 / 8
+
+Known location improved over Automatic: YES
+Evidence-supported primary bottleneck: MIXED (known recovered additional cases; see per-image interpretations)
+
+Source copies byte-equivalent across branches: YES
+
+Per image:
+  000000127263.jpg  auto_rec=True  exact_rec=False  +4_rec=False  mask_iou=0.017693715680292862  Automatic recovered but known-location did not — mixed / incidental automatic regeneration
+  000000393093.jpg  auto_rec=False  exact_rec=True  +4_rec=True  mask_iou=0.003885673082700743  Case A: automatic fail / known succeed — localization likely bottleneck
+  000000026926.jpg  auto_rec=False  exact_rec=False  +4_rec=True  mask_iou=0.023632644272179155  Case C: both fail — localization alone does not explain failure
+  000000407083.jpg  auto_rec=False  exact_rec=False  +4_rec=True  mask_iou=0.15161071220648167  Case C: both fail — localization alone does not explain failure
+  000000181499.jpg  auto_rec=False  exact_rec=True  +4_rec=True  mask_iou=0.05692953803079795  Case A: automatic fail / known succeed — localization likely bottleneck
+  000000347370.jpg  auto_rec=False  exact_rec=False  +4_rec=False  mask_iou=0.024733421666982145  Case C: both fail — localization alone does not explain failure
+  000000385029.jpg  auto_rec=False  exact_rec=False  +4_rec=True  mask_iou=0.07962217827184069  Case C: both fail — localization alone does not explain failure
+  000000542776.jpg  auto_rec=False  exact_rec=True  +4_rec=True  mask_iou=0.409134007585335  Case A: automatic fail / known succeed — localization likely bottleneck
+  000000331604.jpg  auto_rec=False  exact_rec=False  +4_rec=False  mask_iou=0.07016706443914081  control
+  000000357737.jpg  auto_rec=False  exact_rec=False  +4_rec=False  mask_iou=0.0215063151155346  control
+
+manual_visual_review_required = true
+Original filenames preserved.
+Shared active source/result dependency: NO

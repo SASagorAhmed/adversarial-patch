@@ -1,0 +1,26 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.89697265625,
+      "box_xyxy": [
+        31.0,
+        202.0,
+        419.0,
+        639.5
+      ]
+    },
+    {
+      "class_id": 72,
+      "class_name": "refrigerator",
+      "confidence": 0.3984375,
+      "box_xyxy": [
+        0.25,
+        334.5,
+        60.875,
+        618.5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 6,
+      "class_name": "trainaq",
+      "confidence": 0.90673828125,
+      "box_xyxy": [
+        10.625,
+        399.0,
+        192.375,
+        577.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6640625,
+      "box_xyxy": [
+        293.5,
+        526.0,
+        402.5,
+        632.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.432373046875,
+      "box_xyxy": [
+        364.0,
+        552.5,
+        402.0,
+        635.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.252685546875,
+      "box_xyxy": [
+        217.875,
+        476.5,
+        224.875,
+        493.5
+      ]
+    }
+  ]
+}

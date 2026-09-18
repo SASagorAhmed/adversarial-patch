@@ -1,0 +1,48 @@
+Attack ID: attack_01
+Random seed: 771733677
+Number of requested images: 200
+Number of processed images: 200
+
+Target match IoU threshold: 0.50
+
+Total images: 200
+Person images: 100
+Car images: 100
+
+Patch filename: diffusion_patch_01.png
+Patch scale: 30% of shorter GT bounding-box side
+Patch position: Center of GT bounding box
+Rotation: 0 degrees
+Brightness: unchanged
+Opacity: 100%
+
+Valid clean target detections: 169
+Clean target misses: 31
+
+Valid attacked target detections: 163
+Attacked target misses: 37
+
+ASR eligible targets: 169
+Successful attacks: 9
+Attack Success Rate: 9 / 169 = 5.33%
+
+Person ASR: 4.49%
+Car ASR: 6.25%
+
+Mean clean confidence: 0.7724
+Mean attacked confidence: 0.7366
+Mean confidence drop: 0.0358
+
+Mean clean IoU: 0.8965
+Mean attacked IoU: 0.8557
+Mean IoU drop: 0.0408
+
+Average clean detections/image: 8.4600
+Average attacked detections/image: 8.3100
+
+Model path: D:\project CS\Hyper-YOLO\weights\hyper-yolon.pt
+conf: 0.25
+iou: 0.7
+target_match_iou: 0.5
+imgsz: 640
+device: cpu

@@ -1,0 +1,85 @@
+TESTING MITIGATION 02 — KNOWN LOCATION LDM
+===========================================
+
+This branch is fully self-contained.
+True saved patch coordinates WERE supplied.
+Automatic L2/KMeans localization was NOT used.
+LDM input = ATTACKED / PATCHED image only (clean is evaluation-only).
+Target matching uses each image's own target_class (not hardcoded car/person).
+
+Images: 10
+Attack-success diagnostic cases: 8
+Controls: 2
+
+Victim: Hyper-YOLO-N  conf=0.25 iou=0.70 imgsz=640 device=cpu
+Diffusion: CompVis LDM inpainting  DDIM steps=5  seed=20260817
+Clean pixels used for restoration: NO
+
+Known Exact recovered: 3 / 8   (diagnostic subset — NOT DISPATCH DRR)
+  person: 2 / 4
+  car: 1 / 4
+Known Exact control preserved: 2 / 2
+
+Known +4px recovered: 6 / 8   (diagnostic subset — NOT DISPATCH DRR)
+  person: 3 / 4
+  car: 3 / 4
+Known +4px control preserved: 2 / 2
+
+Outside-mask integrity: PASS
+  000000127263.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000393093.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000026926.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000407083.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000181499.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000347370.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000385029.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000542776.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000331604.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000357737.jpg exact_mae=0.000000  expand4_mae=0.000000
+
+Per image:
+  000000127263.jpg  car  patch=20  exact_det=False conf=None iou=None rec=False  |  +4_det=False conf=None iou=None rec=False
+  000000393093.jpg  car  patch=14  exact_det=True conf=0.52734375 iou=0.9289162039267929 rec=True  |  +4_det=True conf=0.552734375 iou=0.9387639139841443 rec=True
+  000000026926.jpg  car  patch=22  exact_det=False conf=None iou=None rec=False  |  +4_det=True conf=0.293701171875 iou=0.7452991549295772 rec=True
+  000000407083.jpg  car  patch=144  exact_det=False conf=None iou=None rec=False  |  +4_det=True conf=0.3955078125 iou=0.832135845644933 rec=True
+  000000181499.jpg  person  patch=36  exact_det=True conf=0.346435546875 iou=0.9241836015270727 rec=True  |  +4_det=True conf=0.39111328125 iou=0.9204338350056651 rec=True
+  000000347370.jpg  person  patch=28  exact_det=False conf=None iou=None rec=False  |  +4_det=False conf=None iou=None rec=False
+  000000385029.jpg  person  patch=51  exact_det=False conf=None iou=None rec=False  |  +4_det=True conf=0.34716796875 iou=0.9932646721175984 rec=True
+  000000542776.jpg  person  patch=67  exact_det=True conf=0.2841796875 iou=0.9795329323565342 rec=True  |  +4_det=True conf=0.469482421875 iou=0.9770688713988629 rec=True
+  000000331604.jpg  person  patch=21  exact_det=True conf=0.78076171875 iou=0.850035641673613 rec=False  |  +4_det=True conf=0.67919921875 iou=0.6647732736334736 rec=False
+  000000357737.jpg  car  patch=43  exact_det=True conf=0.87548828125 iou=0.9313577027045018 rec=False  |  +4_det=True conf=0.87841796875 iou=0.9060998371760876 rec=False
+
+=====================================================
+KNOWN LOCATION FOLDER GUIDE
+=====================================================
+
+source_clean_images
+= clean evaluation references
+
+source_attacked_images
+= actual Known Location LDM inputs
+
+source_attack_data
+= source attack metadata for these ten cases
+
+masks/exact_mask
+= exact saved patch location
+
+masks/expanded_4px
+= true location expanded by four pixels
+
+results/ldm_outputs
+= RAW INTERMEDIATE LDM output
+= NOT final
+
+restored_images/exact_mask
+= FINAL exact-mask restored images
+
+restored_images/expanded_4px
+= FINAL +4px restored images
+
+results/restored_predictions
+= Hyper-YOLO predictions from FINAL restored images
+
+neutralized_inputs
+= empty compatibility folder (attacked image + known mask used directly)

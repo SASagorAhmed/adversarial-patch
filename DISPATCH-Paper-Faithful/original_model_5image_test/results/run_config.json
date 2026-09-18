@@ -1,0 +1,45 @@
+{
+  "official_source_commit": "80c59b9b4a6c4060107a8b4485d3885128c2ae81",
+  "ldm_checkpoint_path": "D:\\project CS\\DISPATCH-Defense\\third_party\\latent-diffusion\\models\\ldm\\inpainting_big\\last.ckpt",
+  "resolution": 512,
+  "ddim_steps": 5,
+  "checkerboard_N": 32,
+  "gaussian_kernel": 15,
+  "gaussian_sigma": 1.0,
+  "morphology": "MORPH_OPEN 3x3",
+  "kmeans": {
+    "k": 2,
+    "n_init": "auto",
+    "random_state": 20260817,
+    "higher_centroid": "adversarial"
+  },
+  "sample_mode": [
+    "official_batch_size_2"
+  ],
+  "seed": 20260817,
+  "input_filenames": [
+    "000000127263.jpg",
+    "000000393093.jpg",
+    "000000026926.jpg",
+    "000000407083.jpg",
+    "000000542776.jpg"
+  ],
+  "true_patch_supplied_to_automatic": false,
+  "clean_pixels_used_for_restoration": false,
+  "hyper_yolo_required": false,
+  "checkerboard_validation": {
+    "shape": [
+      512,
+      512
+    ],
+    "m0_mean": 0.5,
+    "m1_mean": 0.5,
+    "sum_min": 1.0,
+    "sum_max": 1.0,
+    "sum_allclose_1": true,
+    "overlap_both_one_pixels": 0,
+    "hole_both_zero_pixels": 0,
+    "binary_m0": true,
+    "binary_m1": true
+  }
+}

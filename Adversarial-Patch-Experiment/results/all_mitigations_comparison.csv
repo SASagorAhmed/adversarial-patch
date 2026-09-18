@@ -1,0 +1,3 @@
+mitigation_id,source_attack_id,subset_total,source_attack_success_count,recovered_target_count,detection_recovery_rate,remaining_failed_targets,control_count,control_preserved_count,control_preservation_rate,control_regression_count,control_regression_rate,person_recovery_rate,car_recovery_rate,mean_confidence_recovery_success,mean_iou_recovery_success,mean_clean_to_mitigated_confidence_gap_success,mean_clean_to_mitigated_iou_gap_success,target_match_iou_threshold
+mitigation_01,attack_02,30,15,4,26.6667,11,15,13,86.6667,2,13.3333,0.0000,36.3636,0.096899,0.206728,0.317279,0.671636,0.50
+mitigation_02,attack_05,40,20,4,20.0000,16,20,19,95.0000,1,5.0000,50.0000,12.5000,0.092512,0.176058,0.368398,0.659045,0.50

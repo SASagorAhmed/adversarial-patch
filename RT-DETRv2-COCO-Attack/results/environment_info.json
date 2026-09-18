@@ -1,0 +1,19 @@
+{
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "torch_version": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "operating_system": "Windows-10-10.0.26200-SP0",
+  "device": "cuda",
+  "model_meta": {
+    "model_name": "RT-DETRv2-S",
+    "config": "D:\\project CS\\RT-DETRv2-COCO-Attack\\third_party\\RT-DETR\\rtdetrv2_pytorch\\configs\\rtdetrv2\\rtdetrv2_r18vd_120e_coco.yml",
+    "checkpoint": "D:\\project CS\\RT-DETRv2-COCO-Attack\\weights\\rtdetrv2_r18vd_120e_coco_rerun_48.1.pth",
+    "input_size": 640,
+    "person_contiguous_label": 0,
+    "car_contiguous_label": 2,
+    "person_coco_id": 1,
+    "car_coco_id": 3
+  }
+}

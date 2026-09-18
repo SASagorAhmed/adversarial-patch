@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.64892578125,
+      "box_xyxy": [
+        288.0,
+        350.5,
+        379.0,
+        391.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6298828125,
+      "box_xyxy": [
+        305.75,
+        318.0,
+        426.75,
+        436.0
+      ]
+    },
+    {
+      "class_id": 12,
+      "class_name": "parking meter",
+      "confidence": 0.307373046875,
+      "box_xyxy": [
+        91.75,
+        68.5,
+        289.0,
+        603.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.26611328125,
+      "box_xyxy": [
+        5.5,
+        367.0,
+        427.0,
+        603.0
+      ]
+    }
+  ]
+}

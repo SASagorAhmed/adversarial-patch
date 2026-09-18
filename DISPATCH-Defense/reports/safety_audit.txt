@@ -1,0 +1,39 @@
+DISPATCH DEFENSE SAFETY AUDIT
+
+Timestamp: 2026-08-17 (local setup completion)
+
+All DISPATCH files inside D:\project CS\DISPATCH-Defense = YES
+
+Adversarial-Patch-Experiment modified = NO
+
+attack_01 modified = NO
+attack_02 modified = NO
+attack_03 modified = NO
+attack_04 modified = NO
+attack_05 modified = NO
+
+attack_06 created = NO
+
+previous mitigation folders used as experiment source = NO
+
+Hyper-YOLO modified = NO
+
+Stable-Diffusion-Patch modified = NO
+
+global attack results modified = NO
+
+old mitigation results modified = NO
+
+dispatch_run_001 created = NO
+full dataset experiment started = NO
+
+validate-only created experiment folders = NO
+
+True patch coordinates supplied to defense algorithm = NO
+
+External resources used read-only = YES
+
+Notes:
+- Smoke tests used only CompVis official inpainting_examples copies under DISPATCH-Defense\smoke_test\
+- Hyper-YOLO adapter is implemented but was not used for large evaluation
+- Output-root assertion rejects writes outside DISPATCH-Defense

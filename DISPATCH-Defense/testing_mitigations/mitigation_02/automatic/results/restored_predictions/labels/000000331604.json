@@ -1,0 +1,49 @@
+{
+  "filename": "000000331604.jpg",
+  "predictions": [
+    {
+      "class_id": 37,
+      "class_name": "surfboard",
+      "confidence": 0.80419921875,
+      "box_xyxy": [
+        263.0,
+        184.0,
+        377.0,
+        313.5
+      ]
+    },
+    {
+      "class_id": 33,
+      "class_name": "kite",
+      "confidence": 0.73046875,
+      "box_xyxy": [
+        615.0,
+        263.25,
+        629.0,
+        278.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.44970703125,
+      "box_xyxy": [
+        290.0,
+        147.625,
+        362.0,
+        245.875
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.296142578125,
+      "box_xyxy": [
+        289.5,
+        148.25,
+        368.5,
+        282.25
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+DIAGNOSTIC SUBSET RECOVERY RATE (5-image notebook — NOT DISPATCH DRR, NOT paper mAP)
+Automatic recovered: 0 / 4
+Known Exact recovered: 2 / 4
+Known +4px recovered: 2 / 4
+Automatic mean mask IoU: 0.0494
+Automatic controls preserved: 1 / 1
+Known exact controls preserved: 1 / 1
+Known +4 controls preserved: 1 / 1

@@ -1,0 +1,11 @@
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+Pillow
+numpy
+PyYAML
+opencv-python-headless
+scipy
+packaging
+faster-coco-eval
+pycocotools
+tensorboard

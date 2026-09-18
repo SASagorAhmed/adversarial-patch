@@ -1,0 +1,38 @@
+{
+  "filename": "000000127263.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9306640625,
+      "box_xyxy": [
+        133.875,
+        23.25,
+        380.0,
+        366.5
+      ]
+    },
+    {
+      "class_id": 29,
+      "class_name": "frisbee",
+      "confidence": 0.90478515625,
+      "box_xyxy": [
+        439.75,
+        38.4375,
+        482.75,
+        61.875
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.88818359375,
+      "box_xyxy": [
+        260.5,
+        37.0,
+        463.5,
+        402.5
+      ]
+    }
+  ]
+}

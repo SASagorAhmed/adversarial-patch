@@ -1,0 +1,2 @@
+total_images,completed_images,failed_images,attack_success_cases,recovered_target_count,detection_recovery_rate,remaining_failed_targets,control_count,control_preserved_count,control_preservation_rate,control_regression_count,control_regression_rate,person_success_count,person_recovered,person_recovery_rate,car_success_count,car_recovered,car_recovery_rate
+30,30,0,15,2,0.13333333333333333,13,15,13,0.8666666666666667,2,0.13333333333333333,4,0,0.0,11,2,0.18181818181818182

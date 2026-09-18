@@ -1,0 +1,37 @@
+{
+  "predictions": [
+    {
+      "class_id": 73,
+      "class_name": "book",
+      "confidence": 0.765625,
+      "box_xyxy": [
+        44.375,
+        233.5,
+        529.5,
+        421.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.640625,
+      "box_xyxy": [
+        242.5,
+        316.5,
+        514.5,
+        420.5
+      ]
+    },
+    {
+      "class_id": 14,
+      "class_name": "bird",
+      "confidence": 0.255615234375,
+      "box_xyxy": [
+        226.75,
+        151.0,
+        380.25,
+        262.5
+      ]
+    }
+  ]
+}

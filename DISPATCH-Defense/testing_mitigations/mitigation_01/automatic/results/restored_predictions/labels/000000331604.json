@@ -1,0 +1,38 @@
+{
+  "filename": "000000331604.jpg",
+  "predictions": [
+    {
+      "class_id": 37,
+      "class_name": "surfboard",
+      "confidence": 0.89453125,
+      "box_xyxy": [
+        264.5,
+        179.5,
+        376.0,
+        312.0
+      ]
+    },
+    {
+      "class_id": 33,
+      "class_name": "kite",
+      "confidence": 0.73583984375,
+      "box_xyxy": [
+        615.0,
+        263.25,
+        629.0,
+        278.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.63330078125,
+      "box_xyxy": [
+        290.5,
+        148.5,
+        366.0,
+        279.0
+      ]
+    }
+  ]
+}

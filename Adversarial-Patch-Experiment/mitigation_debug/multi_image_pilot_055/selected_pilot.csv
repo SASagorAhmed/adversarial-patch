@@ -1,0 +1,7 @@
+filename,subset_role,target_class,patch_size_pixels,patch_x1,patch_y1,patch_x2,patch_y2,selection_reason
+000000413689.jpg,success,car,7,24,153,31,160,success_small_patch_first_by_size_then_filename
+000000135410.jpg,success,car,28,253,255,281,283,success_median_patch_by_sorted_size_then_filename
+000000407083.jpg,success,car,144,168,241,312,385,success_large_patch_last_by_size_then_filename
+000000102411.jpg,control,car,11,14,241,25,252,control_small_patch_first_by_size_then_filename
+000000436617.jpg,control,person,59,128,271,187,330,control_median_patch_by_sorted_size_then_filename
+000000271997.jpg,control,person,145,171,245,316,390,control_large_patch_last_by_size_then_filename

@@ -1,0 +1,42 @@
+========================================================
+Deformable DETR R50 Transfer Attack Summary
+========================================================
+
+Attack ID: attack_05
+Model: Deformable DETR R50
+Dataset: COCO 2017
+Target classes: Person, Car
+Confidence threshold: 0.25
+Target-match IoU threshold: 0.50
+
+Total images: 400
+Eligible targets: 346
+Successful attacks: 13
+Attack Success Rate: 3.76%
+
+Person:
+Eligible: 175
+Success: 5
+ASR: 2.86%
+
+Car:
+Eligible: 171
+Success: 8
+ASR: 4.68%
+
+Mean confidence drop: 0.024734
+Median confidence drop: 0.008339
+Mean IoU drop: 0.003044
+Median IoU drop: -0.000139
+Both-valid n: 333
+
+Average clean detections/image: 15.0350
+Average patched detections/image: 14.8025
+
+Average clean inference time: 655.314001 ms
+Average patched inference time: 654.414147 ms
+
+========================================================
+
+Interpretation:
+On 400 images, 346 targets were eligible (clean-valid). Of these, 13 became invalid after the Hyper-YOLO patch (ASR=3.76%). Person ASR=2.86%; car ASR=4.68%. Among 333 both-valid targets, mean confidence drop=0.024734, mean IoU drop=0.003044. These results measure transfer of existing Hyper-YOLO adversarial images to Deformable DETR R50; patches were not optimized for this detector.

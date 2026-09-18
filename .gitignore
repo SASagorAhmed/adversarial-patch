@@ -1,0 +1,85 @@
+# Project CS monorepo — GitHub: SASagorAhmed/adversarial-patch
+
+# --- Environments ---
+.venv/
+.venv*/
+**/.venv*/
+venv/
+**/venv/
+.env/
+**/.env/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# --- OS / IDE ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.cursor/
+*.swp
+*~
+
+# --- Nested Hyper-YOLO repo stays separate (has its own .git / GitHub) ---
+Hyper-YOLO/
+
+# --- Other nested clones (keep local; do not publish as gitlinks) ---
+DISPATCH-Paper-Faithful/reference_source/DisPatch/
+
+# --- Model weights / checkpoints (re-download from upstream) ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.h5
+*.pkl
+*.pickle
+
+# Weight directories (keep structure out of git)
+**/weights/**
+!**/weights/.gitkeep
+Stable-Diffusion-Patch/model/
+**/mitigation_models/
+
+# --- Datasets (COCO etc.) ---
+**/val2017/
+**/train2017/
+**/test2017/
+**/datasets/
+**/coco/images/
+Hyper-YOLO/coco/
+**/annotations/instances_*.json
+
+# --- Duplicate transfer copies of attack images (originals live under Adversarial-Patch-Experiment/attacks/) ---
+**/source_data/**/clean_images/
+**/source_data/**/patched_images/
+*-COCO-Attack/source_data/
+*-COCO-Attack/results/**/*.jpg
+*-COCO-Attack/results/**/*.jpeg
+*-COCO-Attack/results/**/*.png
+*-COCO-Attack/results/**/*.webp
+*-COCO-Attack/results/**/*.bmp
+
+
+# --- Vendored third-party clones (re-clone from official repos) ---
+**/third_party/
+**/official_deformable_detr/
+
+# --- Misc large / cache ---
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+runs/detect/
+**/wandb/
+**/.cache/
+**/huggingface/
+**/torch_extensions/

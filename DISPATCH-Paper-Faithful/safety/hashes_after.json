@@ -1,0 +1,86 @@
+﻿{
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\combine_regeneration.py":  {
+                                                                               "size_bytes":  1938,
+                                                                               "sha256":  "15aafb9495172655cb9d2f005c906eb9e763df17672dbc3108c5cfef20a26b9d"
+                                                                           },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_01\\known_location\\results\\summary.txt":  {
+                                                                                                                       "size_bytes":  2548,
+                                                                                                                       "sha256":  "e7ebe5a4796e984d2a4ac26841fd08cf923f9749df400162bb67e92bfc749594"
+                                                                                                                   },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_02\\known_location\\results\\per_image_results.csv":  {
+                                                                                                                                 "size_bytes":  5212,
+                                                                                                                                 "sha256":  "369c4d61cccb256b712e53f5b7ded7a85e721b0af696f7e9e16dcc966bc0adf4"
+                                                                                                                             },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\rectify_image.py":  {
+                                                                        "size_bytes":  1703,
+                                                                        "sha256":  "0113bbbfc196d9410d67acced729ad8483637f7d2092d7ad2882052ebdf23643"
+                                                                    },
+    "D:\\project CS\\DISPATCH-Defense\\config\\dispatch_config.py":  {
+                                                                         "size_bytes":  2797,
+                                                                         "sha256":  "f821dd3ec85022f9d374966d22d2d29829bdfbf3b1fb7ec52716b1c37d8459c7"
+                                                                     },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_02\\automatic\\results\\summary.txt":  {
+                                                                                                                  "size_bytes":  3158,
+                                                                                                                  "sha256":  "949c5da207a5872086c515f2a334863665e6350d3d85b56b8c5788546fd5737b"
+                                                                                                              },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\regenerate_image.py":  {
+                                                                           "size_bytes":  4252,
+                                                                           "sha256":  "8e79dadc1c641972ba750da88a3e0decc03606c468f0945158200740638bd69e"
+                                                                       },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\ldm_inpaint_adapter.py":  {
+                                                                              "size_bytes":  6271,
+                                                                              "sha256":  "e665748ee098efed54f10ae92383ef1dcfb38858030f17a070ccc11f02e79f76"
+                                                                          },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_01\\automatic\\results\\summary.txt":  {
+                                                                                                                  "size_bytes":  2238,
+                                                                                                                  "sha256":  "4d1d8ee86def860d9b9ca971bc14c458f36e006bee9b697b7ee740c11e3b87a7"
+                                                                                                              },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_02\\automatic\\results\\per_image_results.csv":  {
+                                                                                                                            "size_bytes":  4325,
+                                                                                                                            "sha256":  "480b9aca9d8a114f867d0ab9d82856e27ef8bd8b30da19514898a91bf4d07672"
+                                                                                                                        },
+    "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\results\\summary.txt":  {
+                                                                                               "size_bytes":  1103,
+                                                                                               "sha256":  "cee5316d3e8b2287040b8ef239e6826ac2064c54ac56471ca92979dc213dfb65"
+                                                                                           },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\compute_difference_map.py":  {
+                                                                                 "size_bytes":  2844,
+                                                                                 "sha256":  "af49707378d9abdde124ec7464cdf1568cee55eabf7055b290dc59936bb5697f"
+                                                                             },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\predict_adversarial_mask.py":  {
+                                                                                   "size_bytes":  2341,
+                                                                                   "sha256":  "9c73761235f7f8616babf38f0fd686a1b4b89cd73eca1048108b8aaa7f900777"
+                                                                               },
+    "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\source_attack_data\\selected_images.csv":  {
+                                                                                                                  "size_bytes":  12726,
+                                                                                                                  "sha256":  "e35097d6180b2afdbb2d1f54d2c3e2a83568cfbfafb022fe3be5a1fb94a24a5b"
+                                                                                                              },
+    "D:\\project CS\\DISPATCH-Defense\\scripts\\generate_checkerboard_masks.py":  {
+                                                                                      "size_bytes":  2966,
+                                                                                      "sha256":  "9740efc2c9c4021f2f344ddc082af450da5255bf89b9c5b7110853aff5b8c849"
+                                                                                  },
+    "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\results\\per_image_results.csv":  {
+                                                                                                         "size_bytes":  19728,
+                                                                                                         "sha256":  "a958dcfa470f84be7c22687ffcaecbf87bf7ae9062d2f6bba00cab5710a49cc7"
+                                                                                                     },
+    "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_02\\known_location\\results\\summary.txt":  {
+                                                                                                                       "size_bytes":  3919,
+                                                                                                                       "sha256":  "116e32b5b2e2c728784e56cab666138a567baae634caf70274b726e3f675cb13"
+                                                                                                                   },
+    "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01\\source_attack_data\\run_config.json":  {
+                                                                                                              "size_bytes":  1424,
+                                                                                                              "sha256":  "020b6df199b881f6ab53d65e77bf49fa0c8da3136dd2694b29cfe047183dd153"
+                                                                                                          },
+    "D:\\project CS\\DISPATCH-Defense\\third_party\\latent-diffusion\\models\\ldm\\inpainting_big\\config.yaml":  {
+                                                                                                                      "size_bytes":  1686,
+                                                                                                                      "sha256":  "b77922fe9fb058e719c903d0cb4cf3ea6004fb28e2669409bf46703c812706d0"
+                                                                                                                  },
+    "D:\\project CS\\Hyper-YOLO\\weights\\hyper-yolon.pt":  {
+                                                                "size_bytes":  8567703,
+                                                                "sha256":  "c51808f9b019c136ecd47ab50e59ac3e93ccf41de2f54e11b70542a217bc8932"
+                                                            },
+    "D:\\project CS\\Adversarial-Patch-Experiment\\attacks\\attack_02\\results\\selected_images.csv":  {
+                                                                                                           "size_bytes":  18974,
+                                                                                                           "sha256":  "87b1759fd431991e3839741da32b03f423fe0d9a0605321c45fff573e6224fcf"
+                                                                                                       }
+}

@@ -1,0 +1,378 @@
+{
+  "predictions": [
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.95263671875,
+      "box_xyxy": [
+        371.5,
+        201.0,
+        640.0,
+        423.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.93603515625,
+      "box_xyxy": [
+        410.0,
+        142.25,
+        537.0,
+        237.5
+      ]
+    },
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.90673828125,
+      "box_xyxy": [
+        287.0,
+        61.875,
+        396.0,
+        170.125
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8515625,
+      "box_xyxy": [
+        77.125,
+        133.75,
+        174.5,
+        303.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.8115234375,
+      "box_xyxy": [
+        240.5,
+        115.75,
+        289.5,
+        158.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.80322265625,
+      "box_xyxy": [
+        0.09375,
+        148.75,
+        48.09375,
+        256.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.775390625,
+      "box_xyxy": [
+        530.0,
+        137.25,
+        634.0,
+        208.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.76708984375,
+      "box_xyxy": [
+        197.5,
+        116.5625,
+        234.0,
+        160.5
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.7646484375,
+      "box_xyxy": [
+        13.4375,
+        193.75,
+        261.5,
+        329.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.75830078125,
+      "box_xyxy": [
+        412.5,
+        111.25,
+        472.0,
+        156.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.720703125,
+      "box_xyxy": [
+        20.25,
+        147.25,
+        80.75,
+        238.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.68994140625,
+      "box_xyxy": [
+        150.125,
+        125.0,
+        198.625,
+        181.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.689453125,
+      "box_xyxy": [
+        160.25,
+        116.25,
+        213.25,
+        164.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.68115234375,
+      "box_xyxy": [
+        26.0,
+        140.0,
+        105.75,
+        209.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6806640625,
+      "box_xyxy": [
+        472.0,
+        104.125,
+        524.5,
+        148.125
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6767578125,
+      "box_xyxy": [
+        405.0,
+        82.375,
+        436.0,
+        110.625
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.6484375,
+      "box_xyxy": [
+        94.9375,
+        126.625,
+        198.0,
+        181.375
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.646484375,
+      "box_xyxy": [
+        21.375,
+        143.0,
+        104.0,
+        241.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.52099609375,
+      "box_xyxy": [
+        606.5,
+        130.5,
+        639.5,
+        158.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.51220703125,
+      "box_xyxy": [
+        401.5,
+        61.0,
+        425.5,
+        80.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.51171875,
+      "box_xyxy": [
+        606.0,
+        138.0,
+        640.0,
+        209.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.4853515625,
+      "box_xyxy": [
+        577.0,
+        125.75,
+        620.0,
+        144.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.449462890625,
+      "box_xyxy": [
+        388.0,
+        34.875,
+        408.0,
+        52.1875
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.439208984375,
+      "box_xyxy": [
+        200.25,
+        112.9375,
+        245.25,
+        159.0
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.389404296875,
+      "box_xyxy": [
+        436.0,
+        44.46875,
+        479.0,
+        102.5
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.371826171875,
+      "box_xyxy": [
+        494.0,
+        88.0,
+        564.0,
+        128.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.364501953125,
+      "box_xyxy": [
+        128.875,
+        125.5,
+        199.125,
+        181.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.337646484375,
+      "box_xyxy": [
+        53.375,
+        119.75,
+        71.25,
+        142.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.31787109375,
+      "box_xyxy": [
+        423.5,
+        100.625,
+        475.5,
+        128.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.30224609375,
+      "box_xyxy": [
+        525.5,
+        112.875,
+        594.5,
+        164.625
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.282958984375,
+      "box_xyxy": [
+        12.7109375,
+        121.5,
+        26.84375,
+        147.0
+      ]
+    },
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.272705078125,
+      "box_xyxy": [
+        494.5,
+        88.25,
+        565.5,
+        130.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.26123046875,
+      "box_xyxy": [
+        242.25,
+        104.25,
+        284.25,
+        116.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.2568359375,
+      "box_xyxy": [
+        445.5,
+        27.25,
+        466.5,
+        45.125
+      ]
+    }
+  ]
+}

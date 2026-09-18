@@ -1,0 +1,49 @@
+{
+  "filename": "000000407083.jpg",
+  "target_class": "car",
+  "exact_patch_coordinates": {
+    "x1": 168,
+    "y1": 241,
+    "x2": 312,
+    "y2": 385
+  },
+  "expanded_mask_coordinates": {
+    "x1": 164,
+    "y1": 237,
+    "x2": 316,
+    "y2": 389
+  },
+  "patch_size_pixels": 144,
+  "locked_from_previous_variant_B": {
+    "strength": 1.0,
+    "steps": 30,
+    "guidance_scale": 4.5,
+    "context_crop_factor": 5.0,
+    "mask_padding": 4,
+    "seed": 20260727,
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "right": 480,
+      "bottom": 640
+    },
+    "feather": 4,
+    "resolution": 512
+  },
+  "only_prompt_changed": true,
+  "clean_pixels_used": false,
+  "prompts": {
+    "P1": {
+      "prompt": "photorealistic restoration of the masked region only, seamlessly continue the exact colors, textures, edges, shapes, lighting and perspective from the immediately surrounding pixels, preserve the existing object and scene, restore only the missing local surface, natural continuous appearance",
+      "neg": "new object, extra object, unrelated object, new scene, landscape, text, letters, logo, watermark, sticker, adversarial pattern, geometric shape, abstract pattern, duplicated object, scene replacement, strong color change"
+    },
+    "P2": {
+      "prompt": "restore only the missing local part of the existing car, continue the same vehicle body surface, shape, paint, texture, reflections, lighting and perspective from the surrounding visible car, seamless photorealistic continuation, preserve the existing scene, no new content",
+      "neg": "new car, extra object, unrelated object, landscape, person, face, text, letters, logo, watermark, sticker, adversarial pattern, geometric object, scene change, artificial texture, strong color change"
+    },
+    "P3": {
+      "prompt": "minimal local image restoration, continue only the immediately surrounding visual structure into the masked region, preserve existing colors, edges, texture and lighting, no semantic change, no added object, seamless photographic repair",
+      "neg": "new semantic content, new object, extra object, unrelated structure, landscape, face, text, letters, logo, sticker, watermark, abstract pattern, scene replacement, dramatic texture, dramatic color, artificial object"
+    }
+  }
+}

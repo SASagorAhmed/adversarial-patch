@@ -1,0 +1,15 @@
+OFFICIAL LDM INPAINTING SMOKE TEST
+status: PASS
+example_image: 6458524847_2f4c361183_k.png
+example_mask: 6458524847_2f4c361183_k_mask.png
+output: D:\project CS\DISPATCH-Defense\smoke_test\regenerated\official_ldm\6458524847_2f4c361183_k.png
+steps: 5
+sampler: DDIM
+device: cuda
+cuda_available: True
+elapsed_sec: 58.376
+output_shape: (512, 512, 3)
+output_finite: True
+ldm_root: D:\project CS\DISPATCH-Defense\third_party\latent-diffusion
+no_text_prompt: YES
+timestamp: 2026-08-17T01:57:11.425676

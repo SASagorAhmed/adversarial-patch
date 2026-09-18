@@ -1,0 +1,39 @@
+STRUCTURED SD2 INPAINTING PILOT SUMMARY (strength=1.00)
+========================================================================
+NOTE: configuration sanity check only. Not full-dataset defense statistics.
+Metric name: Detection Recovery Rate (not ASR after defense).
+
+total images: 6
+success cases: 3
+control cases: 3
+SD failures: 0
+
+sticker removed count: 6
+hallucination count: 4
+flat/gray count: 0
+visible seam count: 4
+natural restoration count: 2
+
+success recovered count: 1 / 3
+Detection Recovery Rate: 33.33%
+
+control preserved count: 3 / 3
+Control Preservation Rate: 100.00%
+control regression count: 0
+Control Regression Rate: 0.00%
+
+person results:
+  - 000000436617.jpg | control | det=Yes halluc=YES natural=NO
+  - 000000271997.jpg | control | det=Yes halluc=NO natural=YES
+car results:
+  - 000000413689.jpg | success | det=No halluc=NO natural=YES
+  - 000000135410.jpg | success | det=Yes halluc=YES natural=NO
+  - 000000407083.jpg | success | det=No halluc=YES natural=NO
+  - 000000102411.jpg | control | det=Yes halluc=YES natural=NO
+
+large-patch result for 000000407083.jpg:
+  detected=No conf=0.0000 iou=0.0000
+  sticker_removed=YES hallucination=YES flat_gray=NO natural=NO
+  label=SUCCESS - NOT RECOVERED | HALLUCINATION
+
+output_root: D:\project CS\Adversarial-Patch-Experiment\mitigation_debug\sd2_inpainting_pilot_100

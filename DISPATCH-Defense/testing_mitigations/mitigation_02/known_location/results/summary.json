@@ -1,0 +1,17 @@
+{
+  "branch": "known_location",
+  "n_images": 10,
+  "known_exact_recovered": "3 / 8",
+  "known_expand4_recovered": "6 / 8",
+  "person_exact_recovered": "2 / 4",
+  "car_exact_recovered": "1 / 4",
+  "person_expand4_recovered": "3 / 4",
+  "car_expand4_recovered": "3 / 4",
+  "note": "This is a 10-image diagnostic subset \u2014 NOT final DISPATCH DRR. Restoration is class-agnostic; attack_02 only contains person+car.",
+  "control_exact_preserved": "2 / 2",
+  "control_expand4_preserved": "2 / 2",
+  "outside_mask_integrity": "PASS",
+  "ldm_input": "attacked_image_only",
+  "manual_visual_review_required": true,
+  "timestamp": "2026-08-17T12:30:59.462914+00:00"
+}

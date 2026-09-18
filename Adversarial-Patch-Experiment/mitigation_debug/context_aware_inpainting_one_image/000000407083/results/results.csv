@@ -1,0 +1,4 @@
+variant,context_factor,guidance_scale,strength,mask_padding,target_detected,confidence,iou,sticker_removed,hallucination,text_artifact,flat_gray,visible_seam,unrelated_content,natural_context_match
+A,3.0,7.5,1.0,4,Yes,0.27842,0.8353640583570545,YES,YES,NO,NO,NO,YES,NO
+B,5.0,4.5,1.0,4,Yes,0.392768,0.814171356201375,YES,YES,NO,NO,YES,YES,NO
+C,7.0,4.5,1.0,4,Yes,0.392768,0.814171356201375,YES,YES,NO,NO,YES,YES,NO

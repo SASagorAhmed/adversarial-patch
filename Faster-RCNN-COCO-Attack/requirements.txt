@@ -1,0 +1,8 @@
+# Official PyTorch / Torchvision stack for Faster R-CNN ResNet-50 FPN V2 (COCO_V1).
+# Install CUDA wheels from the official PyTorch index, for example:
+#   .\.venv\Scripts\python.exe -m pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+Pillow==12.3.0
+numpy==2.2.6

@@ -1,0 +1,19 @@
+{
+  "project_root": "D:\\project CS\\Faster-RCNN-COCO-Attack",
+  "model_name": "fasterrcnn_resnet50_fpn_v2",
+  "model_display_name": "Faster R-CNN ResNet-50 FPN V2",
+  "weights_enum": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+  "weights_key": "COCO_V1",
+  "official_repo": "https://github.com/pytorch/vision",
+  "official_docs": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.detection.fasterrcnn_resnet50_fpn_v2.html",
+  "official_weight_url": "https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth",
+  "expected_coco_val2017_box_map": 46.7,
+  "expected_num_params": 43712278,
+  "visualization_confidence": 0.25,
+  "focus_classes": ["person", "car"],
+  "test_image_id": "000000407083",
+  "test_image_path": "data\\coco_val2017\\000000407083.jpg",
+  "test_image_source": "Extracted read-only from Hyper-YOLO\\coco\\val2017.zip entry val2017/000000407083.jpg into this project only",
+  "frozen_pretrained": true,
+  "fine_tune": false
+}

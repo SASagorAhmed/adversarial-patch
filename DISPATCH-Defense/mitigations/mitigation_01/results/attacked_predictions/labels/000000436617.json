@@ -1,0 +1,268 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.87646484375,
+      "box_xyxy": [
+        58.375,
+        181.5,
+        251.625,
+        422.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.869140625,
+      "box_xyxy": [
+        305.25,
+        117.5,
+        364.75,
+        187.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.86328125,
+      "box_xyxy": [
+        393.5,
+        137.375,
+        561.5,
+        364.5
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.84130859375,
+      "box_xyxy": [
+        372.0,
+        260.0,
+        401.0,
+        322.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.83544921875,
+      "box_xyxy": [
+        188.875,
+        126.0,
+        343.0,
+        294.0
+      ]
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "confidence": 0.77099609375,
+      "box_xyxy": [
+        0.0625,
+        201.0,
+        43.65625,
+        318.0
+      ]
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "confidence": 0.76220703125,
+      "box_xyxy": [
+        46.59375,
+        187.25,
+        128.625,
+        282.25
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.7568359375,
+      "box_xyxy": [
+        307.25,
+        270.25,
+        338.25,
+        334.25
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.63330078125,
+      "box_xyxy": [
+        205.0,
+        173.5,
+        557.0,
+        418.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.62841796875,
+      "box_xyxy": [
+        0.09375,
+        145.75,
+        38.53125,
+        189.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.6123046875,
+      "box_xyxy": [
+        28.3125,
+        131.25,
+        107.5625,
+        231.75
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.51904296875,
+      "box_xyxy": [
+        305.5,
+        240.5,
+        331.0,
+        272.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.517578125,
+      "box_xyxy": [
+        368.0,
+        152.75,
+        421.0,
+        239.25
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.51513671875,
+      "box_xyxy": [
+        336.75,
+        255.75,
+        363.25,
+        286.25
+      ]
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "confidence": 0.513671875,
+      "box_xyxy": [
+        501.0,
+        173.5,
+        640.0,
+        418.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.46875,
+      "box_xyxy": [
+        395.5,
+        144.75,
+        453.5,
+        250.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.46728515625,
+      "box_xyxy": [
+        251.625,
+        131.5,
+        313.5,
+        233.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.370849609375,
+      "box_xyxy": [
+        95.875,
+        136.75,
+        132.125,
+        184.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.332763671875,
+      "box_xyxy": [
+        131.625,
+        148.75,
+        187.375,
+        191.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.289306640625,
+      "box_xyxy": [
+        251.0,
+        130.0,
+        342.5,
+        236.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.276611328125,
+      "box_xyxy": [
+        368.0,
+        149.5,
+        452.0,
+        247.75
+      ]
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "confidence": 0.276611328125,
+      "box_xyxy": [
+        402.25,
+        172.625,
+        640.0,
+        418.5
+      ]
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "confidence": 0.271240234375,
+      "box_xyxy": [
+        195.5,
+        245.5,
+        555.5,
+        419.5
+      ]
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass",
+      "confidence": 0.27001953125,
+      "box_xyxy": [
+        364.5,
+        202.75,
+        378.5,
+        234.75
+      ]
+    }
+  ]
+}

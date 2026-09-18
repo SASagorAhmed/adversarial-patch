@@ -1,0 +1,26 @@
+{
+  "predictions": [
+    {
+      "class_id": 14,
+      "class_name": "bird",
+      "confidence": 0.8994140625,
+      "box_xyxy": [
+        156.25,
+        81.25,
+        297.265625,
+        258.203125
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.556640625,
+      "box_xyxy": [
+        473.4375,
+        240.234375,
+        500.0,
+        267.96875
+      ]
+    }
+  ]
+}

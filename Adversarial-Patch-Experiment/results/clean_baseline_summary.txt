@@ -1,0 +1,16 @@
+Clean Hyper-YOLO Baseline Summary
+========================================================================
+total images: 20
+person images: 10
+car images: 10
+successfully detected target objects: 19
+missed target objects: 1
+mean target confidence: 0.6721
+mean IoU: 0.4906
+average total detections per image: 7.5000
+model path: D:\project CS\Hyper-YOLO\weights\hyper-yolon.pt
+confidence threshold: 0.25
+IoU threshold: 0.7
+image size: 640
+device: cpu
+verification image folder: D:\project CS\Adversarial-Patch-Experiment\results\clean_predictions\verification

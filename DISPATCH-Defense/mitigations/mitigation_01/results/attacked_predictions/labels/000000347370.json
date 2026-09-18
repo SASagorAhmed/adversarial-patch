@@ -1,0 +1,15 @@
+{
+  "predictions": [
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.462890625,
+      "box_xyxy": [
+        39.453125,
+        0.0,
+        455.859375,
+        373.046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "experiment_name": "Hyper-YOLO-to-YOLOv12-S Transfer Attack",
+  "model": "YOLOv12-S",
+  "paper": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+  "publication": "NeurIPS 2025",
+  "official_repo": "https://github.com/sunsmarterjie/yolov12",
+  "checkpoint": "weights/yolov12s.pt",
+  "checkpoint_url": "https://github.com/sunsmarterjie/yolov12/releases/download/v1.0/yolov12s.pt",
+  "checkpoint_release": "v1.0",
+  "official_coco_mAP50_95": 48.0,
+  "input_size": 640,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "target_classes": ["person", "car"],
+  "do_not_regenerate_patches": true,
+  "fine_tune": false,
+  "create_combined_analysis": false
+}

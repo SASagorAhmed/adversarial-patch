@@ -1,0 +1,20 @@
+{
+  "image_id": "smoke_6458524847_2f4c361183_k",
+  "source_path": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\input\\smoke_6458524847_2f4c361183_k.png",
+  "original_width": 512,
+  "original_height": 512,
+  "processing_resolution": 512,
+  "checkerboard_grid_n": 32,
+  "diffusion_steps": 5,
+  "sampler": "DDIM",
+  "pass0_time_sec": 53.49610829999983,
+  "pass1_time_sec": 44.25233169999956,
+  "paths": {
+    "m0": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_mask_m0.png",
+    "m1": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_mask_m1.png",
+    "pass0": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_regenerated_pass0.png",
+    "pass1": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_regenerated_pass1.png",
+    "full": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_regenerated_full.png",
+    "attacked_proc": "D:\\project CS\\DISPATCH-Defense\\smoke_test\\regenerated\\smoke_6458524847_2f4c361183_k_attacked_proc512.png"
+  }
+}

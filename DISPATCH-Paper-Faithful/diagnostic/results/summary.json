@@ -1,0 +1,24 @@
+{
+  "note": "Paper/source-faithful Automatic DisPatch on testing mit02 diagnostic subset \u2014 NOT paper DRR.",
+  "official_commit": "80c59b9b4a6c4060107a8b4485d3885128c2ae81",
+  "n_images": 10,
+  "attack_success_recovered": "1 / 8",
+  "controls_preserved": "2 / 2",
+  "mean_mask_iou": 0.09287591775849087,
+  "median_mask_iou": 0.05577405746829331,
+  "checkerboard_validation": {
+    "shape": [
+      512,
+      512
+    ],
+    "m0_mean": 0.5,
+    "m1_mean": 0.5,
+    "sum_min": 1.0,
+    "sum_max": 1.0,
+    "sum_allclose_1": true,
+    "overlap_both_one_pixels": 0,
+    "hole_both_zero_pixels": 0,
+    "binary_m0": true,
+    "binary_m1": true
+  }
+}

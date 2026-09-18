@@ -1,0 +1,22 @@
+DISPATCH environment_report
+python=3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+executable=D:\project CS\DISPATCH-Defense\.venv_dispatch\Scripts\python.exe
+torch=2.5.1+cu121
+torchvision=0.20.1+cu121
+cuda_built=12.1
+cuda_available=True
+gpu=NVIDIA GeForce RTX 2050
+vram_gb=4.0
+numpy=2.2.6
+Pillow=12.3.0
+opencv=5.0.0
+sklearn=1.7.2
+omegaconf=2.3.1
+pytorch_lightning=1.9.5
+einops=0.8.2
+taming=PASS
+ldm=PASS
+instantiate_from_config=PASS
+compat: setuptools==70.3.0 for pkg_resources
+compat: sys.path includes LDM_ROOT and taming-transformers
+checkpoint_exists=True size=3311259854

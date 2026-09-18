@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.9423828125,
+      "box_xyxy": [
+        226.625,
+        40.25,
+        518.5,
+        428.25
+      ]
+    },
+    {
+      "class_id": 25,
+      "class_name": "umbrella",
+      "confidence": 0.810546875,
+      "box_xyxy": [
+        194.5,
+        21.0,
+        623.0,
+        265.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.7421875,
+      "box_xyxy": [
+        199.5,
+        37.625,
+        289.5,
+        149.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.268798828125,
+      "box_xyxy": [
+        506.75,
+        196.0,
+        577.0,
+        408.0
+      ]
+    }
+  ]
+}

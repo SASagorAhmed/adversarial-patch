@@ -1,0 +1,17 @@
+{
+  "branch": "automatic",
+  "n_images": 10,
+  "attack_success_recovered": "1 / 8",
+  "person_success_recovered": "0 / 4",
+  "car_success_recovered": "1 / 4",
+  "diagnostic_subset_recovery_count": 1,
+  "note": "This is a 10-image diagnostic subset \u2014 NOT final DISPATCH DRR. Restoration is class-agnostic; attack_02 only contains person+car.",
+  "mean_mask_iou": 0.08589152703512856,
+  "median_mask_iou": 0.040831479848890045,
+  "min_mask_iou": 0.003885673082700743,
+  "max_mask_iou": 0.409134007585335,
+  "control_preserved": "2 / 2",
+  "ldm_input": "attacked_image_only",
+  "manual_visual_review_required": true,
+  "timestamp": "2026-08-17T12:09:16.779676+00:00"
+}

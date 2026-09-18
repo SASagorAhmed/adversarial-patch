@@ -1,0 +1,40 @@
+# D-FINE-S TRANSFER ATTACK RESULT
+
+Attack: attack_02
+Total Images: 250
+
+Eligible: 229
+Successful Attacks: 6
+ASR: 2.62%
+
+## PERSON
+
+Eligible: 114
+Success: 2
+ASR: 1.75%
+
+## CAR
+
+Eligible: 115
+Success: 4
+ASR: 3.48%
+
+## BOTH-VALID N
+
+223
+
+## CONFIDENCE DROP
+
+Mean: 0.016758
+Median: 0.004334
+
+## IOU DROP
+
+Mean: 0.006173
+Median: 0.000324
+
+Confidence/IoU drops are calculated only over samples where both clean and patched detections remain valid.
+
+Evaluation threshold:
+Confidence >= 0.25
+IoU >= 0.50

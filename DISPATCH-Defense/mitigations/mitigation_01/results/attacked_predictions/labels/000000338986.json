@@ -1,0 +1,15 @@
+{
+  "predictions": [
+    {
+      "class_id": 6,
+      "class_name": "trainaq",
+      "confidence": 0.9072265625,
+      "box_xyxy": [
+        10.625,
+        399.5,
+        191.5,
+        577.5
+      ]
+    }
+  ]
+}

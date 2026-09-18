@@ -1,0 +1,28 @@
+{
+  "model": "D-FINE-S",
+  "attack_id": "attack_02",
+  "total_images": 250,
+  "eligible": 229,
+  "successful_attacks": 6,
+  "asr_percent": 2.6200873362445414,
+  "person": {
+    "eligible": 114,
+    "success": 2,
+    "asr_percent": 1.7543859649122806
+  },
+  "car": {
+    "eligible": 115,
+    "success": 4,
+    "asr_percent": 3.4782608695652173
+  },
+  "both_valid_n": 223,
+  "mean_confidence_drop": 0.016758259502761566,
+  "median_confidence_drop": 0.004334211349487305,
+  "mean_iou_drop": 0.00617334634992385,
+  "median_iou_drop": 0.00032419967950825246,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "checkpoint": "dfine_s_coco.pth",
+  "attack_source": "Existing Hyper-YOLO adversarial images",
+  "attack_type": "transfer_attack_black_box"
+}

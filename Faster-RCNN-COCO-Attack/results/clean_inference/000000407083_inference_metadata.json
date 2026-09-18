@@ -1,0 +1,27 @@
+{
+  "model": "fasterrcnn_resnet50_fpn_v2",
+  "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+  "image_id": "000000407083",
+  "image_path": "D:\\project CS\\Faster-RCNN-COCO-Attack\\data\\coco_val2017\\000000407083.jpg",
+  "image_source": "Extracted read-only from Hyper-YOLO\\coco\\val2017.zip entry val2017/000000407083.jpg into this project only",
+  "device": "cuda",
+  "inference_time_sec": 0.9098815000033937,
+  "num_params": 43712278,
+  "num_categories_meta": 91,
+  "visualization_confidence": 0.25,
+  "num_detections_raw": 27,
+  "num_detections_vis": 10,
+  "person_detections_raw": 8,
+  "car_detections_raw": 4,
+  "person_detections_vis": 3,
+  "car_detections_vis": 3,
+  "original_image": "D:\\project CS\\Faster-RCNN-COCO-Attack\\results\\clean_inference\\000000407083_original.jpg",
+  "annotated_image": "D:\\project CS\\Faster-RCNN-COCO-Attack\\results\\clean_inference\\000000407083_annotated.jpg",
+  "raw_detections_json": "D:\\project CS\\Faster-RCNN-COCO-Attack\\results\\clean_inference\\000000407083_detections_raw.json",
+  "focus_classes": [
+    "person",
+    "car"
+  ],
+  "frozen": true,
+  "eval_mode": true
+}

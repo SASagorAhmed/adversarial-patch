@@ -1,0 +1,71 @@
+{
+  "filename": "000000357737.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.91796875,
+      "box_xyxy": [
+        409.0,
+        22.5,
+        586.0,
+        452.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.87841796875,
+      "box_xyxy": [
+        61.25,
+        111.625,
+        419.75,
+        253.625
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle",
+      "confidence": 0.69677734375,
+      "box_xyxy": [
+        49.5,
+        167.5,
+        361.0,
+        470.5
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.386474609375,
+      "box_xyxy": [
+        243.75,
+        106.375,
+        442.25,
+        464.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.371826171875,
+      "box_xyxy": [
+        216.0,
+        98.1875,
+        262.0,
+        112.6875
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.313232421875,
+      "box_xyxy": [
+        126.875,
+        98.625,
+        242.625,
+        130.25
+      ]
+    }
+  ]
+}

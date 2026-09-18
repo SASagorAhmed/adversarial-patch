@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.92041015625,
+      "box_xyxy": [
+        0.0,
+        314.0,
+        116.75,
+        518.0
+      ]
+    },
+    {
+      "class_id": 74,
+      "class_name": "clock",
+      "confidence": 0.828125,
+      "box_xyxy": [
+        189.5,
+        65.375,
+        283.25,
+        160.5
+      ]
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant",
+      "confidence": 0.77734375,
+      "box_xyxy": [
+        259.0,
+        324.75,
+        332.0,
+        433.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.324951171875,
+      "box_xyxy": [
+        84.5,
+        301.0,
+        124.5,
+        340.0
+      ]
+    },
+    {
+      "class_id": 50,
+      "class_name": "broccoli",
+      "confidence": 0.286376953125,
+      "box_xyxy": [
+        258.25,
+        429.25,
+        322.75,
+        502.25
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "branch": "automatic",
+  "n_images": 5,
+  "attack_success_recovered": "1 / 4",
+  "diagnostic_subset_recovery_count": 1,
+  "note": "This is a 5-image diagnostic subset \u2014 NOT final DISPATCH DRR.",
+  "mean_mask_iou": 0.055087257642220465,
+  "median_mask_iou": 0.023632644272179155,
+  "min_mask_iou": 0.003885673082700743,
+  "max_mask_iou": 0.15161071220648167,
+  "control_preserved": "YES",
+  "manual_visual_review_required": true,
+  "timestamp": "2026-08-17T09:36:04.219193+00:00"
+}

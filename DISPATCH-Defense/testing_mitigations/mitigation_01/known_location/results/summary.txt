@@ -1,0 +1,69 @@
+TESTING MITIGATION 01 — KNOWN LOCATION LDM
+===========================================
+
+This branch is fully self-contained.
+True saved patch coordinates WERE supplied.
+Automatic L2/KMeans localization was NOT used.
+
+Images: 5
+Attack-success diagnostic cases: 4
+Controls: 1
+
+Victim: Hyper-YOLO-N  conf=0.25 iou=0.70 imgsz=640 device=cpu
+Diffusion: CompVis LDM inpainting  DDIM steps=5  seed=20260817
+Clean pixels used for restoration: NO
+
+Known Exact recovered: 1 / 4   (diagnostic subset — NOT DISPATCH DRR)
+Known Exact control preserved: YES
+
+Known +4px recovered: 3 / 4   (diagnostic subset — NOT DISPATCH DRR)
+Known +4px control preserved: YES
+
+Outside-mask integrity: PASS
+  000000127263.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000393093.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000026926.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000407083.jpg exact_mae=0.000000  expand4_mae=0.000000
+  000000331604.jpg exact_mae=0.000000  expand4_mae=0.000000
+
+Per image:
+  000000127263.jpg  car  patch=20  exact_det=False conf= iou= rec=False  |  +4_det=False conf= iou= rec=False
+  000000393093.jpg  car  patch=14  exact_det=True conf=0.52734375 iou=0.9289162039267929 rec=True  |  +4_det=True conf=0.552734375 iou=0.9387639139841443 rec=True
+  000000026926.jpg  car  patch=22  exact_det=False conf= iou= rec=False  |  +4_det=True conf=0.293701171875 iou=0.7452991549295772 rec=True
+  000000407083.jpg  car  patch=144  exact_det=False conf= iou= rec=False  |  +4_det=True conf=0.3955078125 iou=0.832135845644933 rec=True
+  000000331604.jpg  person  patch=21  exact_det=True conf=0.80712890625 iou=0.8516454863053434 rec=False  |  +4_det=True conf=0.80517578125 iou=0.8427724123097664 rec=False
+
+=====================================================
+KNOWN LOCATION FOLDER GUIDE
+=====================================================
+
+source_clean_images
+= clean evaluation references
+
+source_attacked_images
+= actual Known Location LDM inputs
+
+source_attack_data
+= source attack metadata
+
+masks/exact_mask
+= exact saved patch location
+
+masks/expanded_4px
+= true location expanded by four pixels
+
+results/ldm_outputs
+= RAW INTERMEDIATE LDM output
+= NOT final
+
+restored_images/exact_mask
+= FINAL exact-mask restored images
+
+restored_images/expanded_4px
+= FINAL +4px restored images
+
+results/restored_predictions
+= Hyper-YOLO predictions from FINAL restored images
+
+neutralized_inputs
+= empty compatibility folder (attacked image + known mask used directly)

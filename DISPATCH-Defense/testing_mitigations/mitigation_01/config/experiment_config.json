@@ -1,0 +1,39 @@
+{
+  "experiment_id": "testing_mitigations/mitigation_01",
+  "title": "Automatic DISPATCH vs Known-Location LDM Restoration",
+  "is_final_dispatch": false,
+  "is_diagnostic": true,
+  "do_not_report_as_dispatch_drr": true,
+
+  "resolution": 512,
+  "sampler": "DDIM",
+  "ddim_steps": 5,
+  "seed": 20260817,
+  "checkerboard_N": 32,
+  "kmeans_k": 2,
+  "difference_blur_kernel": 5,
+  "difference_blur_sigma": 1.0,
+  "mask_expansion_px": 4,
+
+  "mask_value_for_inpaint": 1,
+  "mask_value_for_preserve": 0,
+  "mask_semantics_verified_from": "D:\\project CS\\DISPATCH-Defense\\third_party\\latent-diffusion\\scripts\\inpaint.py (make_batch: mask>=0.5 -> 1 inpaint; compositing inpainted=(1-mask)*image + mask*predicted)",
+
+  "text_prompt_used": false,
+  "old_sd21_neutralization_used": false,
+  "clean_pixels_used_for_restoration": false,
+  "automatic_receives_true_location_before_localization": false,
+  "automatic_uses_true_location_for_evaluation_only": true,
+  "known_location_receives_saved_true_coordinates": true,
+
+  "ldm_checkpoint": "D:\\project CS\\DISPATCH-Defense\\third_party\\latent-diffusion\\models\\ldm\\inpainting_big\\last.ckpt",
+  "ldm_commit_expected": "a506df5756472e2ebaf9078affdde2c4f1502cd4",
+  "hyper_yolo_conf": 0.25,
+  "hyper_yolo_nms_iou": 0.70,
+  "hyper_yolo_imgsz": 640,
+  "hyper_yolo_device": "cpu",
+  "target_match_iou": 0.50,
+
+  "output_root": "D:\\project CS\\DISPATCH-Defense\\testing_mitigations\\mitigation_01",
+  "frozen_real_mitigation_01": "D:\\project CS\\DISPATCH-Defense\\mitigations\\mitigation_01"
+}

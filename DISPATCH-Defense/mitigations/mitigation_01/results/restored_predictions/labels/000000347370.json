@@ -1,0 +1,37 @@
+{
+  "predictions": [
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.52294921875,
+      "box_xyxy": [
+        0.09765625,
+        0.09765625,
+        115.234375,
+        170.5078125
+      ]
+    },
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.415771484375,
+      "box_xyxy": [
+        30.859375,
+        0.0,
+        457.421875,
+        374.609375
+      ]
+    },
+    {
+      "class_id": 47,
+      "class_name": "apple",
+      "confidence": 0.285888671875,
+      "box_xyxy": [
+        0.0,
+        0.0,
+        459.765625,
+        374.21875
+      ]
+    }
+  ]
+}

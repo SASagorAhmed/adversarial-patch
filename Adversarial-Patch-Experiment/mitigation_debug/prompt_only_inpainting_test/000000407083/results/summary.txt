@@ -1,0 +1,43 @@
+PROMPT-ONLY SD2 INPAINTING TEST
+========================================================================
+image: 000000407083.jpg
+target: car
+exact_patch: (168,241)-(312,385) size=144
+expanded_mask: (164,237)-(316,389)
+LOCKED (same as previous Variant B):
+  strength=1.00 steps=30 guidance=4.5 context=5.0 seed=20260727
+  full-image crop + letterbox mapping; mask_padding=4; feather=4
+ONLY prompt changed. Previous B used read-only for comparison (not as generation input).
+
+PREVIOUS B (reference): sticker removed; dark unrelated object hallucination; det=Yes conf~0.393
+
+P1 LOCAL CONTINUITY
+  det=Yes conf=0.4013 iou=0.8283
+  sticker_removed=YES landscape=NO object_hallucination=YES text=NO
+  strong_color_change=NO visible_seam=YES natural_context_match=NO new_semantic_content=YES
+  visual: modest change vs B; still unnatural dark / object-like fill
+
+P2 CAR-AWARE RESTORATION
+  det=Yes conf=0.4110 iou=0.8316
+  sticker_removed=YES landscape=NO object_hallucination=YES text=NO
+  strong_color_change=NO visible_seam=YES natural_context_match=NO new_semantic_content=YES
+  visual: highest YOLO conf but still hallucinated; no clear clean vehicle-surface continuity
+
+P3 STRICT MINIMAL GENERATION
+  det=Yes conf=0.3234 iou=0.8070
+  sticker_removed=YES landscape=NO object_hallucination=YES text=NO
+  strong_color_change=YES visible_seam=YES natural_context_match=NO new_semantic_content=YES
+  visual: residual colorful/object-like artifacts; closest to previous B
+
+DECISION
+  Did prompt wording alone reduce unrelated hallucination? NO — not clearly.
+  Region MAE vs previous B only ~11-15 (small); all three still show object-like / unnatural fills.
+  No prompt meets selection criteria (sticker gone + no unrelated object/scene + better continuity + detected).
+  Do NOT select a prompt based on YOLO confidence alone.
+
+PROMPT TUNING ALONE IS INSUFFICIENT
+
+Recommended next step:
+  context-aware prefill + low-strength SD refinement
+
+output_root: D:\project CS\Adversarial-Patch-Experiment\mitigation_debug\prompt_only_inpainting_test\000000407083

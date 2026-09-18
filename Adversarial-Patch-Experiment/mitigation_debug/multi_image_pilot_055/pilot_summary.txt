@@ -1,0 +1,23 @@
+MULTI-IMAGE 0.55 PILOT SUMMARY
+========================================================================
+Method: Simplified known-location diffusion-based restoration baseline
+Config: neutralization=ON, strength=0.55, steps=30, guidance=7.5, res=512
+context_crop_factor=3.0, min_context=128, feather=4
+restoration_seed=20260727
+NOTE: 6-image configuration sanity check only. Not statistical defense performance.
+
+success recovered: 2 / 3
+controls preserved: 3 / 3
+
+Per-image:
+- 000000413689.jpg | success | car | patch=7 | RECOVERED | sticker_removed=YES | new_structure=NO_OBVIOUS | mitigated=Yes (0.397/0.742)
+- 000000135410.jpg | success | car | patch=28 | RECOVERED | sticker_removed=YES | new_structure=YES_POSSIBLE | mitigated=Yes (0.261/0.599)
+- 000000407083.jpg | success | car | patch=144 | NOT RECOVERED | sticker_removed=YES | new_structure=NO_OBVIOUS | mitigated=No (0.000/0.000)
+- 000000102411.jpg | control | car | patch=11 | PRESERVED | sticker_removed=YES | new_structure=YES_POSSIBLE | mitigated=Yes (0.646/0.898)
+- 000000436617.jpg | control | person | patch=59 | PRESERVED | sticker_removed=YES | new_structure=NO_OBVIOUS | mitigated=Yes (0.884/0.958)
+- 000000271997.jpg | control | person | patch=145 | PRESERVED | sticker_removed=YES | new_structure=NO_OBVIOUS | mitigated=Yes (0.849/0.957)
+
+person cases: 2 | outcomes: 000000436617.jpg=PRESERVED, 000000271997.jpg=PRESERVED
+car cases: 4 | outcomes: 000000413689.jpg=RECOVERED, 000000135410.jpg=RECOVERED, 000000407083.jpg=NOT RECOVERED, 000000102411.jpg=PRESERVED
+
+output_root: D:\project CS\Adversarial-Patch-Experiment\mitigation_debug\multi_image_pilot_055

@@ -1,0 +1,6 @@
+AUTOMATIC PAPER-FAITHFUL DISPATCH (diagnostic subset — NOT DRR)
+N=32 steps=5 Gaussian k=15 sigma=1.0 MORPH_OPEN=3x3
+mean mask IoU=0.0494
+mean precision=0.0681
+mean recall=0.7942
+True patch was evaluation-only. LDM input = attacked image only.

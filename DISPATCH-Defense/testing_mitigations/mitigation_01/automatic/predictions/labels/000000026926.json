@@ -1,0 +1,27 @@
+{
+  "filename": "000000026926.jpg",
+  "predictions": [
+    {
+      "class_id": 10,
+      "class_name": "fire hydrant",
+      "confidence": 0.8681640625,
+      "box_xyxy": [
+        125.5,
+        20.0,
+        386.0,
+        638.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.59326171875,
+      "box_xyxy": [
+        61.75,
+        197.5,
+        105.25,
+        231.0
+      ]
+    }
+  ]
+}

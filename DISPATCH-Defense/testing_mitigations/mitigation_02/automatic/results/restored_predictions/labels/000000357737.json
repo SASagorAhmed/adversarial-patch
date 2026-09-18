@@ -1,0 +1,115 @@
+{
+  "filename": "000000357737.jpg",
+  "predictions": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.91845703125,
+      "box_xyxy": [
+        408.0,
+        22.25,
+        586.0,
+        452.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.876953125,
+      "box_xyxy": [
+        60.25,
+        113.625,
+        371.25,
+        254.125
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle",
+      "confidence": 0.83984375,
+      "box_xyxy": [
+        49.8125,
+        157.75,
+        300.75,
+        469.25
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "confidence": 0.572265625,
+      "box_xyxy": [
+        242.125,
+        133.0,
+        443.0,
+        463.5
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle",
+      "confidence": 0.50048828125,
+      "box_xyxy": [
+        242.25,
+        132.875,
+        444.25,
+        461.0
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.420654296875,
+      "box_xyxy": [
+        20.375,
+        89.25,
+        138.0,
+        170.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.402099609375,
+      "box_xyxy": [
+        21.78125,
+        88.8125,
+        138.0,
+        169.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.36572265625,
+      "box_xyxy": [
+        398.5,
+        105.75,
+        422.5,
+        127.75
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.276611328125,
+      "box_xyxy": [
+        61.6875,
+        125.1875,
+        206.75,
+        255.25
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.26904296875,
+      "box_xyxy": [
+        200.0,
+        100.125,
+        263.5,
+        115.375
+      ]
+    }
+  ]
+}

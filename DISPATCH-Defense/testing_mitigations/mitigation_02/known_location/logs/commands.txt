@@ -1,0 +1,3 @@
+cd "D:\project CS\DISPATCH-Defense"
+$env:PYTHONPATH = "D:\project CS\DISPATCH-Defense\third_party\latent-diffusion;D:\project CS\DISPATCH-Defense\third_party\taming-transformers;D:\project CS\DISPATCH-Defense;D:\project CS\DISPATCH-Defense\testing_mitigations\mitigation_02\known_location\scripts"
+.\.venv_dispatch\Scripts\python.exe testing_mitigations\mitigation_02\known_location\scripts\run_known_location.py

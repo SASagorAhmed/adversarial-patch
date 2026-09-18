@@ -1,0 +1,31 @@
+component,paper_behavior,official_source_behavior,current_behavior,match,severity,notes
+checkerboard_N,N=32 default,num_grids=32 default,CHECKERBOARD_GRID_N=32,YES,MATCH,Paper ablation 16/32/64; 32 best
+checkerboard_pattern,N x N complementary; 1=inpaint,(i+j)%2==0 tiles of size//N,(ys*n)//H cells (i+j)%2==0,YES,MATCH,At 512/32 both are 16px tiles with full coverage
+complementary_masks,m0+m1=all-ones,mask1=1-mask0,m1=1-m0 plus validate_masks,YES,MATCH,Reference re-validates pixelwise
+mask_semantics_inpaint,1 regenerate / 0 preserve,masked=(1-mask)*image; 1=hole,same CompVis adapter,YES,MATCH,Not reversed; CompVis inpaint.py identical
+regeneration_eq2,I_tilde=I0*m0+I1*m1,generated=m0*pred0+m1*pred1,combine after per-pass composite,YES,MATCH,Binary masks make composite equivalent
+two_pass_sampling,two D(I;m) calls,ONE sampler.sample batch_size=2,TWO sequential inpaint each reseeded,NO,MAJOR_DIFFERENCE,Same seed both passes may share DDIM noise; plausible oversized-mask cause
+processing_resolution,512x512 stretch,PIL resize 512 default BICUBIC,PIL LANCZOS 512 no letterbox,PARTIAL,MINOR_DIFFERENCE,Both stretch; filter differs
+aspect_ratio,not specified beyond resize 512,no letterbox/crop,no letterbox/crop,YES,MATCH,COCO aspect distortion common to both
+color_space,RGB in Algorithm 1,PIL RGB + ToTensor,PIL RGB uint8,YES,MATCH,L2 not BGR
+normalization_before_L2,[0,1] then L2,tensors already [0,1] after clamp,divide uint8 by 255 if max>1,YES,MATCH,No uint8-vs-float mismatch found
+L2_formula,per-pixel RGB L2,torch.norm dim=0 on CHW,sqrt sum sq on HWC RGB,YES,MATCH,
+L2_coordinate_space,W x H of I (paper); impl uses 512,512 then resize output,512 then NEAREST/LANCZOS to orig,YES,MATCH,Localization in processing space
+gaussian_smoothing,specified; kernel UNSPECIFIED_IN_PAPER,GaussianBlur k=min(15 size//N-1) sigma=1.0,OpenCV k=5 sigma=1.0,PARTIAL,MINOR_DIFFERENCE,Same sigma; kernel 15 vs 5 almost same at sigma=1
+kmeans_k,k=2,k=2,k=2,YES,MATCH,
+kmeans_input,flattened smoothed D,with_loc=False scalar D,flattened smoothed D scalar,YES,MATCH,with_loc spatial features unused in official default
+kmeans_centroid_rule,larger centroid = adversarial,compare centroids[1] vs [0],argmax(centers),YES,MATCH,
+kmeans_init,unspecified,n_init=auto no random_state,n_init=10 random_state=seed,PARTIAL,MINOR_DIFFERENCE,Reference seeds KMeans only for repeatability
+morphology,not in Algorithm 1,MORPH_OPEN 3x3; dilate commented,none,NO,MAJOR_DIFFERENCE,Official extra vs paper; cannot explain 40x area blobs
+connected_components,no,no,no,YES,MATCH,
+gt_or_patch_oracle,no,no (gt_dir unused),eval-only after freeze,YES,MATCH,
+rectification_eq5,A*I_tilde+(1-A)*I,same at 512,same at 512,YES,MATCH,No clean-pixel substitution
+intermediate_jpeg_before_L2,unspecified,in-memory tensors,in-memory arrays then save viz,YES,MATCH,No JPEG reload before KMeans
+random_seed,average 3 runs,no torch seed in d3_inference.py,seed 20260817 python/numpy/torch,NO,EXPERIMENT_MISMATCH,Paper reports 3-run mean
+ldm_checkpoint,CompVis LDM inpainting MS-COCO,inpainting_big/last.ckpt documented URL,same path/schema in third_party,PARTIAL,UNKNOWN,Same model type; byte identity vs authors file unknown
+ldm_steps,s=5,default steps=5,DIFFUSION_STEPS=5 DDIM,YES,MATCH,
+victim_detector,YOLOv3/FRCNN/DETR MMDetection,mmdet configs,Hyper-YOLO-N,NO,EXPERIMENT_MISMATCH,
+dataset,INRIA-Person / APRICOT,same,COCO val person/car attack_02,NO,EXPERIMENT_MISMATCH,
+patch_geometry,0.2 of bbox diagonal (AdvPatch),INRIA apply scripts,0.30 of shorter GT side,NO,EXPERIMENT_MISMATCH,
+eval_metric,mAP@0.5 AR ASR,mmdet test,per-image class+IoU>=0.50 recovery,NO,EXPERIMENT_MISMATCH,Do not compare 1/8 to paper 89.3% mAP
+mask_resize_for_save,unspecified,PIL default BICUBIC on mask PNG,NEAREST,PARTIAL,MINOR_DIFFERENCE,Reference eval uses NEAREST like current

@@ -1,0 +1,27 @@
+{
+  "filename": "000000532855.jpg",
+  "patch": {
+    "x1": 172,
+    "y1": 80,
+    "x2": 239,
+    "y2": 147,
+    "size": 67
+  },
+  "crop": {
+    "left": 105,
+    "top": 13,
+    "right": 306,
+    "bottom": 214
+  },
+  "A_mae_neutralized_patch_vs_final_restored_patch": 17.949506759643555,
+  "B_mae_sd_generated_patch_vs_final_restored_patch": 6.671122074127197,
+  "mae_neutralized_vs_replay_composite": 17.7120361328125,
+  "mae_sd_vs_replay_composite": 4.826910018920898,
+  "mae_original_final_vs_replay_composite": 3.251206636428833,
+  "mae_outside_patch_attacked_vs_m01_restored": 3.9947266578674316,
+  "final_patch_closer_to": "SD_output",
+  "compositing_source_variable": "patch_restored from restored_crop_np (SD resized), not neutralized",
+  "orig_patch_std": 44.54476547241211,
+  "neut_patch_std": 31.66724967956543,
+  "sd_patch_std": 39.981727600097656
+}

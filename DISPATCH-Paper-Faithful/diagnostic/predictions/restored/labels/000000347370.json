@@ -1,0 +1,38 @@
+{
+  "filename": "000000347370.jpg",
+  "predictions": [
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.403564453125,
+      "box_xyxy": [
+        25.390625,
+        0.0,
+        457.03125,
+        374.21875
+      ]
+    },
+    {
+      "class_id": 49,
+      "class_name": "orange",
+      "confidence": 0.400146484375,
+      "box_xyxy": [
+        0.0,
+        0.68359375,
+        116.30859375,
+        170.703125
+      ]
+    },
+    {
+      "class_id": 47,
+      "class_name": "apple",
+      "confidence": 0.29736328125,
+      "box_xyxy": [
+        5.859375,
+        0.0,
+        457.8125,
+        374.0234375
+      ]
+    }
+  ]
+}

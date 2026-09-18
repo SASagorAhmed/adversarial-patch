@@ -1,0 +1,43 @@
+{
+  "image_id": "000000181499",
+  "filename": "000000181499.jpg",
+  "target_class": "person",
+  "case_type": "attack_success",
+  "patch_size": "36",
+  "official_commit": "80c59b9b4a6c4060107a8b4485d3885128c2ae81",
+  "gaussian_kernel_size": 15,
+  "kmeans": {
+    "gaussian_kernel_size": 15,
+    "gaussian_sigma": 1.0,
+    "centroids": [
+      0.05555454269051552,
+      0.33316707611083984
+    ],
+    "adversarial_label": 1,
+    "predicted_mask_area_512": 10970,
+    "morph_open": true,
+    "with_loc": false,
+    "kmeans_n_init": "auto",
+    "kmeans_random_state": 20260817
+  },
+  "reference_mask_iou": 0.09270317506554035,
+  "reference_precision": 0.09285870595958859,
+  "reference_recall": 0.9822530864197531,
+  "reference_predicted_area": 13709,
+  "true_patch_area": 1296,
+  "area_ratio_reference": 10.577932098765432,
+  "clean_detected": true,
+  "clean_confidence": 0.377685546875,
+  "clean_iou": 0.9309701135205988,
+  "attacked_detected": false,
+  "attacked_confidence": null,
+  "attacked_iou": null,
+  "reference_detected": true,
+  "reference_confidence": 0.342529296875,
+  "reference_iou": 0.865528558189501,
+  "reference_recovered": true,
+  "reference_control_preserved": false,
+  "inference_time_sec": 116.33850500000699,
+  "sample_mode": "official_batch_size_2",
+  "status": "completed"
+}

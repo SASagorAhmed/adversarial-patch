@@ -1,0 +1,169 @@
+{
+  "predictions": [
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.79833984375,
+      "box_xyxy": [
+        269.5,
+        196.0,
+        281.0,
+        224.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.72314453125,
+      "box_xyxy": [
+        204.5,
+        201.5,
+        219.5,
+        234.0
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.6416015625,
+      "box_xyxy": [
+        291.0,
+        195.75,
+        304.0,
+        230.25
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.6005859375,
+      "box_xyxy": [
+        50.5625,
+        183.375,
+        65.9375,
+        219.375
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.5947265625,
+      "box_xyxy": [
+        352.75,
+        212.5,
+        363.75,
+        239.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.57958984375,
+      "box_xyxy": [
+        290.75,
+        195.5,
+        304.25,
+        252.75
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.57666015625,
+      "box_xyxy": [
+        510.5,
+        253.75,
+        520.5,
+        269.25
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.53173828125,
+      "box_xyxy": [
+        69.5,
+        184.375,
+        81.5,
+        214.375
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.452392578125,
+      "box_xyxy": [
+        363.25,
+        214.25,
+        376.75,
+        240.75
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.440185546875,
+      "box_xyxy": [
+        564.0,
+        290.5,
+        580.0,
+        306.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.388427734375,
+      "box_xyxy": [
+        442.5,
+        236.25,
+        452.5,
+        255.25
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.3798828125,
+      "box_xyxy": [
+        68.5,
+        177.25,
+        82.0,
+        215.75
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.326416015625,
+      "box_xyxy": [
+        578.5,
+        345.0,
+        639.5,
+        379.0
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "confidence": 0.324951171875,
+      "box_xyxy": [
+        28.5,
+        347.5,
+        73.375,
+        374.5
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light",
+      "confidence": 0.272216796875,
+      "box_xyxy": [
+        352.5,
+        212.5,
+        368.5,
+        240.5
+      ]
+    }
+  ]
+}

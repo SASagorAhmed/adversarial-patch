@@ -1,0 +1,17 @@
+{
+  "automatic_recovered": "2 / 4",
+  "known_exact_recovered": "2 / 4",
+  "known_expand4_recovered": "2 / 4",
+  "mean_automatic_mask_iou": 0.04988510582938501,
+  "median_automatic_mask_iou": 0.025100036376864313,
+  "min_automatic_mask_iou": 0.003859228154369126,
+  "max_automatic_mask_iou": 0.1313169802333889,
+  "control_automatic_preserved": "YES",
+  "control_known_exact_preserved": "YES",
+  "control_known_expand4_preserved": "YES",
+  "known_location_improved_over_automatic": "MIXED",
+  "primary_bottleneck": "MIXED",
+  "reason": "Branches differ case-by-case; localization and LDM capability both matter.",
+  "manual_visual_review_required": true,
+  "timestamp": "2026-08-17T08:47:13.510544+00:00"
+}

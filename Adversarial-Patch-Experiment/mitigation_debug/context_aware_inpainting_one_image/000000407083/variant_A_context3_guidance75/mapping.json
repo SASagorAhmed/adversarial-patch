@@ -1,0 +1,10 @@
+{
+  "crop_w": 456,
+  "crop_h": 456,
+  "scaled_w": 512,
+  "scaled_h": 512,
+  "pad_x": 0,
+  "pad_y": 0,
+  "resolution": 512,
+  "scale": 1.1228070175438596
+}

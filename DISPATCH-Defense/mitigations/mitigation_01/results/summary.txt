@@ -1,0 +1,44 @@
+DISPATCH MITIGATION SUMMARY
+Mitigation ID: mitigation_01
+Source attack/data: attack_02
+Total selected images: 30
+Successfully processed: 30
+Failed images: 0
+
+Attack-success cases: 15
+Control cases: 15
+
+Recovered target count: 2
+Detection Recovery Rate: 13.33%
+Remaining failed targets: 13
+
+Control preserved count: 13
+Control Preservation Rate: 86.67%
+
+Control regression count: 2
+Control Regression Rate: 13.33%
+
+Person recovery: 0/4 (0.00%)
+Car recovery: 2/11 (18.18%)
+
+Mean confidence recovery: -0.098558
+Mean IoU recovery: -0.017907
+
+Mean adversarial-mask IoU: 0.069325
+Mask precision: 0.090624
+Mask recall: 0.775688
+
+Mean processing time: 114.24 sec
+
+Diffusion model: CompVis LDM inpainting_big
+Sampler: DDIM
+Steps: 5
+Grid N: 32
+
+clean_pixels_used_for_restoration = false
+known_patch_location_used_by_defense = false
+
+ALL GENERATED DISPATCH ARTIFACTS ARE STORED UNDER D:\project CS\DISPATCH-Defense\
+External resources were used read-only: YES
+Previous mitigation results were reused: NO
+True patch coordinates were supplied to the defense algorithm: NO

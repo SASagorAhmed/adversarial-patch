@@ -1,0 +1,28 @@
+{
+  "model": "YOLOv12-S",
+  "attack_id": "attack_05",
+  "total_images": 400,
+  "eligible": 341,
+  "successful_attacks": 15,
+  "asr_percent": 4.398826979472141,
+  "person": {
+    "eligible": 175,
+    "success": 3,
+    "asr_percent": 1.7142857142857144
+  },
+  "car": {
+    "eligible": 166,
+    "success": 12,
+    "asr_percent": 7.228915662650602
+  },
+  "both_valid_n": 326,
+  "mean_confidence_drop": 0.03162145102682289,
+  "median_confidence_drop": 0.005877822637557983,
+  "mean_iou_drop": 0.00496514638488197,
+  "median_iou_drop": 0.00012368835915205212,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "checkpoint": "yolov12s.pt",
+  "attack_source": "Existing Hyper-YOLO adversarial images",
+  "attack_type": "transfer_attack_black_box"
+}

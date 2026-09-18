@@ -1,0 +1,38 @@
+{
+  "filename": "000000181499.jpg",
+  "predictions": [
+    {
+      "class_id": 63,
+      "class_name": "laptop",
+      "confidence": 0.84619140625,
+      "box_xyxy": [
+        222.875,
+        3.0,
+        640.0,
+        499.0
+      ]
+    },
+    {
+      "class_id": 66,
+      "class_name": "keyboard",
+      "confidence": 0.422119140625,
+      "box_xyxy": [
+        251.0,
+        265.25,
+        635.0,
+        409.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.377685546875,
+      "box_xyxy": [
+        164.0,
+        384.0,
+        288.75,
+        510.0
+      ]
+    }
+  ]
+}

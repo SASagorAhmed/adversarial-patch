@@ -1,0 +1,72 @@
+{
+  "experiment_name": "Hyper-YOLO-to-Faster-R-CNN Transfer Attack",
+  "attack_type": "transfer_attack",
+  "model": "fasterrcnn_resnet50_fpn_v2",
+  "model_display_name": "Faster R-CNN ResNet-50 FPN V2",
+  "weights": "FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1",
+  "dataset": "COCO 2017",
+  "target_classes": [
+    "person",
+    "car"
+  ],
+  "source_project": "D:\\project CS\\Adversarial-Patch-Experiment",
+  "source_data_location": "D:\\project CS\\Faster-RCNN-COCO-Attack\\source_data",
+  "attack_ids": [
+    "attack_01",
+    "attack_02",
+    "attack_03",
+    "attack_04",
+    "attack_05"
+  ],
+  "confidence_threshold": 0.25,
+  "nms_iou_threshold_hyper_yolo": 0.7,
+  "target_match_iou_threshold": 0.5,
+  "IoU_threshold": 0.5,
+  "matching_rule": "same predicted class as selected target_class AND highest IoU among same-class detections; valid if IoU >= 0.50",
+  "eligible_target_rule": "eligible iff clean image has a valid target match (same class + IoU >= 0.50)",
+  "attack_success_definition": "eligible AND patched image does NOT have a valid target match",
+  "asr_formula": "successful_attacks / eligible_targets * 100",
+  "asr_denominator": "eligible_targets (clean valid detections only)",
+  "confidence_drop_rule": "mean/median confidence_drop only over eligible targets where BOTH clean and patched matches are valid; missed patched targets leave patched_confidence/iou empty (no invented values)",
+  "iou_drop_rule": "mean IoU_drop only over eligible targets where BOTH clean and patched matches are valid",
+  "protocol_source": "D:\\project CS\\Adversarial-Patch-Experiment\\scripts\\pipeline_core.py (CONF_THRESHOLD=0.25, IOU_THRESHOLD=0.7 NMS, TARGET_MATCH_IOU_THRESHOLD=0.50; evaluate_target_match / build_attack_rows)",
+  "protocol_source_secondary": "D:\\project CS\\Adversarial-Patch-Experiment\\scripts\\mitigation_config.py and attack_XX/results/attack_summary.txt",
+  "gt_source": "attack_XX/results/selected_images.csv (COCO GT bbox; not redefined by Faster R-CNN)",
+  "device_preference": "cuda_if_available",
+  "frozen_pretrained": true,
+  "fine_tune": false,
+  "do_not_regenerate_patches": true,
+  "inspection": {
+    "attack_01": {
+      "clean": 200,
+      "patched": 200,
+      "verified_pairs": 200
+    },
+    "attack_02": {
+      "clean": 250,
+      "patched": 250,
+      "verified_pairs": 250
+    },
+    "attack_03": {
+      "clean": 300,
+      "patched": 300,
+      "verified_pairs": 300
+    },
+    "attack_04": {
+      "clean": 350,
+      "patched": 350,
+      "verified_pairs": 350
+    },
+    "attack_05": {
+      "clean": 400,
+      "patched": 400,
+      "verified_pairs": 400
+    }
+  },
+  "device": "cuda",
+  "python_version": "3.10.11",
+  "torch_version": "2.5.1+cu121",
+  "torchvision_version": "0.20.1+cu121",
+  "cuda": true,
+  "gpu": "NVIDIA GeForce RTX 2050"
+}

@@ -1,0 +1,37 @@
+{
+  "predictions": [
+    {
+      "class_id": 10,
+      "class_name": "fire hydrant",
+      "confidence": 0.84765625,
+      "box_xyxy": [
+        125.625,
+        21.5,
+        385.5,
+        638.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.72021484375,
+      "box_xyxy": [
+        62.125,
+        190.0,
+        135.875,
+        230.5
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.25341796875,
+      "box_xyxy": [
+        131.5,
+        157.0,
+        211.25,
+        261.75
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+KNOWN LOCATION (oracle mask — diagnostic, not Automatic DISPATCH)
+LDM input = attacked image + binary mask. Clean pixels never composited.
+mean outside MAE exact=0.00000000
+mean outside MAE +4=0.00000000
