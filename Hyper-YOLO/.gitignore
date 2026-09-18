@@ -149,11 +149,9 @@ tests/
 _pull_backup/
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-# Track project weights under weights/; ignore other binary weight dumps
+# Ignore weight dumps (re-download; do not publish in monorepo)
 *.weights
 *.pt
-!weights/
-!weights/*.pt
 *.pb
 *.onnx
 *.engine
