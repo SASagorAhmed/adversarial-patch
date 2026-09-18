@@ -149,9 +149,11 @@ tests/
 _pull_backup/
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-# Ignore weight dumps (re-download; do not publish in monorepo)
+# Ignore weight dumps by default; monorepo tracks Hyper-YOLO/weights via root .gitignore + LFS
 *.weights
 *.pt
+!weights/
+!weights/**
 *.pb
 *.onnx
 *.engine

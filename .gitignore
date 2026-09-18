@@ -35,7 +35,8 @@ Hyper-YOLO/coco/
 # --- Other nested clones (keep local; do not publish as gitlinks) ---
 DISPATCH-Paper-Faithful/reference_source/DisPatch/
 
-# --- Model weights / checkpoints (re-download from upstream) ---
+# --- Model weights / checkpoints ---
+# Default: ignore weight dumps. Research weight dirs are re-included below.
 *.pt
 *.pth
 *.ckpt
@@ -46,11 +47,23 @@ DISPATCH-Paper-Faithful/reference_source/DisPatch/
 *.pkl
 *.pickle
 
-# Weight directories (keep structure out of git)
-**/weights/**
-!**/weights/.gitkeep
+# Allow tracked research detector / mitigation weights (Git LFS)
+!Hyper-YOLO/weights/
+!Hyper-YOLO/weights/**
+!RT-DETRv2-COCO-Attack/weights/
+!RT-DETRv2-COCO-Attack/weights/**
+!D-FINE-S-COCO-Attack/weights/
+!D-FINE-S-COCO-Attack/weights/**
+!YOLOv12-S-COCO-Attack/weights/
+!YOLOv12-S-COCO-Attack/weights/**
+!Deformable-DETR-R50-COCO-Attack/weights/
+!Deformable-DETR-R50-COCO-Attack/weights/**
+!Adversarial-Patch-Experiment/mitigation_models/
+!Adversarial-Patch-Experiment/mitigation_models/**
+
+# Keep huge local SD dump and other mitigation_models trees out of git
 Stable-Diffusion-Patch/model/
-**/mitigation_models/
+DISPATCH-Defense/mitigation_models/
 
 # --- Datasets (COCO etc.) ---
 **/val2017/
